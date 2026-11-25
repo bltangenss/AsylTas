@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/screen_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/background">
+    <Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="56dp" android:background="@color/background" android:titleTextAppearance="@style/ToolbarTitle" android:subtitleTextColor="@color/text_secondary" android:contentInsetStart="20dp" />
+    <ScrollView android:id="@+id/guide_scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:orientation="vertical">
+            <TextView android:id="@+id/stone_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="17sp" android:textColor="@color/text_primary" android:background="@drawable/bg_soft" android:padding="18dp" android:layout_marginBottom="16dp" android:lineSpacingExtra="6dp" android:visibility="gone" />
+            <TextView android:id="@+id/guide_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_text" android:textSize="15sp" android:textColor="@color/text_primary" android:background="@drawable/bg_surface" android:padding="18dp" android:lineSpacingExtra="5dp" />
+            <TextView android:id="@+id/authors" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Орындағандар\nБолат Тәңірберді · Ергаш Назым · Ғалымжан Шынай" android:textSize="12sp" android:textColor="@color/text_secondary" android:padding="16dp" android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/view_navigation" />
+</LinearLayout>

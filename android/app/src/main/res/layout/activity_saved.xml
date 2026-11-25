@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/screen_root" android:background="@color/background">
+    <Toolbar android:layout_width="match_parent" android:layout_height="56dp" android:id="@+id/toolbar" android:background="@color/background" android:titleTextAppearance="@style/ToolbarTitle" android:contentInsetStart="20dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:orientation="vertical" android:layout_weight="1" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="4dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Алқаларыңызды атаумен сақтап, қайта ашыңыз." android:textSize="13sp" android:textColor="@color/text_secondary" android:layout_marginBottom="14dp" />
+        <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/save_current" android:text="Ағымдағы алқаны сақтау" style="@style/ActionButton" android:drawableLeft="@drawable/ic_plus" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/saved_count" android:textSize="13sp" android:textColor="@color/text_secondary" android:layout_marginTop="18dp" android:layout_marginBottom="10dp" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ListView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/saved_list" android:divider="@android:color/transparent" android:dividerHeight="10dp" android:listSelector="@android:color/transparent" android:clipToPadding="false" android:paddingBottom="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/saved_empty_state" android:gravity="center" android:padding="24dp" android:visibility="gone">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Әзірге сақталған жинақ жоқ." android:id="@+id/saved_empty" android:textSize="17sp" android:textColor="@color/text_primary" android:gravity="center" android:lineSpacingExtra="4dp" />
+                <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/saved_empty_action" android:text="Алқаға өту" style="@style/SecondaryButton" android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_navigation" />
+</LinearLayout>

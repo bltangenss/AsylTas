@@ -1,0 +1,16 @@
+{
+  "status": "ready",
+  "ready_utc": "2026-11-25T15:11:18.978071+00:00",
+  "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7",
+  "ui_checks": 64,
+  "model_checks": 43,
+  "database_checks": 92,
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 214
+  },
+  "ui_build_history_preserved": true,
+  "diagnostics_moved": true,
+  "post_run_state": "reports/qa_v3_20261125/post_run_state.json"
+}

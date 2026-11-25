@@ -1,0 +1,702 @@
+{
+  "started_utc": "2026-11-25T14:24:01.756065+00:00",
+  "device": "emulator-5554",
+  "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7",
+  "checks": [
+    {
+      "name": "ui_begin",
+      "passed": true,
+      "detail": "UI fixture begun; previous session, guest necklace and store settings preserved.\r\n\r\n",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Legacy guest sample after upgrade",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Empty login validation appears",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Registration opens home and imports guest copy",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Registered profile appears on home",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Favorites filter shows selected stone",
+      "passed": true,
+      "detail": [
+        "Гауһар"
+      ],
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Profile phone and address survive reopening",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Checkout uses exact necklace total",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Checkout note survives landscape rotation",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Checkout delivery and address survive rotation",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Order stores exact total and contact",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Order stores gift and requested date",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Order opens Android share chooser",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Admin status changes visible",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Order appears in personal history",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Example store location is clearly marked",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Map action launches geo or maps URL",
+      "passed": true,
+      "detail": "om.google.android.apps.maps/com.google.android.maps.MapsActivity t137}\r\n\r\n  ResumedActivity: ActivityRecord{5cee3b u0 com.google.android.apps.maps/com.google.android.maps.MapsActivity t137}\r\n\r\nActivityStackSupervisor state:\r\n  topDisplayFocusedStack=ActivityStack{b5ba4ce stackId=5 type=standard mode=fullscreen visible=true translucent=false, 1 tasks}\r\n  displayId=0 stacks=3\r\n   mHomeStack=ActivityStack{23243ea stackId=0 type=home mode=fullscreen visible=false translucent=true, 1 tasks}\r\n   mPreferredTopFocusableStack=ActivityStack{b5ba4ce stackId=5 type=standard mode=fullscreen visible=true translucent=false, 1 tasks}\r\n   mLastFocusedStack=ActivityStack{b5ba4ce stackId=5 type=standard mode=fullscreen visible=true translucent=false, 1 tasks}\r\n  mCurTaskIdForUser={0=137}\r\n  mUserStackInFront={}\r\n  isHomeRecentsComponent=true  KeyguardController:\r\n    mKeyguardShowing=false\r\n    mAodShowing=false\r\n    mKeyguardGoingAway=false\r\n    Occluded=false DismissingKeyguardActivity=null at display=0\r\n    mDismissalRequested=false\r\n    mVisibilityTransactionDepth=0\r\n  LockTaskController\r\n    mLockTaskModeState=NONE\r\n    mLockTaskModeTasks=\r\n    mLockTaskPackages (userId:packages)=\r\n      u0:[]\r\n",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Admin updates store contact details",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Contact opens dialer without placing call",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Support message is saved",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Administrator reply appears",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Stone detail and favorite actions appear",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Stone review with rating is visible",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "Preview preference hides necklace image",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "Settings restore preview and sound",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "Photo attributions are available offline",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "Audio file imported through system picker",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "Audio duration loaded",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "Audio playback advances",
+      "passed": true,
+      "detail": "\n\nasyl_v3_qa_audio.wav\n\n\nАудио материал\nasyl_v3_qa_audio.wav\n\n0:06 / 0:06\nОйнату\nБасты\nКаталог\nАлқа\nПрофиль",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "Media reference renamed",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "Media search empty state",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "Original image opened in media viewer",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "Zero-duration video shows recoverable error",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "Video duration loaded",
+      "passed": true,
+      "detail": "0:00 / 0:04",
+      "apk_sha256": "4fc05e396cae93011c6bab8defe43796527332a8dedac3a02cab4b17107d9d46"
+    },
+    {
+      "name": "Media library retains all three types",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "4fc05e396cae93011c6bab8defe43796527332a8dedac3a02cab4b17107d9d46"
+    },
+    {
+      "name": "Media removal keeps original file",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "4fc05e396cae93011c6bab8defe43796527332a8dedac3a02cab4b17107d9d46"
+    },
+    {
+      "name": "Second account has an independent empty necklace",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Second account cannot see first account orders",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Second account has no private favorites",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Zero stone quantity rejected",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Two diamonds calculate exactly",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Quantity plus updates exact total",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Quantity minus restores exact total",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Demo sample remains exact in new account",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Inclusive transparency endpoints return emerald",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Filter leaves full necklace total unchanged",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Only own saved collection is listed",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Customer creates own order",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Customer cancels own draft",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "Wrong password is rejected on real login screen",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    },
+    {
+      "name": "Owner login restores original necklace",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    },
+    {
+      "name": "Original owner order remains accepted",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    },
+    {
+      "name": "Admin overview includes both local accounts",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    },
+    {
+      "name": "Profile transition safely restores and replaces fragments",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "360x640 dp with 130 percent font keeps editable list",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Landscape keeps list and checkout accessible",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Landscape catalog has readable stone rows",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Repeated profile navigation reuses existing Activity",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Small landscape request button is fully reachable by scrolling",
+      "passed": true,
+      "detail": [
+        33,
+        623,
+        613,
+        755
+      ],
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Small landscape request button opens checkout",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "ui_cleanup",
+      "passed": true,
+      "detail": "UI fixture removed. Only the two allowlisted QA accounts and their records were deleted. Guest necklace unchanged; original session, settings and preferences restored.\r\n\r\n",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Original guest sample restored after verification",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Original example store details restored",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "Device size density font and rotation restored",
+      "passed": true,
+      "detail": {
+        "settings": {
+          "accelerometer_rotation": "1",
+          "user_rotation": "0",
+          "font_scale": "1.0"
+        },
+        "size": "Physical size: 1080x2280\r\n",
+        "density": "Physical density: 440\r\n"
+      },
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "android_02_login",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_02_login.png",
+      "sha256": "fd9b1b065d6500ead263301097d4ecd4fae7e475de67b2fe6298c1147a2ad987",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_03_registration",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_03_registration.png",
+      "sha256": "3c13fe46cb6a4b47214a5d43d53c50fa36d8bdad53deb2f65fd2af99f4db246b",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_08_profile_edit",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_08_profile_edit.png",
+      "sha256": "a42488132d2a3741339e04011606d7f2137acfe9187015ccdc64548a28d8bb8c",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_09_checkout",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_09_checkout.png",
+      "sha256": "f2d84303ddae497d40727781436fd3d5a1a35e34f0f70a2bf9e9f1813792b3ac",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_checkout_rotation_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_checkout_rotation_inspect.png",
+      "sha256": "074546646c8a79f5d16b92c90282c53e952aea2819cbd0dda86a5e3fa1fccb20",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1",
+      "diagnostic": true
+    },
+    {
+      "name": "android_10_checkout_landscape",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_10_checkout_landscape.png",
+      "sha256": "dad26abcd1b375a2498fef89fbd7439de3beb7f7713416d217d7299c3fb72692",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_11_order",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_11_order.png",
+      "sha256": "48c13160191809757a0447d61d99de269293ce75a5220cd5e29e1ba92db8c16c",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_12_order_accepted",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_12_order_accepted.png",
+      "sha256": "3db6593d0cf0831fdd15929099f7932e6e049a85eba768ba1c83d74aaec1842d",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_14_profile",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_14_profile.png",
+      "sha256": "5ca03ca9642eae40c483eb9313abc23d8345528a3e3a40e8e113d7a3d2ea543e",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_16_support",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_16_support.png",
+      "sha256": "064ba8d0ba9b0a80b61487f4ca47ddebbb47a8ff67b9d2c5cd1f68656ea7e8d4",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_17_review",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_17_review.png",
+      "sha256": "d9be570d6b734208d1da715a4cb1ca0f19463468124cea449c3bcf0707e3414f",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1"
+    },
+    {
+      "name": "android_settings_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_settings_inspect.png",
+      "sha256": "636a740764c64d153bc5ccc4a766eb34c01f285bae4b78d1c3172a3198cfbffe",
+      "apk_sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1",
+      "diagnostic": true
+    },
+    {
+      "name": "android_18_settings",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_18_settings.png",
+      "sha256": "005dfff31008f21311d935501918ff362451906bbfac552aefabd421fe3aede3",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "android_19_photo_credits",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_19_photo_credits.png",
+      "sha256": "8390eb2b9a42baf6193263bdb18fca926b6841238d9525007129e1af3fa731aa",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "android_20_media_empty",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_20_media_empty.png",
+      "sha256": "34c4ab820a4226d3e292b15d43a981611b0a0eae2f11c3ee70fbfaa73a733090",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "android_audio_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_audio_inspect.png",
+      "sha256": "cdf07b6c8e2bb796805fd89f09e075a6905d8033592c6f5d8fbdd837eb650608",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd",
+      "diagnostic": true
+    },
+    {
+      "name": "android_21_audio",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_21_audio.png",
+      "sha256": "1d44b80932362b98cbf21a047a651c9f223769ef07c84fab2a05ee4f17d8c08b",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "android_picker_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_picker_inspect.png",
+      "sha256": "79102e8c39bbc84cf6b36aeec31f31b62184ec16aaa9a21a1fdfd34ae8d3b336",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9",
+      "diagnostic": true
+    },
+    {
+      "name": "android_22_image",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_22_image.png",
+      "sha256": "b3ab7ec41b19189114a196ea06480a78d3b52b34f6764285519286392fff3eee",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9"
+    },
+    {
+      "name": "android_video_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_video_inspect.png",
+      "sha256": "d24578e7b15018a75836ce52baeb0afde50cacadbf19817e2f7768838ebc16ad",
+      "apk_sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9",
+      "diagnostic": true
+    },
+    {
+      "name": "android_23_video",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_23_video.png",
+      "sha256": "cdf83c04acc2663091c6c29eef77c113dfd9be25ec497fa6155588e9e2f4f563",
+      "apk_sha256": "4fc05e396cae93011c6bab8defe43796527332a8dedac3a02cab4b17107d9d46"
+    },
+    {
+      "name": "android_24_media_library",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_24_media_library.png",
+      "sha256": "064853198e1be323d26abba5adc0b90236b88ee11ce90feea6f3fd1e1bbfa3f5",
+      "apk_sha256": "4fc05e396cae93011c6bab8defe43796527332a8dedac3a02cab4b17107d9d46"
+    },
+    {
+      "name": "android_07_necklace",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_07_necklace.png",
+      "sha256": "5d8343f6548a47e18c5b8921616f42375395f0d72921d74e86e600f4978e44cc",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "android_25_saved",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_25_saved.png",
+      "sha256": "7d6b63ff5f8a08b2a4cc8076a3c081069f338f7f2a04fd6326b004fcc84fae3f",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "android_26_cancelled_order",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_26_cancelled_order.png",
+      "sha256": "0b30b481cd602862c18e7ff1c49f2e8f7d43ac2ca461553f807bdf6b9d5de866",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37"
+    },
+    {
+      "name": "android_navigation_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_navigation_inspect.png",
+      "sha256": "e9a9b3e3666725a82cfa616b26ba3418c427b1a74e2aed007c9c093b7bbeac87",
+      "apk_sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37",
+      "diagnostic": true
+    },
+    {
+      "name": "android_13_orders",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_13_orders.png",
+      "sha256": "fc02a676e90f5c02764ecf46a1c2bd58983733ce9405dd478e69f07c42cb79ee",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    },
+    {
+      "name": "android_27_admin",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_27_admin.png",
+      "sha256": "b358c6c11247eda2a0a370e45e23c41e12b198f0e9fadf264824fa9163e43b07",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    },
+    {
+      "name": "android_small_land_inspect",
+      "path": "reports\\qa_v3_20261125\\working_screenshots\\android_small_land_inspect.png",
+      "sha256": "db94fd8fc89f886ef179f75103c7d5bc7ec3c1f41e30536e3b5bd115007c0987",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0",
+      "diagnostic": true
+    },
+    {
+      "name": "android_28_small_portrait",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_28_small_portrait.png",
+      "sha256": "56244217dbba0d7829ed01c3877cb492674e45e8043b5ece7a7f5e3342a6f9b0",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_30_catalog_landscape",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_30_catalog_landscape.png",
+      "sha256": "a40976f573a230784765019be00ae261080e76c787c8c195101a1d1efd170954",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_31_profile_final",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_31_profile_final.png",
+      "sha256": "cd56286894e0795914d9508c8b15e7a79b6adebf97770243169df99aedc35ee0",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_04_home_account",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_04_home_account.png",
+      "sha256": "359d8fe68fc206a63f97da9b10d5f6b50e23dfbe47bb34902c6e811012ad7b60",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_05_catalog_photos",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_05_catalog_photos.png",
+      "sha256": "26acb384e00bbe3e6ecf06585e93a71e9da9c071d095f7403676bb20cd32e22e",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_06_stone_photo",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_06_stone_photo.png",
+      "sha256": "cc4fe098e6538a91b15fbc212192667b3a4cf2523bf031594e80318e7f6a70a5",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_29_small_landscape",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_29_small_landscape.png",
+      "sha256": "e74f01a9b35a133462bb407702c5c2db59fb53bd377d38c28466d5a9962a808b",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_01_home_guest",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_01_home_guest.png",
+      "sha256": "5937da768264d173a95dc063c9cd5701a892c031e0244e9a2f2491ac79d692ad",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    },
+    {
+      "name": "android_15_location",
+      "path": "screenshots\\redesign_20261124\\v3_20261125\\android_15_location.png",
+      "sha256": "2bd49920d57db7114fce295b3b4982b7ceaad11fcd7949ed5ab6f407a0c7017c",
+      "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+    }
+  ],
+  "previous_attempts": [
+    {
+      "name": "Checkout note survives landscape rotation",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "Support message is saved",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "Audio duration loaded",
+      "passed": false,
+      "detail": "",
+      "apk_sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd"
+    },
+    {
+      "name": "Landscape keeps list and checkout accessible",
+      "passed": false,
+      "detail": "",
+      "apk_sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0"
+    }
+  ],
+  "builds": [
+    {
+      "sha256": "c0408a694aba0bc1430192eb85c20c40efc12d4c1eed4f0a3e62a4471debc8b1",
+      "description": "Initial 3.0 functional verification build"
+    },
+    {
+      "sha256": "cf7d06fa1987c73c70445c5b35a331e99c0275095356475299c44693e7c330fd",
+      "description": "Final settings toggle, order filter, license buttons; Java formatting"
+    },
+    {
+      "sha256": "95587d4ea84960475d16d095f53bdc27c7faede8afb8ca5212b8ddd39769f0f9",
+      "description": "Media player updates time and progress only when they change"
+    },
+    {
+      "sha256": "4fc05e396cae93011c6bab8defe43796527332a8dedac3a02cab4b17107d9d46",
+      "description": "Final profile tab reuses its Activity; media errors disable playback controls"
+    },
+    {
+      "sha256": "cf29c6595be8bd56470ba22884ef8d411adb54234d9202b2ecf09e107eea9a37",
+      "description": "Final media error handling shows a single recoverable message"
+    },
+    {
+      "sha256": "efba52cca89a2bec4bb1b1ad3abb7535b49030817e35e1099cd003ef07e14fb0",
+      "description": "Fixed delayed scroll restoration after fragment navigation"
+    },
+    {
+      "sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7",
+      "description": "Compact landscape necklace rows and request action in the scrollable summary pane"
+    }
+  ],
+  "final_runtime_audit_started_utc": "2026-11-25T14:58:16.224361+00:00",
+  "status": "passed",
+  "finished_utc": "2026-11-25T15:10:41.298700+00:00",
+  "checks_passed": 64,
+  "verification_note": "Functional UI scenarios were checked across the recorded 3.0 builds; every check and screenshot carries its actual APK SHA-256. Final navigation, compact layouts and cleanup checks use the delivered APK."
+}

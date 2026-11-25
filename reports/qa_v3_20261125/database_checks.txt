@@ -1,0 +1,94 @@
+PASS empty registration name rejected
+PASS invalid email rejected
+PASS short password rejected
+PASS unique account IDs
+PASS first registered account owns local store
+PASS email normalized
+PASS Kazakh name trimmed
+PASS duplicate email rejected
+PASS case-insensitive login succeeds
+PASS incorrect password rejected
+PASS unknown account rejected
+PASS failed client login 1 rejected
+PASS failed client login 2 rejected
+PASS failed client login 3 rejected
+PASS failed client login 4 rejected
+PASS failed client login 5 rejected
+PASS five failures create timed account lock
+PASS correct password cannot bypass active lock
+PASS login succeeds after lock expires
+PASS successful login resets failure counter
+PASS password is not stored as plain text
+PASS accounts use unique random salts
+PASS profile updates persist
+PASS password change verifies current password
+PASS changed password authenticates
+PASS old password no longer authenticates
+PASS favorite added
+PASS favorite read back
+PASS favorite toggled off
+PASS unknown stone favorite rejected
+PASS empty order rejected
+PASS invalid delivery method rejected
+PASS delivery requires address
+PASS short contact phone rejected
+PASS order stores exact 616200 total
+PASS gift choice persisted
+PASS requested date persisted
+PASS order has immutable necklace snapshot
+PASS snapshot weight remains exact
+PASS editing store removes example flag
+PASS second account has customer role
+PASS favorites isolated by account
+PASS orders isolated by account
+PASS customer cannot read another account order
+PASS customer cannot list all orders
+PASS customer cannot list users
+PASS customer cannot edit store settings
+PASS customer cannot change another order status
+PASS customer can cancel own draft
+PASS customer cannot accept own order
+PASS customer message persisted
+PASS customer cannot write admin reply
+PASS review update does not duplicate
+PASS updated rating persisted
+PASS invalid rating rejected
+PASS media reference stored
+PASS media renamed
+PASS unknown media type rejected
+PASS empty media name rejected
+PASS owner favorites unaffected by other account
+PASS admin can list all requests
+PASS admin can update request status
+PASS invalid request status rejected
+PASS admin sees customer messages
+PASS admin reply persisted
+PASS media library isolated by account
+PASS foreign media access rejected
+PASS foreign media deletion rejected
+PASS own media reference deleted
+PASS guest cannot save personal favorites
+PASS guest cannot access private orders
+PASS v2 database migrates to v3
+PASS migration preserves guest stones
+PASS migration preserves exact guest price
+PASS migration preserves guest saved collection
+PASS new account starts with own necklace
+PASS guest saved collections remain separate
+PASS account collection created
+PASS current necklace isolated across accounts
+PASS saved collections isolated across accounts
+PASS cannot rename foreign collection
+PASS foreign deletion leaves collection intact
+PASS account necklace persisted
+PASS guest necklace remains unchanged
+PASS legacy collection remains unchanged
+PASS v1 database upgrades directly to v3
+PASS v1 migration preserves all guest stones
+PASS v1 migration preserves exact total
+PASS v1 migration creates empty collections safely
+PASS account survives database reopen
+PASS orders survive database reopen
+PASS store settings survive reopen
+PASS: 92 portal checks
+

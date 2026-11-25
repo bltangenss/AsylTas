@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/screen_root" android:background="@color/background">
+    <Toolbar android:layout_width="match_parent" android:layout_height="56dp" android:id="@+id/toolbar" android:background="@color/background" android:titleTextAppearance="@style/ToolbarTitle" android:contentInsetStart="20dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:orientation="vertical" android:layout_weight="1" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="4dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/bg_surface" android:padding="16dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="3">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Алқаның жалпы құны" android:textSize="11sp" android:textColor="@color/text_secondary" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/necklace_summary" android:textSize="14sp" android:textColor="@color/text_primary" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+            <kz.asyltas.android.NecklaceView android:layout_width="0dp" android:layout_height="104dp" android:id="@+id/necklace_view" android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="12dp">
+            <Button android:layout_width="0dp" android:layout_height="48dp" android:id="@+id/filter_button" android:text="Сүзгі" style="@style/SecondaryButton" android:layout_weight="1" android:drawableLeft="@drawable/ic_filter" />
+            <Button android:layout_width="0dp" android:layout_height="48dp" android:id="@+id/add_stones" android:text="Тас қосу" style="@style/SecondaryButton" android:layout_weight="1" android:layout_marginLeft="8dp" />
+            <Button android:layout_width="0dp" android:layout_height="48dp" android:id="@+id/save_design" android:text="Сақтау" style="@style/ActionButton" android:layout_weight="1" android:layout_marginLeft="8dp" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/result_info" android:textSize="13sp" android:textColor="@color/text_secondary" android:layout_marginTop="16dp" android:layout_marginBottom="10dp" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ListView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/necklace_list" android:divider="@android:color/transparent" android:dividerHeight="10dp" android:listSelector="@android:color/transparent" android:clipToPadding="false" android:paddingBottom="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/empty_message_state" android:gravity="center" android:padding="24dp" android:visibility="gone">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Алқа бос.&#10;Каталогтан тас қосыңыз." android:id="@+id/empty_message" android:textSize="17sp" android:textColor="@color/text_primary" android:gravity="center" android:lineSpacingExtra="4dp" />
+                <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/empty_action" android:text="Каталогқа өту" style="@style/SecondaryButton" android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/checkout_button" android:text="Өтінім рәсімдеу" style="@style/ActionButton" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:layout_marginTop="6dp" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_navigation" />
+</LinearLayout>

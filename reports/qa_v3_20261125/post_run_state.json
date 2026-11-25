@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "finished_utc": "2026-11-25T15:10:41.297594+00:00",
+  "qa_accounts_removed": true,
+  "original_guest_necklace_preserved": true,
+  "sample": {
+    "count": 6,
+    "carats": "5.90",
+    "total_kzt": "616200"
+  },
+  "store_settings_restored": true,
+  "display_restored": true,
+  "display": {
+    "settings": {
+      "accelerometer_rotation": "1",
+      "user_rotation": "0",
+      "font_scale": "1.0"
+    },
+    "size": "Physical size: 1080x2280\r\n",
+    "density": "Physical density: 440\r\n"
+  },
+  "temporary_media_files_removed": true,
+  "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7"
+}

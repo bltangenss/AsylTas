@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/screen_root" android:background="@color/background">
+    <Toolbar android:layout_width="match_parent" android:layout_height="56dp" android:id="@+id/toolbar" android:background="@color/background" android:titleTextAppearance="@style/ToolbarTitle" android:contentInsetStart="20dp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/hub_content" android:layout_weight="1" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_navigation" />
+</LinearLayout>

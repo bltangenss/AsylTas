@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:paddingTop="8dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Жинақтың атауы" android:textSize="14sp" android:textColor="@color/text_primary" />
+    <EditText android:layout_width="match_parent" android:layout_height="56dp" android:id="@+id/name_input" android:background="@drawable/bg_field" android:padding="12dp" android:textSize="16sp" android:hint="Мысалы: Күнделікті алқа" android:singleLine="true" android:inputType="textCapSentences" android:maxLength="40" android:layout_marginTop="10dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/name_error" android:textSize="13sp" android:textColor="@color/error" android:visibility="gone" android:layout_marginTop="8dp" android:accessibilityLiveRegion="polite" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+UI fixture begun; previous session, guest necklace and store settings preserved.
+

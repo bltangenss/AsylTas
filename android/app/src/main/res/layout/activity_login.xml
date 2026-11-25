@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/login_root" android:background="@color/background">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="24dp" android:layout_marginBottom="30dp">
+                <kz.asyltas.android.GemView android:layout_width="46dp" android:layout_height="46dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Асыл тас" android:textSize="29sp" android:textColor="@color/text_primary" android:fontFamily="serif" android:layout_marginLeft="14dp" />
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Қош келдіңіз" android:id="@+id/login_title" android:textSize="30sp" android:textColor="@color/text_primary" android:fontFamily="serif" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Алқаларыңыз бен өтінімдеріңіз — бір жерде." android:textSize="14sp" android:textColor="@color/text_secondary" android:layout_marginTop="8dp" android:layout_marginBottom="28dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" android:background="@drawable/bg_surface">
+                <EditText android:layout_width="match_parent" android:layout_height="54dp" android:id="@+id/login_name" android:hint="Аты-жөніңіз" android:textSize="15sp" android:inputType="textPersonName" android:singleLine="true" android:maxLength="128" android:background="@drawable/bg_field" android:padding="14dp" android:layout_marginBottom="12dp" android:contentDescription="Аты-жөніңіз" />
+                <EditText android:layout_width="match_parent" android:layout_height="54dp" android:id="@+id/login_email" android:hint="Email" android:textSize="15sp" android:inputType="textEmailAddress" android:singleLine="true" android:maxLength="128" android:background="@drawable/bg_field" android:padding="14dp" android:layout_marginBottom="12dp" android:contentDescription="Email" />
+                <EditText android:layout_width="match_parent" android:layout_height="54dp" android:id="@+id/login_password" android:hint="Құпиясөз" android:textSize="15sp" android:inputType="textPassword" android:singleLine="true" android:maxLength="128" android:background="@drawable/bg_field" android:padding="14dp" android:layout_marginBottom="12dp" android:contentDescription="Құпиясөз" />
+                <CheckBox android:layout_width="match_parent" android:layout_height="44dp" android:id="@+id/login_show" android:text="Құпиясөзді көрсету" android:textSize="13sp" android:textColor="@color/text_secondary" />
+                <CheckBox android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/login_copy" android:text="Қонақ алқасын профиліме көшіру" android:checked="true" android:textSize="13sp" android:textColor="@color/text_secondary" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/login_error" android:textSize="13sp" android:textColor="@color/error" android:visibility="gone" android:accessibilityLiveRegion="polite" />
+                <ProgressBar android:layout_width="32dp" android:layout_height="32dp" android:id="@+id/login_progress" android:layout_gravity="center" android:visibility="gone" />
+                <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/login_submit" android:text="Кіру" style="@style/ActionButton" android:layout_marginTop="16dp" />
+            </LinearLayout>
+            <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/login_switch" android:text="Жаңа аккаунт ашу" style="@style/SecondaryButton" android:layout_marginTop="16dp" />
+            <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/login_guest" android:text="Қонақ ретінде қарау" style="@style/SecondaryButton" android:layout_marginTop="10dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/login_note" android:textSize="12sp" android:textColor="@color/text_secondary" android:layout_marginTop="20dp" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

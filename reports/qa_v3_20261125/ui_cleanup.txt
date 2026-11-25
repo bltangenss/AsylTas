@@ -1,0 +1,2 @@
+UI fixture removed. Only the two allowlisted QA accounts and their records were deleted. Guest necklace unchanged; original session, settings and preferences restored.
+

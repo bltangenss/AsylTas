@@ -1,0 +1,81 @@
+АСЫЛ ТАС 3.0 — НАҚТЫ ТАС ФОТОСУРЕТТЕРІ
+
+Wikimedia Commons-тен алынған нақты тастардың фотосуреттері.
+Фотолар каталогтағы тас түрін таныстырады. Салмақ пен баға — оқу деректері,
+суреттегі нақты бұйымды сатуға ұсыныс емес. Жасанды сурет генерациясы қолданылмады.
+Түпнұсқа немесе Commons дайындаған кішірейтілген JPEG файлдары өзгеріссіз сақталған.
+Қолданба оларды карточка мен дөңгелек алқа ұясына сыйғызып көрсетеді.
+Әр фото төмендегі өз лицензиясы бойынша таратылады; авторлық құқық авторында қалады.
+
+1. Round Brilliant Cut Diamond.jpg (stone_1.jpg)
+Автор: Petragems
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Round_Brilliant_Cut_Diamond.jpg
+SHA-256: 6c77b5b705564a53adab2854d0afb5de42d9b0b4c30b93e4244e0489e2331ad0
+
+2. Cut Ruby.jpg (stone_2.jpg)
+Автор: Commons дерегінде көрсетілмеген; Public domain
+Лицензия: Public domain 
+Дереккөз: https://commons.wikimedia.org/wiki/File:Cut_Ruby.jpg
+SHA-256: 7f16dad6f098ef8c19c4077686e79cc98f50e3b305424057c5374c5bc2b921ab
+
+3. Natural Zambian Emerald Gemstone.jpg (stone_3.jpg)
+Автор: Gems International
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Natural_Zambian_Emerald_Gemstone.jpg
+SHA-256: ce9b1c10e73756d2dafd798213b7326861eb8108a382dc6e11147532d93bbb64
+
+4. Sapphire radiant cut 1.15cts.jpg (stone_4.jpg)
+Автор: Wiener Edelstein Zentrum
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Sapphire_radiant_cut_1.15cts.jpg
+SHA-256: 5ff605b4b56170ec00b7c8173705bf7b3708bccb97471d0d021a58f4d730504e
+
+5. Facet Cut Amethyst.jpg (stone_5.jpg)
+Автор: Michelle Jo
+Лицензия: CC BY 3.0 https://creativecommons.org/licenses/by/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Facet_Cut_Amethyst.jpg
+SHA-256: 82aec3f811cf5ba25fb5b5216601745a094051ecc474dc1aee03172830e9d283
+
+6. Kite-cut yellow topaz.jpg (stone_6.jpg)
+Автор: Pithecanthropus4152
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Kite-cut_yellow_topaz.jpg
+SHA-256: 4777c24575d80535c3f8b6f5b68769202cd1252e85b9e390bdc3829a2440c975
+
+7. Turquoise (Blue Moon Mine, Candelaria Hills, west of Tonopah, Nevada, USA) 1.jpg (stone_7.jpg)
+Автор: James St. John
+Лицензия: CC BY 2.0 https://creativecommons.org/licenses/by/2.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Turquoise_(Blue_Moon_Mine,_Candelaria_Hills,_west_of_Tonopah,_Nevada,_USA)_1.jpg
+SHA-256: e9d6e6abc35f4582d3e5e761bef3a870b279f67d246894372297d7a64fafbaf7
+
+8. Two plain-cut rectangular red jasper pieces 1.jpg (stone_8.jpg)
+Автор: W.carter
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Two_plain-cut_rectangular_red_jasper_pieces_1.jpg
+SHA-256: e632ee3fdf2f25bc3dfc0ea6c0326e472dde4d65d29c8099ec04216f43545b7d
+
+9. Agate specimen.jpg (stone_9.jpg)
+Автор: Anders Sandberg
+Лицензия: CC BY 2.0 https://creativecommons.org/licenses/by/2.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Agate_specimen.jpg
+SHA-256: 7942068d1a708aebda7036c20a74fb8610fa4cf90e5940df13aceb0f1952981a
+
+10. Brazilian aquamarine - 1.jpg (stone_10.jpg)
+Автор: Mauro Cateb
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Brazilian_aquamarine_-_1.jpg
+SHA-256: 668098a7380b0138298d83203fe60ee296b0a5586d3ae1b1e07bbd461b75719a
+
+11. Black oval onyx cabochons 1.jpg (stone_11.jpg)
+Автор: W.carter
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Black_oval_onyx_cabochons_1.jpg
+SHA-256: e3b41c99343879b3fa35219921e07a6e3a845dfcd0cb3a73656917464d6904cc
+
+12. Brazilian citrine.jpg (stone_12.jpg)
+Автор: Mauro Cateb
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Brazilian_citrine.jpg
+SHA-256: f3dd2c4c7bb8baf41ff3cb09154f7850c3808498762e7525f2e2f6a789763429
+

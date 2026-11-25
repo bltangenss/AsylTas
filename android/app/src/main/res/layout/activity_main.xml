@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/screen_root" android:background="@color/background">
+    <Toolbar android:layout_width="match_parent" android:layout_height="56dp" android:id="@+id/toolbar" android:background="@color/background" android:titleTextAppearance="@style/ToolbarTitle" android:contentInsetStart="20dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:orientation="vertical" android:layout_weight="1" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="4dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/catalog_summary" android:textSize="13sp" android:textColor="@color/text_secondary" android:layout_marginBottom="14dp" />
+        <EditText android:layout_width="match_parent" android:layout_height="50dp" android:id="@+id/catalog_search" android:background="@drawable/bg_field" android:paddingLeft="14dp" android:paddingRight="14dp" android:hint="Тастың атауын іздеу" android:textSize="15sp" android:textColor="@color/text_primary" android:inputType="text" android:singleLine="true" android:imeOptions="actionDone" android:drawableLeft="@drawable/ic_search" android:drawablePadding="10dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="10dp" android:layout_marginBottom="14dp">
+            <Spinner android:layout_width="0dp" android:layout_height="50dp" android:id="@+id/category_spinner" android:layout_weight="1" android:spinnerMode="dropdown" android:background="@drawable/bg_surface" android:contentDescription="Тас санаты" />
+            <Button android:layout_width="96dp" android:layout_height="48dp" android:id="@+id/catalog_sort" android:text="Баға ↕" style="@style/SecondaryButton" android:layout_marginLeft="10dp" />
+        </LinearLayout>
+        <CheckBox android:layout_width="match_parent" android:layout_height="40dp" android:id="@+id/favorite_only" android:text="Таңдаулылар" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginBottom="8dp" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ListView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/stone_list" android:divider="@android:color/transparent" android:dividerHeight="10dp" android:listSelector="@android:color/transparent" android:clipToPadding="false" android:paddingBottom="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/catalog_empty_state" android:gravity="center" android:padding="24dp" android:visibility="gone">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Тас табылмады.&#10;Іздеуді немесе санатты өзгертіңіз." android:id="@+id/catalog_empty" android:textSize="17sp" android:textColor="@color/text_primary" android:gravity="center" android:lineSpacingExtra="4dp" />
+                <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/catalog_reset" android:text="Іздеуді тазарту" style="@style/SecondaryButton" android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_navigation" />
+</LinearLayout>

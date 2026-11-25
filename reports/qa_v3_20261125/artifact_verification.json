@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "apk_sha256": "19fad1f21645fcb27721ffb11bb54e27ce0b26028d2ef78417e62bc50f04a2b7",
+  "installed_apk_matches": true,
+  "version": "3.0",
+  "version_code": 5,
+  "min_sdk": 24,
+  "device": "emulator-5554",
+  "api": 29,
+  "photo_count": 12,
+  "model_sources_unchanged": true,
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 214
+  },
+  "recent_fatal_exceptions": 0
+}

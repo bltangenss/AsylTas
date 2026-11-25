@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/screen_root" android:background="@color/background">
+    <Toolbar android:layout_width="match_parent" android:layout_height="56dp" android:id="@+id/toolbar" android:background="@color/background" android:titleTextAppearance="@style/ToolbarTitle" android:contentInsetStart="20dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true" android:clipToPadding="false">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" android:paddingTop="4dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/home_greeting" android:textSize="12sp" android:textColor="@color/text_secondary" android:letterSpacing=".06" android:layout_marginBottom="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Тастар мен алқалар" android:textSize="26sp" android:textColor="@color/text_primary" android:fontFamily="serif" android:layout_marginBottom="20dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:background="@drawable/bg_editorial">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="3">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="МЕНІҢ АЛҚАМ" android:textSize="10sp" android:textColor="@color/text_secondary" android:letterSpacing=".10" />
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/home_total" android:textSize="24sp" android:textColor="@color/text_primary" android:fontFamily="sans-serif-medium" android:layout_marginTop="12dp" />
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/home_metrics" android:textSize="12sp" android:textColor="@color/text_secondary" android:layout_marginTop="6dp" />
+                        <Button android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/home_open" android:text="Алқаны ашу" style="@style/ActionButton" android:layout_marginTop="16dp" />
+                    </LinearLayout>
+                    <kz.asyltas.android.NecklaceView android:layout_width="0dp" android:layout_height="158dp" android:id="@+id/home_preview" android:layout_weight="2" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="16dp" android:layout_marginBottom="24dp">
+                <Button android:layout_width="0dp" android:layout_height="78dp" android:id="@+id/home_catalog" android:text="Каталог" android:drawableTop="@drawable/ic_catalog" android:drawablePadding="8dp" android:textSize="12sp" style="@style/SecondaryButton" android:layout_weight="1" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:paddingLeft="2dp" android:paddingRight="2dp" />
+                <Button android:layout_width="0dp" android:layout_height="78dp" android:id="@+id/home_save" android:text="Сақтау" android:drawableTop="@drawable/ic_saved" android:drawablePadding="8dp" android:textSize="12sp" style="@style/SecondaryButton" android:layout_weight="1" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:paddingLeft="2dp" android:paddingRight="2dp" />
+                <Button android:layout_width="0dp" android:layout_height="78dp" android:id="@+id/home_orders" android:text="Өтінімдер" android:drawableTop="@drawable/ic_orders" android:drawablePadding="8dp" android:textSize="12sp" style="@style/SecondaryButton" android:layout_weight="1" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:paddingLeft="2dp" android:paddingRight="2dp" />
+                <Button android:layout_width="0dp" android:layout_height="78dp" android:id="@+id/home_store" android:text="Мекенжай" android:drawableTop="@drawable/ic_pin" android:drawablePadding="8dp" android:textSize="12sp" style="@style/SecondaryButton" android:layout_weight="1" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:paddingLeft="2dp" android:paddingRight="2dp" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Менің жинақтарым" android:textSize="20sp" android:textColor="@color/text_primary" android:fontFamily="serif" android:layout_weight="1" />
+                <Button android:layout_width="76dp" android:layout_height="48dp" android:id="@+id/home_saved" android:text="Ашу ›" style="@style/SecondaryButton" />
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/home_saved_info" android:textSize="13sp" android:textColor="@color/text_secondary" android:layout_marginBottom="22dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Тастарды таңдаңыз" android:textSize="21sp" android:textColor="@color/text_primary" android:fontFamily="serif" android:layout_marginBottom="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="16dp">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+                    <kz.asyltas.android.GemView android:layout_width="match_parent" android:layout_height="86dp" android:id="@+id/home_gem1" android:contentDescription="Гауһар туралы" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Гауһар" android:textSize="14sp" android:textColor="@color/text_primary" android:gravity="center" android:layout_marginTop="8dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="315 000 ₸" android:textSize="11sp" android:textColor="@color/text_secondary" android:gravity="center" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+                    <kz.asyltas.android.GemView android:layout_width="match_parent" android:layout_height="86dp" android:id="@+id/home_gem2" android:contentDescription="Лағыл туралы" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Лағыл" android:textSize="14sp" android:textColor="@color/text_primary" android:gravity="center" android:layout_marginTop="8dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="216 000 ₸" android:textSize="11sp" android:textColor="@color/text_secondary" android:gravity="center" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+                    <kz.asyltas.android.GemView android:layout_width="match_parent" android:layout_height="86dp" android:id="@+id/home_gem3" android:contentDescription="Зүбәржат туралы" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Зүбәржат" android:textSize="14sp" android:textColor="@color/text_primary" android:gravity="center" android:layout_marginTop="8dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="165 000 ₸" android:textSize="11sp" android:textColor="@color/text_secondary" android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_navigation" />
+</LinearLayout>

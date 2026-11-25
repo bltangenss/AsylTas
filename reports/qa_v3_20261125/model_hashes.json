@@ -1,0 +1,37 @@
+[
+  {
+    "file": "shared/src/kz/asyltas/model/Catalog.java",
+    "unchanged": true,
+    "sha256": "d875e97333a3a312169973e7b3f5a59de00d387022a8000eedcdea3f72c3870e"
+  },
+  {
+    "file": "shared/src/kz/asyltas/model/Format.java",
+    "unchanged": true,
+    "sha256": "b6597378d414b1b8b8a0a976f2a86cd207cecda739317de518e0099c02dafa68"
+  },
+  {
+    "file": "shared/src/kz/asyltas/model/Necklace.java",
+    "unchanged": true,
+    "sha256": "d0ad0a32680a0bf1d669ff2194b76b8dc2dee307d8fd662569314c6b32a20f31"
+  },
+  {
+    "file": "shared/src/kz/asyltas/model/NecklaceItem.java",
+    "unchanged": true,
+    "sha256": "10f28ebaffee033572d0c37ce2af33b282aaf92bca205360a6386049b64a3ba1"
+  },
+  {
+    "file": "shared/src/kz/asyltas/model/PreciousStone.java",
+    "unchanged": true,
+    "sha256": "e81ade7c0b24d045d7301f3d1fa7bd96c32387d9341331b121564ae150de3bee"
+  },
+  {
+    "file": "shared/src/kz/asyltas/model/SemiPreciousStone.java",
+    "unchanged": true,
+    "sha256": "a0ba9bdcefe9033a2fac79a1be8d61b3b1a34a763fe7c0d1fd40b1c47d338014"
+  },
+  {
+    "file": "shared/src/kz/asyltas/model/Stone.java",
+    "unchanged": true,
+    "sha256": "f9db1b1b984fa44696b0452b99319649780166087045adf5c22463697e1c8d97"
+  }
+]

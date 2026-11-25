@@ -1,0 +1,17 @@
+package: name='kz.asyltas.android' versionCode='5' versionName='3.0' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'24'
+targetSdkVersion:'35'
+application-label:'Асыл тас'
+application-icon-160:'res/1A.xml'
+application-icon-65535:'res/1A.xml'
+application: label='Асыл тас' icon='res/1A.xml'
+launchable-activity: name='kz.asyltas.android.LoginActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+main
+other-activities
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160' '65535'

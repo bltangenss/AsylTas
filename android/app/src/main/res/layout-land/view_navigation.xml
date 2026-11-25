@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@color/surface">
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="6dp">
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:id="@+id/nav_home" android:text="Басты" style="@style/NavigationButton" android:drawableTop="@drawable/ic_home" android:layout_weight="1" android:textSize="11sp" />
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:id="@+id/nav_catalog" android:text="Каталог" style="@style/NavigationButton" android:drawableTop="@drawable/ic_catalog" android:layout_weight="1" android:textSize="11sp" />
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:id="@+id/nav_necklace" android:text="Алқа" style="@style/NavigationButton" android:drawableTop="@drawable/ic_necklace" android:layout_weight="1" android:textSize="11sp" />
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:id="@+id/nav_profile" android:text="Профиль" style="@style/NavigationButton" android:drawableTop="@drawable/ic_profile" android:layout_weight="1" android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>
