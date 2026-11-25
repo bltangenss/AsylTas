@@ -1,0 +1,2 @@
+V4 UI cleanup passed. Removed 1 allowlisted QA account(s) and only their records. Restored guest necklace/collections/comparison/history/notes, original session, store settings and appearance/campus preferences. Other accounts were not modified.
+

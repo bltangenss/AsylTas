@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Гауһар",
+    "category": "Асыл тас",
+    "carats": "0.75",
+    "price_per_carat": "420000",
+    "cost": "315000.00",
+    "transparency": 98,
+    "photo": "/assets/stone_1.jpg",
+    "color": "#76B7C4"
+  },
+  {
+    "id": 2,
+    "name": "Лағыл",
+    "category": "Асыл тас",
+    "carats": "1.20",
+    "price_per_carat": "180000",
+    "cost": "216000.00",
+    "transparency": 92,
+    "photo": "/assets/stone_2.jpg",
+    "color": "#BE4662"
+  },
+  {
+    "id": 3,
+    "name": "Зүбәржат",
+    "category": "Асыл тас",
+    "carats": "1.10",
+    "price_per_carat": "150000",
+    "cost": "165000.00",
+    "transparency": 80,
+    "photo": "/assets/stone_3.jpg",
+    "color": "#26896D"
+  },
+  {
+    "id": 4,
+    "name": "Жақұт",
+    "category": "Асыл тас",
+    "carats": "1.30",
+    "price_per_carat": "140000",
+    "cost": "182000.00",
+    "transparency": 90,
+    "photo": "/assets/stone_4.jpg",
+    "color": "#416BA9"
+  },
+  {
+    "id": 5,
+    "name": "Аметист",
+    "category": "Жартылай асыл тас",
+    "carats": "0.80",
+    "price_per_carat": "8000",
+    "cost": "6400.00",
+    "transparency": 75,
+    "photo": "/assets/stone_5.jpg",
+    "color": "#9374B6"
+  },
+  {
+    "id": 6,
+    "name": "Топаз",
+    "category": "Жартылай асыл тас",
+    "carats": "1.50",
+    "price_per_carat": "12000",
+    "cost": "18000.00",
+    "transparency": 85,
+    "photo": "/assets/stone_6.jpg",
+    "color": "#CA9A40"
+  },
+  {
+    "id": 7,
+    "name": "Бирюза",
+    "category": "Жартылай асыл тас",
+    "carats": "2.00",
+    "price_per_carat": "6500",
+    "cost": "13000.00",
+    "transparency": 40,
+    "photo": "/assets/stone_7.jpg",
+    "color": "#48A9A4"
+  },
+  {
+    "id": 8,
+    "name": "Яшма",
+    "category": "Жартылай асыл тас",
+    "carats": "1.80",
+    "price_per_carat": "3500",
+    "cost": "6300.00",
+    "transparency": 20,
+    "photo": "/assets/stone_8.jpg",
+    "color": "#B9674A"
+  },
+  {
+    "id": 9,
+    "name": "Агат",
+    "category": "Жартылай асыл тас",
+    "carats": "1.60",
+    "price_per_carat": "4500",
+    "cost": "7200.00",
+    "transparency": 55,
+    "photo": "/assets/stone_9.jpg",
+    "color": "#A18069"
+  },
+  {
+    "id": 10,
+    "name": "Аквамарин",
+    "category": "Жартылай асыл тас",
+    "carats": "1.25",
+    "price_per_carat": "18000",
+    "cost": "22500.00",
+    "transparency": 88,
+    "photo": "/assets/stone_10.jpg",
+    "color": "#65A9C6"
+  },
+  {
+    "id": 11,
+    "name": "Оникс",
+    "category": "Жартылай асыл тас",
+    "carats": "1.40",
+    "price_per_carat": "5000",
+    "cost": "7000.00",
+    "transparency": 65,
+    "photo": "/assets/stone_11.jpg",
+    "color": "#52606C"
+  },
+  {
+    "id": 12,
+    "name": "Цитрин",
+    "category": "Жартылай асыл тас",
+    "carats": "1.15",
+    "price_per_carat": "7000",
+    "cost": "8050.00",
+    "transparency": 70,
+    "photo": "/assets/stone_12.jpg",
+    "color": "#C09A38"
+  }
+]

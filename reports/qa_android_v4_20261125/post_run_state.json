@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5",
+  "qa_accounts_removed": true,
+  "original_guest_necklace_preserved": true,
+  "guest_collections_comparison_history_restored": true,
+  "store_settings_restored": true,
+  "campus_preferences_restored": true,
+  "session_restored": true,
+  "display_restored": true,
+  "gps_permissions_revoked": true,
+  "location_mode_restored": true,
+  "original_emulator_fix_restored": false,
+  "all_app_data_cleared": false,
+  "cleanup_evidence": "ui_cleanup.txt",
+  "permission_flag_note": "API29 pm has no clear-permission-flags command; location grants are revoked, and the earlier denial can still cause an explanatory rationale on the next request."
+}

@@ -25,12 +25,12 @@ public class ModelTest {
   }
 
   public static void main(String[] args) throws Exception {
-    check(Catalog.all().size() == 12, "catalog size");
+    check(Catalog.all().size() == 48, "catalog size");
     check(
-        Catalog.all().stream().filter(s -> s instanceof PreciousStone).count() == 4,
+        Catalog.all().stream().filter(s -> s instanceof PreciousStone).count() == 5,
         "precious count");
     check(
-        Catalog.all().stream().filter(s -> s instanceof SemiPreciousStone).count() == 8,
+        Catalog.all().stream().filter(s -> s instanceof SemiPreciousStone).count() == 43,
         "semi count");
     check(Catalog.get(1).getCategory().equals("Асыл тас"), "polymorphism precious");
     check(Catalog.get(5).getCategory().equals("Жартылай асыл тас"), "polymorphism semi");

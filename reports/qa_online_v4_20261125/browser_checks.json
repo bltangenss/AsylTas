@@ -1,0 +1,267 @@
+{
+  "status": "passed",
+  "url": "https://127.0.0.1:8792",
+  "started": "2026-11-25T16:57:48.762Z",
+  "checks": [
+    {
+      "name": "Catalog has48 distinct cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Mobile navigation preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Combined exact filter shows topaz aquamarine ametrine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Inverted range displays field error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "English alias reaches added stone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Fourth comparison blocked with user message",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Compare table has three stones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Comparison fits page with internal horizontal scroll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Compare remove updates persisted selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Alexandrite photo remains uncropped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Recent order follows actual detail opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Private note survives reload and HTML is escaped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Different guest cannot see notes comparison or history",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Three campus places are selectable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Location not requested automatically",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Pushkin9 is identified as a meeting place",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "User-triggered browser location computes distance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route includes explicitly permitted current position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Campus switch changes destination",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Transit route mode is supported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Clear removes GPS origin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GPS error1 displays actionable guidance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GPS error2 displays actionable guidance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GPS error3 displays actionable guidance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GPS actions never call application API",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Copy uses selected place address",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Share passes only public meeting address",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "First public customer remains non-admin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Explicit signup imports private guest note and comparison",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "V3 sample total unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Checkout persists exact immutable order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Changing cart preserves submitted order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Owner registration still requires explicit admin claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin update reaches customer order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin privilege disappears without trusted identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Desktop sidebar preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SE catalog avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SE compare avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SE notes avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SE location avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ProMax catalog avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ProMax compare avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ProMax notes avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ProMax location avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "landscape catalog avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "landscape compare avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "landscape notes avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "landscape location avoids viewport overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_compare.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_stone_note.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_notes.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_gps_success.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_gps_denied.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_desktop_catalog.png"
+  ],
+  "page_errors": [],
+  "location_testing": "Chromium Geolocation API uses an explicitly granted emulated position; denied/unavailable/timeout callbacks are controlled UI fault injection. No physical GPS claim.",
+  "database": "Separate Wrangler local persist path; no production data",
+  "worker_sha256": "4865897d8460d150b36d7201735cb4aa90fe715158539525642f5fed4fc1215f",
+  "app_sha256": "08fa6beb815eb7f86a7bae100999dcd0895a6597d6d77147d818e33f545fdd52",
+  "finished": "2026-11-25T16:58:28.151Z",
+  "passed": 49
+}

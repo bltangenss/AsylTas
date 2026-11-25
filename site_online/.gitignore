@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.wrangler/
+.sites-runtime/
+worker/assets.generated.js
+.dev.vars
+.env
+.env.*
+!.env.example
+*.log
+*.sqlite
+*.sqlite3
+*.db
+BACKEND_READY.json
+test-results/

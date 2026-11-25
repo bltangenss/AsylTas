@@ -17,10 +17,13 @@ public class StoneAdapter extends ArrayAdapter<Stone> {
     void details(Stone stone);
 
     void favorite(Stone stone);
+    void compare(Stone stone);
   }
 
   private final Actions actions;
   private java.util.Set<Integer> favorites = new java.util.HashSet<>();
+  private java.util.Set<Integer> comparison = new java.util.HashSet<>();
+  public void setComparison(java.util.Set<Integer> ids) { comparison = ids; }
 
   public void setFavorites(java.util.Set<Integer> ids) {
     favorites = ids;
@@ -45,6 +48,11 @@ public class StoneAdapter extends ArrayAdapter<Stone> {
     heart.setOnClickListener(v -> actions.favorite(stone));
     row.findViewById(R.id.stone_add).setOnClickListener(v -> actions.add(stone));
     row.findViewById(R.id.stone_info_action).setOnClickListener(v -> actions.details(stone));
+    android.widget.CheckBox compare = row.findViewById(R.id.stone_compare);
+    compare.setOnCheckedChangeListener(null);
+    compare.setChecked(comparison.contains(stone.getId()));
+    compare.setContentDescription(stone.getName() + ": салыстыру");
+    compare.setOnClickListener(v -> actions.compare(stone));
     ((GemView) row.findViewById(R.id.stone_gem)).setColor(stone.getColor());
     TextView name = row.findViewById(R.id.stone_name);
     TextView category = row.findViewById(R.id.stone_category);

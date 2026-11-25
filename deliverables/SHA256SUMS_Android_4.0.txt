@@ -1,0 +1,3 @@
+7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5  AsylTas-4.0.apk
+6a7a7d68761537121d995e239fe5e898d98c33b057152a3d10506fdf532a716d  AsylTas-Android-source-4.0.zip
+ebde2cd7050be71aed0e5e3ca450b26343dff1c28e3bcab4c6cbb2d097b2277e  AsylTas-Android-4.0-tolyk-jinaq.zip

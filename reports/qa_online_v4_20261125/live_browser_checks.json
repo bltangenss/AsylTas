@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "method": "CUA in-app browser on published Site",
+  "version_number": 3,
+  "checks": [
+    {
+      "name": "Published homepage displays48catalog",
+      "passed": true
+    },
+    {
+      "name": "CampusGPS page loads without automatic location request",
+      "passed": true
+    },
+    {
+      "name": "Pushkin11 selection changes address and route destination",
+      "passed": true
+    },
+    {
+      "name": "Embedded OpenStreetMap tiles and marker render",
+      "passed": true
+    }
+  ],
+  "console_errors": 0
+}

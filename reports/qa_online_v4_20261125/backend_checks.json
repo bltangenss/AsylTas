@@ -1,0 +1,260 @@
+{
+  "status": "passed",
+  "created_utc": "2026-11-25T16:46:04.762Z",
+  "tests": 47,
+  "passed": 47,
+  "checks": [
+    {
+      "name": "catalog_matches_shared_model_and_assets_exactly",
+      "passed": true,
+      "duration_ms": 169
+    },
+    {
+      "name": "exact_demo_quantity_and_invalid_input_boundaries",
+      "passed": true,
+      "duration_ms": 188
+    },
+    {
+      "name": "guest_collections_are_snapshots_and_isolated",
+      "passed": true,
+      "duration_ms": 211
+    },
+    {
+      "name": "public_first_registration_never_gets_admin",
+      "passed": true,
+      "duration_ms": 344
+    },
+    {
+      "name": "password_hash_salt_crypto_and_session_rotation",
+      "passed": true,
+      "duration_ms": 256
+    },
+    {
+      "name": "secure_persistent_lax_http_only_cookie",
+      "passed": true,
+      "duration_ms": 144
+    },
+    {
+      "name": "guest_import_is_explicit_and_copies_collections",
+      "passed": true,
+      "duration_ms": 490
+    },
+    {
+      "name": "account_data_survives_logout_and_cannot_cross_users",
+      "passed": true,
+      "duration_ms": 513
+    },
+    {
+      "name": "guest_protected_actions_require_login",
+      "passed": true,
+      "duration_ms": 165
+    },
+    {
+      "name": "owner_claim_requires_current_account_and_both_verified_headers",
+      "passed": true,
+      "duration_ms": 932
+    },
+    {
+      "name": "admin_access_always_requires_matching_sites_identity",
+      "passed": true,
+      "duration_ms": 453
+    },
+    {
+      "name": "owner_configuration_is_required_and_not_disclosed",
+      "passed": true,
+      "duration_ms": 241
+    },
+    {
+      "name": "owner_email_is_reserved_until_sites_identity_is_verified",
+      "passed": true,
+      "duration_ms": 512
+    },
+    {
+      "name": "schema_only_migration_and_idempotent_runtime_defaults",
+      "passed": true,
+      "duration_ms": 966
+    },
+    {
+      "name": "csrf_origin_https_and_host_checks",
+      "passed": true,
+      "duration_ms": 474
+    },
+    {
+      "name": "bad_json_content_type_and_64kb_limit",
+      "passed": true,
+      "duration_ms": 1063
+    },
+    {
+      "name": "profile_password_change_and_other_session_revocation",
+      "passed": true,
+      "duration_ms": 1253
+    },
+    {
+      "name": "order_snapshot_is_immutable_and_private",
+      "passed": true,
+      "duration_ms": 383
+    },
+    {
+      "name": "order_cancel_and_admin_status_rules",
+      "passed": true,
+      "duration_ms": 1038
+    },
+    {
+      "name": "order_input_validation_does_not_insert_partial_records",
+      "passed": true,
+      "duration_ms": 485
+    },
+    {
+      "name": "reviews_public_numeric_owner_and_one_per_user_stone",
+      "passed": true,
+      "duration_ms": 473
+    },
+    {
+      "name": "messages_are_private_and_owner_can_reply",
+      "passed": true,
+      "duration_ms": 800
+    },
+    {
+      "name": "store_update_only_owner_and_example_label_is_accurate",
+      "passed": true,
+      "duration_ms": 420
+    },
+    {
+      "name": "sql_parameters_and_response_secrets_are_safe",
+      "passed": true,
+      "duration_ms": 348
+    },
+    {
+      "name": "five_failures_lock_then_expired_lock_allows_login",
+      "passed": true,
+      "duration_ms": 637
+    },
+    {
+      "name": "registration_validation_and_email_uniqueness",
+      "passed": true,
+      "duration_ms": 486
+    },
+    {
+      "name": "database_reopen_preserves_account_session_and_saved_content",
+      "passed": true,
+      "duration_ms": 392
+    },
+    {
+      "name": "expired_session_is_never_authorized",
+      "passed": true,
+      "duration_ms": 573
+    },
+    {
+      "name": "d1_batch_failure_rolls_back_every_mutation",
+      "passed": true,
+      "duration_ms": 512
+    },
+    {
+      "name": "registration_batch_failure_leaves_no_user_or_rotated_session",
+      "passed": true,
+      "duration_ms": 267
+    },
+    {
+      "name": "concurrent_cart_change_rejects_stale_snapshot_atomically",
+      "passed": true,
+      "duration_ms": 375
+    },
+    {
+      "name": "concurrent_logout_rejects_inflight_authorized_write",
+      "passed": true,
+      "duration_ms": 280
+    },
+    {
+      "name": "parallel_registration_cannot_create_admin_or_duplicate_email",
+      "passed": true,
+      "duration_ms": 296
+    },
+    {
+      "name": "schema_is_migration_only_and_database_errors_do_not_leak",
+      "passed": true,
+      "duration_ms": 180
+    },
+    {
+      "name": "catalog_48_persisted_once_and_first_12_values_unchanged",
+      "passed": true,
+      "duration_ms": 108
+    },
+    {
+      "name": "new_stone_cart_favorite_review_and_immutable_order",
+      "passed": true,
+      "duration_ms": 223
+    },
+    {
+      "name": "all_48_stones_collection_load_stays_below_50_d1_statements",
+      "passed": true,
+      "duration_ms": 701
+    },
+    {
+      "name": "comparison_limit_order_removal_clear_and_guest_isolation",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "name": "concurrent_comparison_cannot_exceed_three",
+      "passed": true,
+      "duration_ms": 352
+    },
+    {
+      "name": "history_keeps_12_unique_recents_reorders_and_clears",
+      "passed": true,
+      "duration_ms": 264
+    },
+    {
+      "name": "notes_are_private_persistent_updatable_and_empty_removes",
+      "passed": true,
+      "duration_ms": 309
+    },
+    {
+      "name": "new_features_validate_stone_and_note_boundaries",
+      "passed": true,
+      "duration_ms": 155
+    },
+    {
+      "name": "explicit_guest_import_copies_discovery_and_scope_stays_per_account",
+      "passed": true,
+      "duration_ms": 424
+    },
+    {
+      "name": "discovery_batch_failure_preserves_previous_rows",
+      "passed": true,
+      "duration_ms": 216
+    },
+    {
+      "name": "existing_v3_data_migrates_on_existing_session_without_loss",
+      "passed": true,
+      "duration_ms": 388
+    },
+    {
+      "name": "initial_catalog_seed_failure_rolls_back_then_recovers",
+      "passed": true,
+      "duration_ms": 160
+    },
+    {
+      "name": "parallel_initializers_seed_once_and_preserve_guest_isolation",
+      "passed": true,
+      "duration_ms": 157
+    }
+  ],
+  "runtime": "v24.14.1",
+  "adapter": "node:sqlite D1 prepare/bind/first/all/batch with real transaction rollback",
+  "database": "isolated temporary SQLite files; removed after each test",
+  "server_sha256": "25dc27fcb0fe9115b88a353a551d1b834aebe07068c7c2f59f01e180c992444b",
+  "schema_sha256": "fb3c533e4804f601b6ccc8402c3dfd8323d8fd17e0dab56736e6881fe8135f79",
+  "migration_hashes": {
+    "initial": "faee9d7ef9955437e310af48fcd17573043ce8f63794667bdeb99d135cb45903",
+    "upgrade": "6404b140182619d2e2dce553688883eba59ed26da9c94866c66aad7eb43fc083"
+  },
+  "demo": {
+    "count": 6,
+    "carats": "5.90",
+    "total": "616200.00"
+  },
+  "catalog_records": 48,
+  "admin_trust": "Tests emulate Sites dispatcher verified identity. Deployment must keep this Worker behind Sites and verify external spoofed reserved headers are stripped.",
+  "published": false
+}

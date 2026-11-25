@@ -1,0 +1,74 @@
+Асыл тас Android 4.0 — негізгі чатқа тексеру нұсқаулығы
+
+Нұсқа: versionCode 6, versionName 4.0, minSdk 24, targetSdk 35.
+Құрылғыға орнату, instrumentation және UI сценарийлері осы агентте орындалмады.
+Соңғы қол қою мен emulator QA негізгі чаттың міндетінде.
+
+Тест runner:
+kz.asyltas.android.test/kz.asyltas.android.PortalTestRunner
+
+Оқшау жаңа SQLite/GPS/каталог тесттері:
+am instrument -w -e mode v4_checks kz.asyltas.android.test/kz.asyltas.android.PortalTestRunner
+Нақты санын runner соңындағы `checks` және `PASS: ... v4 checks` өрісінен алу керек.
+Уақытша базалар: catalog_v4_checks_only.db, portal_v4_checks_only.db,
+necklace_v4_checks_only.db. Әр іске қосу соңында жойылады; бастапқы session қайтарылады.
+Сынақтар нақты GPS сұрамайды: свежий/ескірген timestamp пен географиялық есепті синтетикалық Location арқылы тексереді.
+
+Бұрынғы 92 портал тексерісін бөлек орындауға болады:
+am instrument -w -e mode checks kz.asyltas.android.test/kz.asyltas.android.PortalTestRunner
+
+UI сессиясы басталар алдында (app жабық кезде):
+am instrument -w -e mode v4_ui_begin kz.asyltas.android.test/kz.asyltas.android.PortalTestRunner
+
+Тек мына екі тест аккаунтын пайдалану:
+qa4.verify@asyltas.test
+qa4.customer@asyltas.test
+Бастау режимі осы email бұрын бар болса немесе v3/v4 fixture белсенді болса тоқтайды.
+Ол production DB-ді тазартпайды және аккаунттарды өзі жасамайды.
+
+UI аяқталған соң (app жабық кезде):
+am instrument -w -e mode v4_ui_cleanup kz.asyltas.android.test/kz.asyltas.android.PortalTestRunner
+Тек allowlist аккаунттары мен олардың favorites/orders/media/messages/reviews,
+account_necklaces/saved_necklaces, comparison/recent_stones/stone_notes жолдары өшеді.
+Бастапқы guest necklace/collections/comparison/recent/notes, дүкен settings,
+session, appearance және campus SharedPreferences толық қайтарылады.
+Қате болса snapshot сақталады, cleanup қайта орындалады. Басқа account жолдары өзгертілмейді.
+GPS жүйесінің рұқсаты, emulator координаты және жүйелік rotation бұл fixture-ге кірмейді;
+негізгі чат олардың бастапқы күйін өз QA скриптінде сақтап-қайтарады.
+
+Негізгі UI сценарийлері:
+1. Қонақ: каталог 48/48, alias арқылы жаңа тас іздеу, бір тас бағасы/карат/мөлдірлік сүзгісі.
+   Бос нәтиже, дұрыс емес range, тазарту, portrait/landscape және кіші экран.
+2. Үш тас салыстыру; төртіншісін қабылдамау; біреуін алып, басқасын қосу.
+   Көлденең салыстыру кестесінің барлық бағаны, баға/карат/салмақ/мөлдірлік.
+3. Жаңа 48-ші тас фотосы, сипаттама/күтім; алқаға қосу; immutable saved collection/order.
+4. Аккаунтпен жеке жазбаны сақтау/қайта ашу/бос жолмен жою, rotation draft.
+   Басқа аккаунт және қонақ жазба/compare/recent-ті көрмеуі.
+5. Соңғы қаралған 12 тас шегі, қайта ашқан тас жоғарыда, тарихты тазарту.
+6. Home/Profile/Menu арқылы ЕҰУ маңы GPS беті; үш мекенжай атауы мен сипаттамасы.
+   Пушкин 9 — пайдаланушының кездесу орны, ресми кампус/дүкен емес.
+   Пушкин 11 және Сәтбаев 2 — бөлек ресми ЕҰУ ғимараттары.
+7. Рұқсат бермеу: crash жоқ, көшіру/бөлісу/карта ашу істейді.
+   Орналасуды өшіру: түсінікті status пен GPS settings батырмасы.
+   Нақты GPS fix: координат/±дәлдік/жасы/түзу сызық бойынша қашықтық.
+   25 секунд timeout, 2 минуттан ескі fix маршрут origin-іне кірмейді.
+   Approximate permission нақты Android 12+ құрылғыда бөлек тексеріледі.
+8. Жаяу/көлік/қоғамдық көлік route, Google/2GIS/Yandex, мекенжай дереккөзі.
+   Пушкин 9 plain-text source орнына coordinate_source HTTPS дәлелі ашылады.
+9. Back/home/background/rotation кезінде GPS updates тоқтайды; орынды сақтау жоқ.
+10. Баптаулар мен анықтамада 4.0; авторлар өзгермеген; backend синхрондау туралы жалған уәде жоқ.
+
+Деректер архитектурасы:
+asyl_catalog.db — жаңа қосымша база; catalog_data (48 жол), comparison, recent_stones, stone_notes.
+asyl_portal.db және asyl_tas.db кестелері/версиялары өзгертілмеген.
+Compare/history guest owner=0, account owner=userId. Notes тек аккаунтпен.
+BigDecimal баға мен салмақ; бастапқы demo: 6 тас / 5.90 карат / 616 200 теңге.
+GemView суреттерді қажет кезде ашады; 12 MiB LRU cache; fit-center, фото қиылмайды.
+Координаттар тек CampusActivity жадында; DB/prefs/Bundle-ге жазылмайды.
+Campus prefs тек таңдалған қоғамдық орын ID және жол жүру тәсілін сақтайды.
+
+Шектеулер:
+ЕҰУ ғимарат маркерлері кіреберіс дәлдігін кепілдемейді.
+Қашықтық түзу сызықпен жуық есептеледі; нақты жүру жолын сыртқы карта береді.
+Физикалық құрылғы, API 24 және Android 12+ approximate permission бұл агентте тексерілген жоқ.
+Android аккаунттары мен онлайн сайт базасы автоматты синхрондалмайды.

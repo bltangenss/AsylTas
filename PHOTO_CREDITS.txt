@@ -1,11 +1,10 @@
-АСЫЛ ТАС 3.0 — НАҚТЫ ТАС ФОТОСУРЕТТЕРІ
+АСЫЛ ТАС 4.0 — 48 НАҚТЫ ТАС ФОТОСУРЕТІ
 
-Wikimedia Commons-тен алынған нақты тастардың фотосуреттері.
-Фотолар каталогтағы тас түрін таныстырады. Салмақ пен баға — оқу деректері,
-суреттегі нақты бұйымды сатуға ұсыныс емес. Жасанды сурет генерациясы қолданылмады.
+Wikimedia Commons лицензияланған фотосуреттері. Әр фото тас түрін таныстырады.
+Бағалар, салмақтар және мөлдірлік сандары — оқу деректері; нақты фотодағы бұйымға баға емес.
 Түпнұсқа немесе Commons дайындаған кішірейтілген JPEG файлдары өзгеріссіз сақталған.
-Қолданба оларды карточка мен дөңгелек алқа ұясына сыйғызып көрсетеді.
-Әр фото төмендегі өз лицензиясы бойынша таратылады; авторлық құқық авторында қалады.
+Қолданба фотоларды карточкаға сыйғызып көрсетеді. Жасанды сурет генерациясы қолданылмады.
+Авторлық құқық әр фотосуреттің авторында; төмендегі лицензиясы қолданылады.
 
 1. Round Brilliant Cut Diamond.jpg (stone_1.jpg)
 Автор: Petragems
@@ -78,4 +77,220 @@ SHA-256: e3b41c99343879b3fa35219921e07a6e3a845dfcd0cb3a73656917464d6904cc
 Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
 Дереккөз: https://commons.wikimedia.org/wiki/File:Brazilian_citrine.jpg
 SHA-256: f3dd2c4c7bb8baf41ff3cb09154f7850c3808498762e7525f2e2f6a789763429
+
+13. Four round faceted garnet gemstones 1.jpg (stone_13.jpg)
+Автор: W.carter
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Four_round_faceted_garnet_gemstones_1.jpg
+SHA-256: 71bbe90035cf94b7b7e691788534b9566a3946ca5bca2bddbd8d8f48f4dd040e
+
+14. Precious opal (Berbere Hill, Ethiopia) 58 - 53321790833.jpg (stone_14.jpg)
+Автор: James St. John
+Лицензия: CC BY 2.0 https://creativecommons.org/licenses/by/2.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Precious_opal_(Berbere_Hill,_Ethiopia)_58_-_53321790833.jpg
+SHA-256: e7d2aac6b47f732b701bb286b7e1aaf33fe95ce8ac634953a638a48f6449eb9e
+
+15. Peridot with ludwigite inclusion - faceted gemstone peridot from Pakistan.jpg (stone_15.jpg)
+Автор: AdamStejskal
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Peridot_with_ludwigite_inclusion_-_faceted_gemstone_peridot_from_Pakistan.jpg
+SHA-256: 2c7a3491cd744487743b77302f46dedbdde2bb3f1f36454efc3a20b17b72bce2
+
+16. Tourmaline Gemstones.JPG (stone_16.jpg)
+Автор: Michelle Jo
+Лицензия: Public domain https://commons.wikimedia.org/wiki/Template:PD-self
+Дереккөз: https://commons.wikimedia.org/wiki/File:Tourmaline_Gemstones.JPG
+SHA-256: 3225f1c339941dc41f3745b1f0e2fc1bae5c2fe3ec2cee10846b7af61a0dd20b
+
+17. Spinel-153496.jpg (stone_17.jpg)
+Автор: Robert M. Lavinsky
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Spinel-153496.jpg
+SHA-256: 8c87143eac4d3800c2c115cbc8d2a8de3d998088e4eb0bb4a113dfe1db4f42c7
+
+18. Tanzanite marquise (navette) cut.jpg (stone_18.jpg)
+Автор: Wiener Edelstein Zentrum
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Tanzanite_marquise_(navette)_cut.jpg
+SHA-256: 663509b1da97d02980fc7ca32df3ebb99d64e452234d90005503e8fe501f9f04
+
+19. Faceted Zircon Gemstone.jpg (stone_19.jpg)
+Автор: 247Gems
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Faceted_Zircon_Gemstone.jpg
+SHA-256: 3a2f9e16fa4359d9882e0c13d7c4bd6792a5281361baef50d294e65e570adfe5
+
+20. Natural Blue Moonstone loose gemstone.jpg (stone_20.jpg)
+Автор: Gemsphoto
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Natural_Blue_Moonstone_loose_gemstone.jpg
+SHA-256: cc41a000898b088004ead7872e28b7a7d03f14e823c3d1cbf4a46ba0631ca7ca
+
+21. Sunstone 3.jpg (stone_21.jpg)
+Автор: James St. John
+Лицензия: CC BY 2.0 https://creativecommons.org/licenses/by/2.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Sunstone_3.jpg
+SHA-256: 593f5f9a3c170ee42950b7ff219c2f2d2e6d8410947d308df2c45aad750e1eb2
+
+22. Morganite cut.jpg (stone_22.jpg)
+Автор: Eurico Zimbres    Zimbres
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Morganite_cut.jpg
+SHA-256: 1ad9bd228c68f2b855651b5988d49aa3f7f5b3577ca14b06a8855729dc523861
+
+23. Kunzite 4 (Brésil).jpg (stone_23.jpg)
+Автор: Géry PARENT
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Kunzite_4_(Br%C3%A9sil).jpg
+SHA-256: 73359e1bde5b9ee3fc46066338b8dddd3808afcde9fed737a6287e39aa582b23
+
+24. Alexandrite.jpg (stone_24.jpg)
+Автор: Vzb83
+Лицензия: CC BY-SA 3.0 http://creativecommons.org/licenses/by-sa/3.0/
+Дереккөз: https://commons.wikimedia.org/wiki/File:Alexandrite.jpg
+SHA-256: 95e9187253aa7ce50558248180f56dfc8c3a01b031ed0d03d0abaaf71d94f19b
+
+25. Rose quartz 12.jpg (stone_25.jpg)
+Автор: James St. John
+Лицензия: CC BY 2.0 https://creativecommons.org/licenses/by/2.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Rose_quartz_12.jpg
+SHA-256: f4fc7628af4b54595156a37f87791a6c0d909c881f4a4f2ce81fd9facd76de75
+
+26. Quartz Brésil.jpg (stone_26.jpg)
+Автор: Didier Descouens
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Quartz_Br%C3%A9sil.jpg
+SHA-256: 7f0ca58c7a09be2e64a5cbfccbf0b09d420dedcfe34ebfabef7467b483b38257
+
+27. Smoky Quartz - Faceted gem of Smoky Quartz from Czech Republic.jpg (stone_27.jpg)
+Автор: AdamStejskal
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Smoky_Quartz_-_Faceted_gem_of_Smoky_Quartz_from_Czech_Republic.jpg
+SHA-256: 12291ca8e60b131a74335e19b41b09b0dce5d63dd7d033d91a35078ccd36b6cb
+
+28. Natural ametrine round gemstone.jpg (stone_28.jpg)
+Автор: Gemsphoto
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Natural_ametrine_round_gemstone.jpg
+SHA-256: ad080e1df3db06d9c08f1b8204a2706fa2f90b3b8ef6fd0043571c550bc6b979
+
+29. Blue high oval chalcedony cabochon 1.jpg (stone_29.jpg)
+Автор: W.carter
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Blue_high_oval_chalcedony_cabochon_1.jpg
+SHA-256: 3270e8b1fbba476889fcf11b2d7faf896c21bf0285f51ebe978dd9399dc420f2
+
+30. Three oval carnelian cabochons 1.jpg (stone_30.jpg)
+Автор: W.carter
+Лицензия: CC BY 4.0 https://creativecommons.org/licenses/by/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Three_oval_carnelian_cabochons_1.jpg
+SHA-256: e9f39316e3d9969d8274daa8c6b55614c1f76b3ddf65dbc5911e22f08ac3739b
+
+31. Chrysoprase cabochon 1.jpg (stone_31.jpg)
+Автор: W.carter
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Chrysoprase_cabochon_1.jpg
+SHA-256: adeeb55cbc35a0be84133ba9138aa582821ebc9a319fa38ac4566361f9cb77c1
+
+32. Lapis Lazuli, Afganistan.jpg (stone_32.jpg)
+Автор: Chris Oxford
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Lapis_Lazuli,_Afganistan.jpg
+SHA-256: 93153ec03c99eaf2a711cda26bed4e472c07f907f5c3af0da4eeabe314930c3a
+
+33. Nephrite jordanow slaski.jpg (stone_33.jpg)
+Автор: Piotr Sosnowski
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Nephrite_jordanow_slaski.jpg
+SHA-256: ca207e7d1cbe9abd6b78097bcf0d08b10c90c157067acdca4f5975ca98056979
+
+34. Burmese jadeite faceted stones - - Burke Museum.jpg (stone_34.jpg)
+Автор: Joe Mabel
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Burmese_jadeite_faceted_stones_-_-_Burke_Museum.jpg
+SHA-256: 3a196b628046bb1781e6b534b25e45b91e28cfe48cabff3c5d6e6d04b0a2a065
+
+35. Tumble-polished Baltic amber 2.jpg (stone_35.jpg)
+Автор: W.carter
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Tumble-polished_Baltic_amber_2.jpg
+SHA-256: e8e1740e5e731d533105f40c7449a0148866f28d2381038c3590000446cf9fec
+
+36. Various pearls.jpg (stone_36.jpg)
+Автор: MASAYUKI KATO
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Various_pearls.jpg
+SHA-256: 3d342bb689c47720b9e434654b3fd78fd40ee3aafe3d279bea2173e0c726c185
+
+37. Malachite, Zaire.jpg (stone_37.jpg)
+Автор: JJ Harrison (https://www.jjharrison.com.au/)
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Malachite,_Zaire.jpg
+SHA-256: bc68e27d355c1feddd3f5a1fe0a90c5c548da2165b11eb6ff4c6722450b47bb8
+
+38. Tiger's eye - A.jpg (stone_38.jpg)
+Автор: Mauro Cateb
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Tiger%27s_eye_-_A.jpg
+SHA-256: 5dda4f3ccadced924a7f9fab53e0bd4e641bf6b07b3baaeed53dbadc793e9d30
+
+39. Aventurine.jpg (stone_39.jpg)
+Автор: Doobuzz at English Wikipedia
+Лицензия: CC BY-SA 3.0 http://creativecommons.org/licenses/by-sa/3.0/
+Дереккөз: https://commons.wikimedia.org/wiki/File:Aventurine.jpg
+SHA-256: af85487f32fd7ae605f0065efbc3aa9f2db1258a552aa5eaf7b2d65b58c49a1a
+
+40. Labradorite polie 3(Madagascar).jpg (stone_40.jpg)
+Автор: Parent Géry
+Лицензия: Public domain https://commons.wikimedia.org/wiki/Template:PD-self
+Дереккөз: https://commons.wikimedia.org/wiki/File:Labradorite_polie_3(Madagascar).jpg
+SHA-256: 01b4a4e26573e150bc75102e29faa332a6e3a6cf82835b3fcff94f3a51b45a20
+
+41. Amazonita1.jpeg (stone_41.jpg)
+Автор: Tom Epaminondas (mineral collector) and Eurico Zimbres (FGEL/UERJ)
+Лицензия: CC BY-SA 2.0 br https://creativecommons.org/licenses/by-sa/2.0/br/deed.en
+Дереккөз: https://commons.wikimedia.org/wiki/File:Amazonita1.jpeg
+SHA-256: 7240c81133ad13bdbb8af3fb11a55dcc198dce4b11882effb3960b9ed04eb914
+
+42. Cordierite cut.jpg (stone_42.jpg)
+Автор: Eurico Zimbres        Zimbres
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Cordierite_cut.jpg
+SHA-256: 1342e6bf06836daaf6e31969b0033a71d1a0b6a98e9956f1bbd50666fe8b93ee
+
+43. 8224M-rhodonite3.jpg (stone_43.jpg)
+Автор: CarlesMillan
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:8224M-rhodonite3.jpg
+SHA-256: c963771349de4a1ac760d7474802502b2a21bbd5bfa2a4a4a2ee53d86ce23343
+
+44. Rhodochrosite on Matrix - Peru.jpg (stone_44.jpg)
+Автор: JJ Harrison (https://www.jjharrison.com.au/)
+Лицензия: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Rhodochrosite_on_Matrix_-_Peru.jpg
+SHA-256: bdd504038503246fa5e32956a9575d0b83edfb914744fd96304e8022945b759d
+
+45. Sodalith - Rohstein.jpg (stone_45.jpg)
+Автор: Ra'ike (see also: de:Benutzer:Ra'ike)
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Sodalith_-_Rohstein.jpg
+SHA-256: 6d34750f0c60483005a7a3329d6f92f81cdd17ba3fd355ef8fb63dff6cc23339
+
+46. 3192M-fluorite1.jpg (stone_46.jpg)
+Автор: CarlesMillan
+Лицензия: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:3192M-fluorite1.jpg
+SHA-256: 3a9b772581d3ddf534acc97ad794ea883d9657ac29dbdfdbc799bd27106fa1e1
+
+47. Apatite on Siderite (13156440584).jpg (stone_47.jpg)
+Автор: Thomas Spann
+Лицензия: CC BY 2.0 https://creativecommons.org/licenses/by/2.0
+Дереккөз: https://commons.wikimedia.org/wiki/File:Apatite_on_Siderite_(13156440584).jpg
+SHA-256: a023eaae1e04ac0654f2ce39482645d00012d45b6123a0bc7825bce719b79c53
+
+48. WLA hmns Hematite.jpg (stone_48.jpg)
+Автор: Wikipedia Loves Art participant "Assignment_Houston_One"
+Лицензия: CC BY-SA 2.5 https://creativecommons.org/licenses/by-sa/2.5
+Дереккөз: https://commons.wikimedia.org/wiki/File:WLA_hmns_Hematite.jpg
+SHA-256: 2fc18700faf0e1482911c902492e942df39a39014c6349e89627f2cbc47f555b
 

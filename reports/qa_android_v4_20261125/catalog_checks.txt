@@ -1,0 +1,153 @@
+PASS catalog exposes 48 stable stone IDs
+PASS SQLite seeds all 48 catalog rows
+PASS metadata exists for stone 1
+PASS photo resource is packaged for stone 1
+PASS metadata exists for stone 2
+PASS photo resource is packaged for stone 2
+PASS metadata exists for stone 3
+PASS photo resource is packaged for stone 3
+PASS metadata exists for stone 4
+PASS photo resource is packaged for stone 4
+PASS metadata exists for stone 5
+PASS photo resource is packaged for stone 5
+PASS metadata exists for stone 6
+PASS photo resource is packaged for stone 6
+PASS metadata exists for stone 7
+PASS photo resource is packaged for stone 7
+PASS metadata exists for stone 8
+PASS photo resource is packaged for stone 8
+PASS metadata exists for stone 9
+PASS photo resource is packaged for stone 9
+PASS metadata exists for stone 10
+PASS photo resource is packaged for stone 10
+PASS metadata exists for stone 11
+PASS photo resource is packaged for stone 11
+PASS metadata exists for stone 12
+PASS photo resource is packaged for stone 12
+PASS metadata exists for stone 13
+PASS photo resource is packaged for stone 13
+PASS metadata exists for stone 14
+PASS photo resource is packaged for stone 14
+PASS metadata exists for stone 15
+PASS photo resource is packaged for stone 15
+PASS metadata exists for stone 16
+PASS photo resource is packaged for stone 16
+PASS metadata exists for stone 17
+PASS photo resource is packaged for stone 17
+PASS metadata exists for stone 18
+PASS photo resource is packaged for stone 18
+PASS metadata exists for stone 19
+PASS photo resource is packaged for stone 19
+PASS metadata exists for stone 20
+PASS photo resource is packaged for stone 20
+PASS metadata exists for stone 21
+PASS photo resource is packaged for stone 21
+PASS metadata exists for stone 22
+PASS photo resource is packaged for stone 22
+PASS metadata exists for stone 23
+PASS photo resource is packaged for stone 23
+PASS metadata exists for stone 24
+PASS photo resource is packaged for stone 24
+PASS metadata exists for stone 25
+PASS photo resource is packaged for stone 25
+PASS metadata exists for stone 26
+PASS photo resource is packaged for stone 26
+PASS metadata exists for stone 27
+PASS photo resource is packaged for stone 27
+PASS metadata exists for stone 28
+PASS photo resource is packaged for stone 28
+PASS metadata exists for stone 29
+PASS photo resource is packaged for stone 29
+PASS metadata exists for stone 30
+PASS photo resource is packaged for stone 30
+PASS metadata exists for stone 31
+PASS photo resource is packaged for stone 31
+PASS metadata exists for stone 32
+PASS photo resource is packaged for stone 32
+PASS metadata exists for stone 33
+PASS photo resource is packaged for stone 33
+PASS metadata exists for stone 34
+PASS photo resource is packaged for stone 34
+PASS metadata exists for stone 35
+PASS photo resource is packaged for stone 35
+PASS metadata exists for stone 36
+PASS photo resource is packaged for stone 36
+PASS metadata exists for stone 37
+PASS photo resource is packaged for stone 37
+PASS metadata exists for stone 38
+PASS photo resource is packaged for stone 38
+PASS metadata exists for stone 39
+PASS photo resource is packaged for stone 39
+PASS metadata exists for stone 40
+PASS photo resource is packaged for stone 40
+PASS metadata exists for stone 41
+PASS photo resource is packaged for stone 41
+PASS metadata exists for stone 42
+PASS photo resource is packaged for stone 42
+PASS metadata exists for stone 43
+PASS photo resource is packaged for stone 43
+PASS metadata exists for stone 44
+PASS photo resource is packaged for stone 44
+PASS metadata exists for stone 45
+PASS photo resource is packaged for stone 45
+PASS metadata exists for stone 46
+PASS photo resource is packaged for stone 46
+PASS metadata exists for stone 47
+PASS photo resource is packaged for stone 47
+PASS metadata exists for stone 48
+PASS photo resource is packaged for stone 48
+PASS original ruby price/weight remain exact in SQLite
+PASS English alias search finds new gemstone
+PASS unknown query produces empty result
+PASS price boundaries include equality
+PASS price filter excludes different price
+PASS comma decimal and transparency boundaries stay exact
+PASS reversed price range rejected
+PASS reversed carat range rejected
+PASS negative price rejected
+PASS scientific price input rejected
+PASS reversed transparency range rejected
+PASS filter active marker reflects limits
+PASS guest can compare new catalog stones
+PASS comparison limit of three is enforced atomically
+PASS rejected fourth comparison leaves original three
+PASS comparison toggles off
+PASS account comparison excludes guest selection
+PASS comparison isolates different accounts
+PASS foreign clear cannot delete account comparison
+PASS recent history is limited to twelve
+PASS recent history sorts newest first and trims oldest
+PASS reopening a stone moves it first without duplication
+PASS unknown history ID is rejected
+PASS recent history is private to current account
+PASS other account history clear is isolated
+PASS Kazakh personal note persists
+PASS personal note list points to saved stone
+PASS oversized personal note rejected
+PASS notes are inaccessible to another account
+PASS guest cannot read account notes
+PASS guest cannot save personal note
+PASS another account note does not overwrite original
+PASS empty note removes own record
+PASS comparison and note survive database reopen
+PASS new database leaves guest necklace untouched
+PASS existing saved necklace survives catalog creation
+PASS existing account credentials survive new feature writes
+PASS new stone ID persists through necklace database
+PASS order snapshot supports added catalog IDs
+PASS three verified campus places are bundled
+PASS user requested Pushkin 9 is the first meeting point
+PASS coordinates and references exist for pushkin9
+PASS coordinates and references exist for enu_pushkin11
+PASS coordinates and references exist for enu_main
+PASS same-coordinate distance is zero
+PASS ENU straight-line distance is geographic, not route length
+PASS invalid latitude rejected
+PASS current GPS fix accepted
+PASS two-minute GPS boundary included
+PASS stale GPS fix is not used for routes
+PASS future GPS timestamp is rejected
+PASS missing GPS fix is handled
+PASS location declares foreground permissions and no background tracking
+PASS: 151 v4 checks
+

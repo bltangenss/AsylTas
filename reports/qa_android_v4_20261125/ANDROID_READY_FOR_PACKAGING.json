@@ -1,0 +1,20 @@
+{
+  "status": "ready",
+  "created_utc": "2026-11-25T17:18:09.198915+00:00",
+  "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5",
+  "model_checks": 387,
+  "portal_checks": 92,
+  "catalog_checks": 151,
+  "ui_checks": 32,
+  "licensed_photos": 48,
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 286
+  },
+  "limitations": [
+    "Pixel_4 API29 emulator only; no physical phone or real iPhone validation.",
+    "GPS tested with synthetic ENU coordinates, not a live physical GPS signal.",
+    "Android and website account databases are separate; no automatic sync or bank payments."
+  ]
+}

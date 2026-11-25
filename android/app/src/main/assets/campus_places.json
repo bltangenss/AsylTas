@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pushkin9",
+    "name": "Кездесу орны · Пушкин 9",
+    "address": "Астана, Александр Пушкин көшесі, 9",
+    "lat": 51.157546,
+    "lon": 71.458645,
+    "description": "Жоба үшін таңдалған кездесу орны, ЕҰУ маңында. Университеттің ресми корпусы немесе дүкен ретінде көрсетілмейді.",
+    "source": "Пайдаланушы көрсеткен мекенжай",
+    "coordinate_source": "https://yandex.kz/maps/ru/163/astana/house/aleksandr_pushkin_koshesi_9/Y0gYcgJoT0ECQFtrfX10dnlnYg==/?lang=ru"
+  },
+  {
+    "id": "enu_pushkin11",
+    "name": "ЕҰУ · Пушкин 11",
+    "address": "Астана, Александр Пушкин көшесі, 11",
+    "lat": 51.159897,
+    "lon": 71.465239,
+    "description": "ЕҰУ оқу корпусы және ғылыми кітапхана орналасқан мекенжай. Кіру тәртібі мен қажетті аудиторияны университеттен нақтылаңыз.",
+    "source": "https://fit.enu.kz/ru/page/departments/computer-science-department/material-and-technical-resources",
+    "coordinate_source": "https://yandex.kz/maps/ru/163/astana/house/Y0gYcgFlS0YOQFtrfX10eHRqYg==/"
+  },
+  {
+    "id": "enu_main",
+    "name": "ЕҰУ · Бас корпус",
+    "address": "Астана, Қаныш Сәтбаев көшесі, 2",
+    "lat": 51.157896,
+    "lon": 71.467772,
+    "description": "Л. Н. Гумилев атындағы Еуразия ұлттық университетінің бас корпусы.",
+    "source": "https://enu.kz/ru/page/education/career/contacts",
+    "coordinate_source": "https://yandex.kz/maps/ru/163/astana/house/qanysh_satbaev_koshesi_2/Y0gYcgFnTkIFQFtrfX10dnRqYg==/"
+  }
+]

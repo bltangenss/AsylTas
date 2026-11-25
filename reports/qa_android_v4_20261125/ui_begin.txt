@@ -1,0 +1,2 @@
+V4 UI fixture begun. Session, store settings, guest necklace/collections, guest comparison/history/notes and appearance/campus preferences preserved. Allowlisted emails: qa4.verify@asyltas.test, qa4.customer@asyltas.test.
+

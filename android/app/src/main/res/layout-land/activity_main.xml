@@ -10,7 +10,8 @@
                     <Spinner android:layout_width="0dp" android:layout_height="50dp" android:id="@+id/category_spinner" android:layout_weight="1" android:spinnerMode="dropdown" android:background="@drawable/bg_surface" android:contentDescription="Тас санаты" />
                     <Button android:layout_width="96dp" android:layout_height="48dp" android:id="@+id/catalog_sort" android:text="Баға ↕" style="@style/SecondaryButton" android:layout_marginLeft="10dp" />
                 </LinearLayout>
-                <CheckBox android:layout_width="match_parent" android:layout_height="40dp" android:id="@+id/favorite_only" android:text="Таңдаулылар" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginBottom="8dp" />
+                <include layout="@layout/catalog_tools" />
+        <CheckBox android:layout_width="match_parent" android:layout_height="40dp" android:id="@+id/favorite_only" android:text="Таңдаулылар" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginBottom="8dp" />
             </LinearLayout>
         </ScrollView>
         <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">

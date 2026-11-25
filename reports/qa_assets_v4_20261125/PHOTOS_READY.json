@@ -1,0 +1,860 @@
+{
+  "status": "passed",
+  "created_utc": "2026-11-25T16:40:51.498936+00:00",
+  "catalog_version": "4.0",
+  "verification_counts": {
+    "photos": 48,
+    "new_photos": 36,
+    "valid_jpegs": 48,
+    "sha256_matches": 48,
+    "android_online_byte_matches": 48,
+    "permitted_licenses": 48,
+    "new_author_and_license_links": 36,
+    "original_photos_preserved": 12,
+    "original_credit_records_preserved": 12,
+    "visually_inspected_new_photos": 36,
+    "offline_cache_hits": 36,
+    "checks_passed": 12,
+    "checks_total": 12
+  },
+  "checks": [
+    {
+      "name": "Unique photo credit IDs 1–48",
+      "passed": true,
+      "count": 48
+    },
+    {
+      "name": "Unique selection IDs 13–48",
+      "passed": true,
+      "count": 36
+    },
+    {
+      "name": "Valid JPEG files, SHA256, source and permitted license",
+      "passed": true,
+      "count": 48
+    },
+    {
+      "name": "Android and online bytes identical",
+      "passed": true,
+      "count": 48
+    },
+    {
+      "name": "Complete new author and license URL attribution",
+      "passed": true,
+      "count": 36
+    },
+    {
+      "name": "Existing first 12 photo bytes and credit records unchanged",
+      "passed": true,
+      "count": 12
+    },
+    {
+      "name": "Three identical 48-record credit manifests",
+      "passed": true,
+      "count": 3
+    },
+    {
+      "name": "Three identical notices containing all 48 hashes",
+      "passed": true,
+      "count": 3
+    },
+    {
+      "name": "Photo IDs match shared and online 48-stone catalogs",
+      "passed": true,
+      "count": 48
+    },
+    {
+      "name": "Downloader Python syntax valid",
+      "passed": true
+    },
+    {
+      "name": "All 36 repeated downloads reuse cached source bytes without network",
+      "passed": true,
+      "count": 36
+    },
+    {
+      "name": "All 36 new photos visually checked using final contact sheets",
+      "passed": true,
+      "count": 36
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "file": "stone_1.jpg",
+      "source_file": "Round Brilliant Cut Diamond.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "6c77b5b705564a53adab2854d0afb5de42d9b0b4c30b93e4244e0489e2331ad0",
+      "bytes": 104077,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 2,
+      "file": "stone_2.jpg",
+      "source_file": "Cut Ruby.jpg",
+      "license": "Public domain",
+      "sha256": "7f16dad6f098ef8c19c4077686e79cc98f50e3b305424057c5374c5bc2b921ab",
+      "bytes": 56625,
+      "dimensions": [
+        380,
+        336
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 3,
+      "file": "stone_3.jpg",
+      "source_file": "Natural Zambian Emerald Gemstone.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "ce9b1c10e73756d2dafd798213b7326861eb8108a382dc6e11147532d93bbb64",
+      "bytes": 111746,
+      "dimensions": [
+        960,
+        931
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 4,
+      "file": "stone_4.jpg",
+      "source_file": "Sapphire radiant cut 1.15cts.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "5ff605b4b56170ec00b7c8173705bf7b3708bccb97471d0d021a58f4d730504e",
+      "bytes": 33547,
+      "dimensions": [
+        300,
+        300
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 5,
+      "file": "stone_5.jpg",
+      "source_file": "Facet Cut Amethyst.jpg",
+      "license": "CC BY 3.0",
+      "sha256": "82aec3f811cf5ba25fb5b5216601745a094051ecc474dc1aee03172830e9d283",
+      "bytes": 67670,
+      "dimensions": [
+        960,
+        806
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 6,
+      "file": "stone_6.jpg",
+      "source_file": "Kite-cut yellow topaz.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "4777c24575d80535c3f8b6f5b68769202cd1252e85b9e390bdc3829a2440c975",
+      "bytes": 45229,
+      "dimensions": [
+        941,
+        671
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 7,
+      "file": "stone_7.jpg",
+      "source_file": "Turquoise (Blue Moon Mine, Candelaria Hills, west of Tonopah, Nevada, USA) 1.jpg",
+      "license": "CC BY 2.0",
+      "sha256": "e9d6e6abc35f4582d3e5e761bef3a870b279f67d246894372297d7a64fafbaf7",
+      "bytes": 135744,
+      "dimensions": [
+        960,
+        609
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 8,
+      "file": "stone_8.jpg",
+      "source_file": "Two plain-cut rectangular red jasper pieces 1.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "e632ee3fdf2f25bc3dfc0ea6c0326e472dde4d65d29c8099ec04216f43545b7d",
+      "bytes": 130769,
+      "dimensions": [
+        960,
+        960
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 9,
+      "file": "stone_9.jpg",
+      "source_file": "Agate specimen.jpg",
+      "license": "CC BY 2.0",
+      "sha256": "7942068d1a708aebda7036c20a74fb8610fa4cf90e5940df13aceb0f1952981a",
+      "bytes": 103525,
+      "dimensions": [
+        800,
+        689
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 10,
+      "file": "stone_10.jpg",
+      "source_file": "Brazilian aquamarine - 1.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "668098a7380b0138298d83203fe60ee296b0a5586d3ae1b1e07bbd461b75719a",
+      "bytes": 110270,
+      "dimensions": [
+        960,
+        952
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 11,
+      "file": "stone_11.jpg",
+      "source_file": "Black oval onyx cabochons 1.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "e3b41c99343879b3fa35219921e07a6e3a845dfcd0cb3a73656917464d6904cc",
+      "bytes": 48504,
+      "dimensions": [
+        960,
+        540
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 12,
+      "file": "stone_12.jpg",
+      "source_file": "Brazilian citrine.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "f3dd2c4c7bb8baf41ff3cb09154f7850c3808498762e7525f2e2f6a789763429",
+      "bytes": 186243,
+      "dimensions": [
+        640,
+        473
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": false
+    },
+    {
+      "id": 13,
+      "file": "stone_13.jpg",
+      "source_file": "Four round faceted garnet gemstones 1.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "71bbe90035cf94b7b7e691788534b9566a3946ca5bca2bddbd8d8f48f4dd040e",
+      "bytes": 46021,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 14,
+      "file": "stone_14.jpg",
+      "source_file": "Precious opal (Berbere Hill, Ethiopia) 58 - 53321790833.jpg",
+      "license": "CC BY 2.0",
+      "sha256": "e7d2aac6b47f732b701bb286b7e1aaf33fe95ce8ac634953a638a48f6449eb9e",
+      "bytes": 301778,
+      "dimensions": [
+        960,
+        1374
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 15,
+      "file": "stone_15.jpg",
+      "source_file": "Peridot with ludwigite inclusion - faceted gemstone peridot from Pakistan.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "2c7a3491cd744487743b77302f46dedbdde2bb3f1f36454efc3a20b17b72bce2",
+      "bytes": 54063,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 16,
+      "file": "stone_16.jpg",
+      "source_file": "Tourmaline Gemstones.JPG",
+      "license": "Public domain",
+      "sha256": "3225f1c339941dc41f3745b1f0e2fc1bae5c2fe3ec2cee10846b7af61a0dd20b",
+      "bytes": 51976,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 17,
+      "file": "stone_17.jpg",
+      "source_file": "Spinel-153496.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "8c87143eac4d3800c2c115cbc8d2a8de3d998088e4eb0bb4a113dfe1db4f42c7",
+      "bytes": 157535,
+      "dimensions": [
+        800,
+        681
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 18,
+      "file": "stone_18.jpg",
+      "source_file": "Tanzanite marquise (navette) cut.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "663509b1da97d02980fc7ca32df3ebb99d64e452234d90005503e8fe501f9f04",
+      "bytes": 100387,
+      "dimensions": [
+        960,
+        754
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 19,
+      "file": "stone_19.jpg",
+      "source_file": "Faceted Zircon Gemstone.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "3a2f9e16fa4359d9882e0c13d7c4bd6792a5281361baef50d294e65e570adfe5",
+      "bytes": 6295,
+      "dimensions": [
+        200,
+        200
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 20,
+      "file": "stone_20.jpg",
+      "source_file": "Natural Blue Moonstone loose gemstone.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "cc41a000898b088004ead7872e28b7a7d03f14e823c3d1cbf4a46ba0631ca7ca",
+      "bytes": 160998,
+      "dimensions": [
+        960,
+        651
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 21,
+      "file": "stone_21.jpg",
+      "source_file": "Sunstone 3.jpg",
+      "license": "CC BY 2.0",
+      "sha256": "593f5f9a3c170ee42950b7ff219c2f2d2e6d8410947d308df2c45aad750e1eb2",
+      "bytes": 160829,
+      "dimensions": [
+        960,
+        820
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 22,
+      "file": "stone_22.jpg",
+      "source_file": "Morganite cut.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "1ad9bd228c68f2b855651b5988d49aa3f7f5b3577ca14b06a8855729dc523861",
+      "bytes": 830759,
+      "dimensions": [
+        876,
+        764
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 23,
+      "file": "stone_23.jpg",
+      "source_file": "Kunzite 4 (Brésil).jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "73359e1bde5b9ee3fc46066338b8dddd3808afcde9fed737a6287e39aa582b23",
+      "bytes": 161296,
+      "dimensions": [
+        960,
+        638
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 24,
+      "file": "stone_24.jpg",
+      "source_file": "Alexandrite.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "95e9187253aa7ce50558248180f56dfc8c3a01b031ed0d03d0abaaf71d94f19b",
+      "bytes": 68721,
+      "dimensions": [
+        500,
+        246
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 25,
+      "file": "stone_25.jpg",
+      "source_file": "Rose quartz 12.jpg",
+      "license": "CC BY 2.0",
+      "sha256": "f4fc7628af4b54595156a37f87791a6c0d909c881f4a4f2ce81fd9facd76de75",
+      "bytes": 143166,
+      "dimensions": [
+        960,
+        731
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 26,
+      "file": "stone_26.jpg",
+      "source_file": "Quartz Brésil.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "7f0ca58c7a09be2e64a5cbfccbf0b09d420dedcfe34ebfabef7467b483b38257",
+      "bytes": 130936,
+      "dimensions": [
+        960,
+        818
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 27,
+      "file": "stone_27.jpg",
+      "source_file": "Smoky Quartz - Faceted gem of Smoky Quartz from Czech Republic.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "12291ca8e60b131a74335e19b41b09b0dce5d63dd7d033d91a35078ccd36b6cb",
+      "bytes": 62766,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 28,
+      "file": "stone_28.jpg",
+      "source_file": "Natural ametrine round gemstone.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "ad080e1df3db06d9c08f1b8204a2706fa2f90b3b8ef6fd0043571c550bc6b979",
+      "bytes": 57066,
+      "dimensions": [
+        960,
+        638
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 29,
+      "file": "stone_29.jpg",
+      "source_file": "Blue high oval chalcedony cabochon 1.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "3270e8b1fbba476889fcf11b2d7faf896c21bf0285f51ebe978dd9399dc420f2",
+      "bytes": 55434,
+      "dimensions": [
+        960,
+        960
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 30,
+      "file": "stone_30.jpg",
+      "source_file": "Three oval carnelian cabochons 1.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "e9f39316e3d9969d8274daa8c6b55614c1f76b3ddf65dbc5911e22f08ac3739b",
+      "bytes": 29068,
+      "dimensions": [
+        960,
+        540
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 31,
+      "file": "stone_31.jpg",
+      "source_file": "Chrysoprase cabochon 1.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "adeeb55cbc35a0be84133ba9138aa582821ebc9a319fa38ac4566361f9cb77c1",
+      "bytes": 452049,
+      "dimensions": [
+        812,
+        811
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 32,
+      "file": "stone_32.jpg",
+      "source_file": "Lapis Lazuli, Afganistan.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "93153ec03c99eaf2a711cda26bed4e472c07f907f5c3af0da4eeabe314930c3a",
+      "bytes": 109875,
+      "dimensions": [
+        960,
+        1019
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 33,
+      "file": "stone_33.jpg",
+      "source_file": "Nephrite jordanow slaski.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "ca207e7d1cbe9abd6b78097bcf0d08b10c90c157067acdca4f5975ca98056979",
+      "bytes": 147739,
+      "dimensions": [
+        960,
+        768
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 34,
+      "file": "stone_34.jpg",
+      "source_file": "Burmese jadeite faceted stones - - Burke Museum.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "3a196b628046bb1781e6b534b25e45b91e28cfe48cabff3c5d6e6d04b0a2a065",
+      "bytes": 236673,
+      "dimensions": [
+        960,
+        946
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 35,
+      "file": "stone_35.jpg",
+      "source_file": "Tumble-polished Baltic amber 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "e8e1740e5e731d533105f40c7449a0148866f28d2381038c3590000446cf9fec",
+      "bytes": 165341,
+      "dimensions": [
+        960,
+        721
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 36,
+      "file": "stone_36.jpg",
+      "source_file": "Various pearls.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "3d342bb689c47720b9e434654b3fd78fd40ee3aafe3d279bea2173e0c726c185",
+      "bytes": 187968,
+      "dimensions": [
+        600,
+        600
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 37,
+      "file": "stone_37.jpg",
+      "source_file": "Malachite, Zaire.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "bc68e27d355c1feddd3f5a1fe0a90c5c548da2165b11eb6ff4c6722450b47bb8",
+      "bytes": 143935,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 38,
+      "file": "stone_38.jpg",
+      "source_file": "Tiger's eye - A.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "5dda4f3ccadced924a7f9fab53e0bd4e641bf6b07b3baaeed53dbadc793e9d30",
+      "bytes": 172760,
+      "dimensions": [
+        960,
+        747
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 39,
+      "file": "stone_39.jpg",
+      "source_file": "Aventurine.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "af85487f32fd7ae605f0065efbc3aa9f2db1258a552aa5eaf7b2d65b58c49a1a",
+      "bytes": 119116,
+      "dimensions": [
+        800,
+        600
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 40,
+      "file": "stone_40.jpg",
+      "source_file": "Labradorite polie 3(Madagascar).jpg",
+      "license": "Public domain",
+      "sha256": "01b4a4e26573e150bc75102e29faa332a6e3a6cf82835b3fcff94f3a51b45a20",
+      "bytes": 178494,
+      "dimensions": [
+        960,
+        638
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 41,
+      "file": "stone_41.jpg",
+      "source_file": "Amazonita1.jpeg",
+      "license": "CC BY-SA 2.0 br",
+      "sha256": "7240c81133ad13bdbb8af3fb11a55dcc198dce4b11882effb3960b9ed04eb914",
+      "bytes": 170101,
+      "dimensions": [
+        960,
+        641
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 42,
+      "file": "stone_42.jpg",
+      "source_file": "Cordierite cut.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "1342e6bf06836daaf6e31969b0033a71d1a0b6a98e9956f1bbd50666fe8b93ee",
+      "bytes": 301578,
+      "dimensions": [
+        557,
+        445
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 43,
+      "file": "stone_43.jpg",
+      "source_file": "8224M-rhodonite3.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "c963771349de4a1ac760d7474802502b2a21bbd5bfa2a4a4a2ee53d86ce23343",
+      "bytes": 268878,
+      "dimensions": [
+        960,
+        884
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 44,
+      "file": "stone_44.jpg",
+      "source_file": "Rhodochrosite on Matrix - Peru.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "bdd504038503246fa5e32956a9575d0b83edfb914744fd96304e8022945b759d",
+      "bytes": 193973,
+      "dimensions": [
+        960,
+        640
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 45,
+      "file": "stone_45.jpg",
+      "source_file": "Sodalith - Rohstein.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "6d34750f0c60483005a7a3329d6f92f81cdd17ba3fd355ef8fb63dff6cc23339",
+      "bytes": 206761,
+      "dimensions": [
+        960,
+        751
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 46,
+      "file": "stone_46.jpg",
+      "source_file": "3192M-fluorite1.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "3a9b772581d3ddf534acc97ad794ea883d9657ac29dbdfdbc799bd27106fa1e1",
+      "bytes": 182796,
+      "dimensions": [
+        960,
+        842
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 47,
+      "file": "stone_47.jpg",
+      "source_file": "Apatite on Siderite (13156440584).jpg",
+      "license": "CC BY 2.0",
+      "sha256": "a023eaae1e04ac0654f2ce39482645d00012d45b6123a0bc7825bce719b79c53",
+      "bytes": 108065,
+      "dimensions": [
+        960,
+        688
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    },
+    {
+      "id": 48,
+      "file": "stone_48.jpg",
+      "source_file": "WLA hmns Hematite.jpg",
+      "license": "CC BY-SA 2.5",
+      "sha256": "2fc18700faf0e1482911c902492e942df39a39014c6349e89627f2cbc47f555b",
+      "bytes": 461089,
+      "dimensions": [
+        900,
+        678
+      ],
+      "jpeg_valid": true,
+      "android_online_identical": true,
+      "visually_inspected_in_this_task": true
+    }
+  ],
+  "license_counts": {
+    "CC BY-SA 4.0": 13,
+    "Public domain": 3,
+    "CC BY 4.0": 8,
+    "CC BY-SA 3.0": 15,
+    "CC BY 3.0": 1,
+    "CC BY 2.0": 6,
+    "CC BY-SA 2.0 br": 1,
+    "CC BY-SA 2.5": 1
+  },
+  "bytes_per_platform": 7520234,
+  "new_bytes_per_platform": 6386285,
+  "credit_manifests": [
+    {
+      "path": "android/app/src/main/assets/photo_credits.json",
+      "sha256": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c"
+    },
+    {
+      "path": "site_online/public/assets/photo_credits.json",
+      "sha256": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c"
+    },
+    {
+      "path": "shared/catalog/photo_credits_v4.json",
+      "sha256": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c"
+    }
+  ],
+  "notices": [
+    "PHOTO_CREDITS.txt",
+    "android/app/src/main/assets/PHOTO_CREDITS.txt",
+    "site_online/public/assets/PHOTO_CREDITS.txt"
+  ],
+  "contact_sheets": [
+    "reports/qa_assets_v4_20261125/contact_sheet_13_24.jpg",
+    "reports/qa_assets_v4_20261125/contact_sheet_25_36.jpg",
+    "reports/qa_assets_v4_20261125/contact_sheet_37_48.jpg"
+  ],
+  "boundaries": {
+    "existing_photo_1_12_bytes_changed": false,
+    "application_catalog_model_code_changed": false,
+    "generated_or_drawn_product_images": false,
+    "asset_bytes_edited": false,
+    "only_new_photo_files_credits_script_and_asset_reports_written": true
+  },
+  "attribution_notes": [
+    "Amazonita1.jpeg author was read from Commons source wikitext because its legacy page lacks an Information infobox: Tom Epaminondas and Eurico Zimbres. Evidence: attribution_source_wikitext.json.",
+    "Public-domain photos 16 and 40 explicitly use Commons PD-self. Their license links point to that declaration.",
+    "Existing first 12 credit records are preserved exactly, including their original metadata."
+  ],
+  "limitations": [
+    "Photo 19 is its 200×200 original JPEG; no upscaling or invented detail was applied.",
+    "Photo 24 is a 500×246 image showing natural alexandrite in two lighting conditions. Some entries intentionally show mineral specimens rather than finished gems.",
+    "Photos illustrate stone types. Catalog price, carat and transparency data are educational and do not price the photographed specimens."
+  ],
+  "messages_to_root": [
+    "48 real licensed Commons photos and all credit manifests are ready for Android/online builds.",
+    "Do not include QA contact sheets, alternatives or candidate metadata as catalog images."
+  ]
+}

@@ -3,6 +3,7 @@ package kz.asyltas.android;
 import android.content.Context;
 import android.graphics.*;
 import android.util.AttributeSet;
+import android.util.LruCache;
 import android.view.View;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,21 +14,10 @@ import kz.asyltas.model.Stone;
 public class GemView extends View {
   private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.FILTER_BITMAP_FLAG);
   private int color = 0xFF26896D;
-  private static final Map<Integer, Bitmap> PHOTOS = new HashMap<>();
-  private static final int[] RES = {
-    0,
-    R.drawable.stone_1,
-    R.drawable.stone_2,
-    R.drawable.stone_3,
-    R.drawable.stone_4,
-    R.drawable.stone_5,
-    R.drawable.stone_6,
-    R.drawable.stone_7,
-    R.drawable.stone_8,
-    R.drawable.stone_9,
-    R.drawable.stone_10,
-    R.drawable.stone_11,
-    R.drawable.stone_12
+  private static final Map<Integer, Integer> RESOURCES = new HashMap<>();
+  private static Context app;
+  private static final LruCache<Integer, Bitmap> PHOTOS = new LruCache<Integer, Bitmap>(12 * 1024 * 1024) {
+    @Override protected int sizeOf(Integer key, Bitmap value) { return value.getAllocationByteCount(); }
   };
 
   public GemView(Context c, AttributeSet a) {
@@ -36,18 +26,27 @@ public class GemView extends View {
   }
 
   static synchronized void preload(Context c) {
-    if (!PHOTOS.isEmpty()) return;
+    if (!RESOURCES.isEmpty()) return;
+    app = c.getApplicationContext();
     for (Stone stone : Catalog.all()) {
-      BitmapFactory.Options o = new BitmapFactory.Options();
-      o.inScaled = false;
-      o.inJustDecodeBounds = true;
-      BitmapFactory.decodeResource(c.getResources(), RES[stone.getId()], o);
-      o.inSampleSize = Math.max(o.outWidth, o.outHeight) > 800 ? 2 : 1;
-      o.inJustDecodeBounds = false;
-      PHOTOS.put(
-          Color.parseColor(stone.getColor()),
-          BitmapFactory.decodeResource(c.getResources(), RES[stone.getId()], o));
+      int resource = c.getResources().getIdentifier("stone_" + stone.getId(), "drawable", c.getPackageName());
+      if (resource != 0) RESOURCES.put(Color.parseColor(stone.getColor()), resource);
     }
+  }
+
+  private static synchronized Bitmap photoFor(int color) {
+    Bitmap bitmap = PHOTOS.get(color);
+    if (bitmap != null) return bitmap;
+    Integer resource = RESOURCES.get(color);
+    if (resource == null || app == null) return null;
+    BitmapFactory.Options options = new BitmapFactory.Options(); options.inScaled = false; options.inJustDecodeBounds = true;
+    BitmapFactory.decodeResource(app.getResources(), resource, options);
+    int largest = Math.max(options.outWidth, options.outHeight); options.inSampleSize = 1;
+    while (largest / options.inSampleSize > 640) options.inSampleSize *= 2;
+    options.inJustDecodeBounds = false;
+    bitmap = BitmapFactory.decodeResource(app.getResources(), resource, options);
+    if (bitmap != null) PHOTOS.put(color, bitmap);
+    return bitmap;
   }
 
   public void setColor(String value) {
@@ -79,7 +78,7 @@ public class GemView extends View {
     canvas.save();
     canvas.clipPath(path);
     canvas.drawColor(Color.WHITE);
-    photo(canvas, paint, PHOTOS.get(color), new RectF(0, 0, getWidth(), getHeight()));
+    photo(canvas, paint, photoFor(color), new RectF(0, 0, getWidth(), getHeight()));
     canvas.restore();
   }
 
@@ -96,7 +95,7 @@ public class GemView extends View {
     photo(
         canvas,
         paint,
-        PHOTOS.get(color),
+        photoFor(color),
         new RectF(x - radius, y - radius, x + radius, y + radius));
     canvas.restore();
   }

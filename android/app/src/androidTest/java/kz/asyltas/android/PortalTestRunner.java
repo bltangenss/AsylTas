@@ -16,6 +16,8 @@ public class PortalTestRunner extends Instrumentation {
   private void rejected(Runnable action,String label){try{action.run();}catch(IllegalArgumentException expected){check(true,label);return;}throw new AssertionError(label);}
   @Override public void onCreate(Bundle args){super.onCreate(args);if(args!=null)mode=args.getString("mode","checks");start();}
   @Override public void onStart(){
+    if(mode.equals("v4_checks")){new V4Checks().run(this);return;}
+    if(mode.equals("v4_ui_begin")||mode.equals("v4_ui_cleanup")){new V4UiFixture().run(this,mode.equals("v4_ui_begin"));return;}
     if(mode.equals("ui_begin")||mode.equals("ui_cleanup")){uiFixture();return;}
     Context c=getTargetContext();long original=Session.user(c);boolean active=Session.active(c);String portal="portal_verification_only.db",neck="necklace_v3_verification_only.db",v1="necklace_v1_v3_verification_only.db";
     AppStore store=null;NecklaceDatabase designs=null;Bundle result=new Bundle();boolean success=false;

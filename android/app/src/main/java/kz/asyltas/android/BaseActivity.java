@@ -30,6 +30,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
   protected Necklace necklace = new Necklace();
   protected NecklaceDatabase database;
   protected AppStore store;
+  protected CatalogDatabase catalogData;
   private boolean storageReady;
   private String savedState = "";
 
@@ -38,6 +39,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
     super.onCreate(state);
     database = new NecklaceDatabase(this);
     store = new AppStore(this);
+    catalogData = new CatalogDatabase(this);
   }
 
   protected void prepare(int layout, String title) {
@@ -149,7 +151,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
     if (store.user() != null) return true;
     new AlertDialog.Builder(this)
         .setTitle("Аккаунтқа кіріңіз")
-        .setMessage("Таңдаулылар мен өтінімдер жеке профиліңізде сақталады.")
+        .setMessage("Таңдаулылар, жеке жазбалар және өтінімдер профиліңізде сақталады.")
         .setNegativeButton("Кейін", null)
         .setPositiveButton(
             "Кіру",
@@ -186,18 +188,22 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     getMenuInflater().inflate(R.menu.main_menu, menu);
-    menu.add(0, 9101, 3, "Біз осындамыз");
+    menu.add(0, 9101, 3, "ЕҰУ маңы және GPS");
     menu.add(0, 9102, 4, "Фотосуреттер авторлары");
     menu.add(0, 9103, 5, "Профиль");
+    menu.add(0, 9104, 6, "Тастарды салыстыру");
+    menu.add(0, 9105, 7, "Соңғы қаралған тастар");
     return true;
   }
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     int id = item.getItemId();
-    if (id == 9101) hub("store");
+    if (id == 9101) open(CampusActivity.class, -1);
     else if (id == 9102) hub("credits");
     else if (id == 9103) hub("profile");
+    else if (id == 9104) library("compare");
+    else if (id == 9105) library("recent");
     else if (id == R.id.menu_demo) confirmDemo();
     else if (id == R.id.menu_clear) confirmClear();
     else if (id == R.id.menu_guide) open(GuideActivity.class, -1);
@@ -221,6 +227,18 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
               }
             })
         .show();
+  }
+
+  protected void library(String mode) {
+    startActivity(new Intent(this, LibraryActivity.class).putExtra("mode", mode));
+  }
+
+  protected void compare(int stone) {
+    try {
+      boolean added = catalogData.toggleCompare(stone);
+      Toast.makeText(this, added ? "Салыстыруға қосылды" : "Салыстырудан алынды", Toast.LENGTH_SHORT).show();
+      refresh();
+    } catch (IllegalArgumentException error) { refresh(); message(error.getMessage()); }
   }
 
   private void confirmClear() {
@@ -415,6 +433,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
   protected void onDestroy() {
     database.close();
     store.close();
+    catalogData.close();
     super.onDestroy();
   }
 }

@@ -16,4 +16,5 @@
         <Button android:layout_width="0dp" android:layout_height="48dp" android:id="@+id/stone_info_action" android:text="Тас туралы" style="@style/SecondaryButton" android:layout_weight="1" />
         <Button android:layout_width="0dp" android:layout_height="48dp" android:id="@+id/stone_add" android:text="+ Алқаға қосу" style="@style/ActionButton" android:layout_weight="1" android:layout_marginLeft="10dp" />
     </LinearLayout>
+    <CheckBox android:id="@+id/stone_compare" android:layout_width="match_parent" android:layout_height="48dp" android:text="Салыстыру" android:textSize="13sp" android:textColor="@color/text_secondary" />
 </LinearLayout>

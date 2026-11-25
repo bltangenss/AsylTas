@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Asyl Tas Study, O=Study Project, C=KZ
+Signer #1 certificate SHA-256 digest: abda22bd0792f2ec7ee342cfb2d297afb5721fe3778a8d6d7682bfaafa2103e1
+Signer #1 certificate SHA-1 digest: c860668884bb2ab561f63da57d6c4a4180ecc1b5
+Signer #1 certificate MD5 digest: fc4283be3ec7c4f21ca0002fd032ec5e
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 657110ed814dbcc0aba44bf52a33b637f2ecc4d5426ee001089d77f07810569e
+Signer #1 public key SHA-1 digest: 9217cd389140155c4f82ab2695f509317e051481
+Signer #1 public key MD5 digest: 4298f62c9357f32b32d09c9837b3def2

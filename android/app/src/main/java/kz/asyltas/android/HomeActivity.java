@@ -16,7 +16,7 @@ public class HomeActivity extends BaseActivity {
     findViewById(R.id.home_save).setOnClickListener(v -> saveCollection());
     findViewById(R.id.home_saved).setOnClickListener(v -> open(SavedActivity.class, -1));
     findViewById(R.id.home_orders).setOnClickListener(v -> hub("orders"));
-    findViewById(R.id.home_store).setOnClickListener(v -> hub("store"));
+    findViewById(R.id.home_store).setOnClickListener(v -> open(CampusActivity.class, -1));
     for (int[] item : new int[][] {{R.id.home_gem1, 1}, {R.id.home_gem2, 2}, {R.id.home_gem3, 3}}) {
       ((GemView) findViewById(item[0])).setColor(Catalog.get(item[1]).getColor());
       findViewById(item[0]).setOnClickListener(v -> open(StoneActivity.class, item[1]));

@@ -1,0 +1,327 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-25T16:52:19.015892+00:00",
+  "device": "emulator-5554",
+  "api": 29,
+  "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5",
+  "checks": [
+    {
+      "name": "Upgrade preserves original demo total",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Catalog displays48 stable stones",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "English alias finds new Garnet",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Unknown search shows empty result",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Budget filter uses exact per-stone cost",
+      "passed": true,
+      "detail": "20000–21000 includes Garnet20700, Pearl21000 and Iolite20400; initial test expected only1 incorrectly.",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "New stone detail displays Garnet",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Detail adds new stone to comparison",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Three-stone comparison opens",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Fourth comparison is rejected",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Recent history contains newly viewed stones",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Registration keeps guest demo as an account copy",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Account greeting shows signed-in name",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "New account comparison is separate from guest",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Personal note survives reopening",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Personal note survives process restart",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Note draft survives landscape rotation",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "GPS page distinguishes Pushkin9 meeting place",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "GPS denial keeps the page usable",
+      "passed": true,
+      "detail": "Denial status is above the locate button; verified after scrolling to it.",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Emulated GPS resolves coordinates and accuracy",
+      "passed": true,
+      "detail": "\n\nЕҰУ маңы және GPS\n\n\nКездесу орны, университет ғимараттары және бағыт\nҚай жерге барасыз?\n\nКездесу орны · Пушкин 9\nКездесу орны · Пушкин 9\nАстана, Александр Пушкин көшесі, 9\nЖоба үшін таңдалған кездесу орны, ЕҰУ маңында. Университеттің ресми корпусы немесе дүкен ретінде көрсетілмейді.\nМекенжайды көшіру\nМекенжаймен бөлісу\nМенің орным\nРұқсат берсеңіз, орныңыз қашықтық пен маршрут үшін қолданылады. Координаттар сақталмайды.\nОрныңыз анықталды.\n51.15755, 71.45864 · дәлдігі ±20 м\n3 секунд бұрын жаңартылды\nШамамен 0 м\nтүзу сызық бойынша\nБасты\nКаталог\nАлқа\nПрофиль",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "GPS distance is explicitly straight-line",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Route opens a real map intent with destination",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Campus selector lists three distinct destinations",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "ENU Pushkin11 uses verified building description",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Campus share opens system chooser without sending",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Main campus has Satbayev2 address",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Disabled GPS shows useful fallback",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Guest comparison remains separate after logout",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Guest cannot read or edit private account note",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "New stone48 participates in exact legacy total",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "Compact Android layout keeps catalog tools reachable",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "New-stone necklace can be saved",
+      "passed": true,
+      "detail": "Saved collection reopened and displayed extended total/weight.",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "QA cleanup restores original guest necklace",
+      "passed": true,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "android_01_home",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_01_home.png",
+      "sha256": "ad27e0979fea2aea7b8972e218335ec2b60f9984e563dc98741a16465e5c71e3",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_02_catalog48",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_02_catalog48.png",
+      "sha256": "ac113acda38df2f483114744f98f162e86e8882c0cfac774f36796a5aff95ee5",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_03_budget_filter",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_03_budget_filter.png",
+      "sha256": "d12127f986094158672932b37f8a6d9bc908223b6cfd358949df7b18ec8f7f3c",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_04_garnet_detail",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_04_garnet_detail.png",
+      "sha256": "6445fcc3e1246b2b074b1919429476e0ebad0c544316b597beb654acf51da1c1",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_05_compare",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_05_compare.png",
+      "sha256": "964bee45f11d81ff3b1576bd16ad98e085d760f17e7965c64c9ee289098d98d4",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_06_recent",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_06_recent.png",
+      "sha256": "c4c610ad62800efefd4d7612f9ebe464e5a8e2dc6faf45884e9c8475f4e6d82b",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_07_private_note",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_07_private_note.png",
+      "sha256": "01df86a64da14994fd062ecddfc0480773590c167cbe375bd96791ea33e132ae",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_08_note_landscape",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_08_note_landscape.png",
+      "sha256": "4c0964aa8665f644071ba12a727a92bab224ce6bd36aac521468cac024fe7e1e",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_09_campus",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_09_campus.png",
+      "sha256": "669b7bf1545d71bfe8d7bd6a5c84c249c68862900e6b0137da35d5c1039a0fea",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_10_gps_denied",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_10_gps_denied.png",
+      "sha256": "eed4302ddce57a713e8812611728455631df6218c4770d0a41775bfd66483dcd",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_11_gps_fix",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_11_gps_fix.png",
+      "sha256": "caaf489a6f0985092d9ba6a503d25c2b304e535bda9babc3d1a7cfc0c3912575",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_12_enu_building",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_12_enu_building.png",
+      "sha256": "e7cce4c60ff36ee3a4f792f1ff10be17c1319642ce2f841772aa84e0022c868f",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_13_gps_disabled",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_13_gps_disabled.png",
+      "sha256": "6d8a04cd3bd4cd14c0071351e197997741018d00526d2e213d5b95b90a560f5f",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_14_extended_necklace",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_14_extended_necklace.png",
+      "sha256": "03259cd2aced5f11e07e16b33f647ff222bc016e75b9305757babd9ea3a0e29d",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_15_small_catalog",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_15_small_catalog.png",
+      "sha256": "ac77be8f3583932e10eb546c38d04a99a8e4baea1365d4b4aef7ab96dbfebce2",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_16_saved_collection",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_16_saved_collection.png",
+      "sha256": "c28e4bfd624594e36efe11e13506b723ee288cb47fbf21b14a56443362fe4b93",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "android_17_restored_home",
+      "path": "screenshots/redesign_20261124/v4_20261125/android_17_restored_home.png",
+      "sha256": "8eb6438790a495435cfccfca6c7b6bce935d6ab8c8fd9d0f7ab5a6894e58bf97",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    }
+  ],
+  "gps_test_environment": "Android emulator; synthetic ENU coordinates, no physical GPS validation",
+  "previous_attempts": [
+    {
+      "name": "Budget filter uses exact per-stone cost",
+      "passed": false,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "GPS denial keeps the page usable",
+      "passed": false,
+      "detail": "",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "name": "New-stone necklace can be saved",
+      "passed": true,
+      "detail": "Save dialog completed without runtime error; SQLite snapshot exactness independently covered in151checks",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    }
+  ],
+  "finished_utc": "2026-11-25T17:14:02.914794+00:00"
+}

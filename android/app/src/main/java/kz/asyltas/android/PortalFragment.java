@@ -170,6 +170,9 @@ public class PortalFragment extends Fragment {
             return;
           }
           if (!account()) {
+            Ui.link(page, "ЕҰУ маңы және GPS", "Пушкин 9, корпус және маршрут", () -> host().open(CampusActivity.class, -1));
+            Ui.link(page, "Тастарды салыстыру", "Үш тасқа дейін", () -> host().library("compare"));
+            Ui.link(page, "Соңғы қаралған тастар", "Қонақ профилінің тарихы", () -> host().library("recent"));
             Ui.link(page, "Біз осындамыз", "Мекенжай және байланыс", () -> go("store"));
             return;
           }
@@ -247,7 +250,11 @@ public class PortalFragment extends Fragment {
         host().database.collections().size() + " жинақ",
         () -> host().open(SavedActivity.class, -1));
     Ui.link(items, "Медиа кітапхана", "Аудио, видео және суреттер", () -> go("media"));
-    Ui.link(items, "Біз осындамыз", "Карта және дүкенмен байланыс", () -> go("store"));
+    Ui.link(items, "ЕҰУ маңы және GPS", "Орныңыз, қашықтық және маршрут", () -> host().open(CampusActivity.class, -1));
+    Ui.link(items, "Тастарды салыстыру", host().catalogData.comparison().size() + " / 3 тас", () -> host().library("compare"));
+    Ui.link(items, "Соңғы қаралған", "Соңғы ашылған 12 тас", () -> host().library("recent"));
+    Ui.link(items, "Жеке жазбалар", "Тастар туралы өз белгілеріңіз", () -> host().library("notes"));
+    Ui.link(items, "Дүкен деректері", "Мекенжай және байланыс", () -> go("store"));
     Ui.link(items, "Хабарламалар", "Сұрақтар мен жауаптар", () -> go("support"));
     Ui.link(items, "Баптаулар", "Көрініс пен дыбыс", () -> go("preferences"));
     Ui.link(
@@ -556,6 +563,7 @@ public class PortalFragment extends Fragment {
 
   private void location() {
     title("Біз осындамыз", "Дүкеннің мекенжайы және байланыс жолдары");
+    Ui.button(page, "ЕҰУ маңы және GPS", true, () -> host().open(CampusActivity.class, -1));
     String address = db().setting("address", ""),
         phone = db().setting("phone", ""),
         hours = db().setting("hours", "");
@@ -703,7 +711,7 @@ public class PortalFragment extends Fragment {
     c.addView(sound, new LinearLayout.LayoutParams(-1, Ui.dp(getActivity(), 48)));
     sound.setOnCheckedChangeListener((b, on) -> prefs.edit().putBoolean("sound", on).apply());
     LinearLayout info = Ui.card(page);
-    Ui.text(info, "Асыл тас · 3.0", 22, true);
+    Ui.text(info, "Асыл тас · 4.0", 22, true);
     Ui.link(info, "Фотосуреттер авторлары", "Лицензиялар және дереккөздер", () -> go("credits"));
     Ui.text(info, "Болат Тәңірберді\nЕргаш Назым\nҒалымжан Шынай", 14, false);
     Ui.text(

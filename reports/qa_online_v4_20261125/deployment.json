@@ -1,0 +1,21 @@
+{
+  "id": "appgdep_6b0716420f6c8191b388c0f3b2ce17d7",
+  "project_id": "appgprj_6b0701efd7a8819186699967325f120f",
+  "title": "Асыл тас",
+  "version_id": "appgprj_6b0701efd7a8819186699967325f120f~appgver_058181472cd08191ade22bf7344dbb08",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://asyl-tas-collection.sacredbracelet4.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "release---6b070657873c8191bb8229339030c38f",
+  "failure_message": null,
+  "env_set_revision": 1,
+  "updated_at": "2026-11-25T17:09:36.007811+00:00",
+  "source_commit": "8c6e4988f909a386317be2673caee0aa1ead282a",
+  "archive": "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\deliverables\\AsylTas-online-deploy-4.0.tar.gz",
+  "archive_content_hash": "sha256:641c67a83e0e4901e6a08acf4926d11f885a3d4fa75a102ae4876722b25d0212",
+  "version_number": 3,
+  "access": "public",
+  "catalog_records": 48
+}

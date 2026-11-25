@@ -1,0 +1,1408 @@
+{
+  "version": "4.0",
+  "platform": "Android",
+  "created_utc": "2026-11-25T17:19:29.779424+00:00",
+  "checks": {
+    "model": 387,
+    "portal": 92,
+    "catalog": 151,
+    "ui": 32,
+    "ui_on_final_apk": 32,
+    "photos": 48
+  },
+  "model_test_checks": {
+    "ModelTest": 43,
+    "CatalogExpansionTest": 344
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 286
+  },
+  "model_checks": 387,
+  "portal_checks": 92,
+  "catalog_checks": 151,
+  "ui_checks": 32,
+  "artifacts": [
+    {
+      "path": "deliverables/AsylTas-4.0.apk",
+      "bytes": 8338399,
+      "sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "deliverables/AsylTas-Android-source-4.0.zip",
+      "bytes": 7657460,
+      "sha256": "6a7a7d68761537121d995e239fe5e898d98c33b057152a3d10506fdf532a716d"
+    }
+  ],
+  "sources": [
+    {
+      "path": "LAB_FEATURES_KZ.txt",
+      "bytes": 8343,
+      "sha256": "1e2a9a33e3ad5dd17f6483e83aef09d420580ac3bb0279c5544627c0f8888a37"
+    },
+    {
+      "path": "PHOTO_CREDITS.txt",
+      "bytes": 16537,
+      "sha256": "505e31f81841066a2e6d303a14c605460af546f8db2233302b32f8f4bad3e7ff"
+    },
+    {
+      "path": "README_KZ.txt",
+      "bytes": 10727,
+      "sha256": "76d33e71ed362b6c5d2b8ae8873b7157eabf8ff68f8aaf2288dced4afa16885b"
+    },
+    {
+      "path": "START_HERE.txt",
+      "bytes": 1832,
+      "sha256": "5a82bccf339c742e0bcd4e51c1a7097d64c22c5cf795a98ebb02b3821c2d9c92"
+    },
+    {
+      "path": "TEST_RESULTS.txt",
+      "bytes": 8412,
+      "sha256": "4744bcd74f8dd4d464b3d77c13be983d40a1c3b56984cd73b1739841a1b25ea4"
+    },
+    {
+      "path": "android/app/build.gradle.kts",
+      "bytes": 591,
+      "sha256": "1e2d54c9b6d97e36d37be2ccf7c00796adb41da38772a78a10de549bf324b59e"
+    },
+    {
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/DesignTestRunner.java",
+      "bytes": 5283,
+      "sha256": "08b83d8b2521c2122004f0727cd954d6a518116da0698c7c36adb67717f6db2e"
+    },
+    {
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/PortalTestRunner.java",
+      "bytes": 16592,
+      "sha256": "53907c2a81e37ca35449da2da9a013cc46edbe49595cb410f03f28c17a686d53"
+    },
+    {
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/V4Checks.java",
+      "bytes": 10302,
+      "sha256": "dc554d16d55b7318dfefccffc8f53418a9bb2073c0275e7c9ffc3dddf8cf766d"
+    },
+    {
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/V4UiFixture.java",
+      "bytes": 11674,
+      "sha256": "e856d48871c858db89f472ab80f45a807d45eb8f148157bfd72c3bacf570de95"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 2050,
+      "sha256": "a5d800febc180de91a565737b5ada24e9285929efb9d0c1df366bf853b51806d"
+    },
+    {
+      "path": "android/app/src/main/assets/PHOTO_CREDITS.txt",
+      "bytes": 16537,
+      "sha256": "505e31f81841066a2e6d303a14c605460af546f8db2233302b32f8f4bad3e7ff"
+    },
+    {
+      "path": "android/app/src/main/assets/campus_places.json",
+      "bytes": 1887,
+      "sha256": "1b1bc89385d747c4123aaa2a7e0f81d67f1d88c1bcab379967193eaf9aae083f"
+    },
+    {
+      "path": "android/app/src/main/assets/catalog_v4.json",
+      "bytes": 30916,
+      "sha256": "10247e4af6dc1ba1f4efb85dc81a34e9eaa0d12b7502e70c2de5489080f5da10"
+    },
+    {
+      "path": "android/app/src/main/assets/photo_credits.json",
+      "bytes": 39862,
+      "sha256": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/AppStore.java",
+      "bytes": 18016,
+      "sha256": "9cbd51e1ac7b497ab85f63c28fed96862a444981be2eb0c5f001577cbc5192cc"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/BaseActivity.java",
+      "bytes": 16998,
+      "sha256": "a56f49ec2f118285e4e7afa2381a1c47d29b889114dfb4dedc65fcaed364f00f"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/CampusActivity.java",
+      "bytes": 16966,
+      "sha256": "ab666ac73e3056d7d4d30e2617c2cdd640bb994912e48972b4b54be811038001"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/CampusPlaces.java",
+      "bytes": 2467,
+      "sha256": "ec993b30fab670898e154c48beb8cbf70978883725fb6cda42dd2941f0d920df"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/CatalogDatabase.java",
+      "bytes": 8976,
+      "sha256": "19719284076c38055b56c02a5d99023bca193cb09f5d42033c8732d5f7fce4ce"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/CatalogFilters.java",
+      "bytes": 2582,
+      "sha256": "958eea1ceb04b6cdda8b5fd1a7e230c1ed7e758b588158b171539a7efb65f531"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/ControlsScrollView.java",
+      "bytes": 789,
+      "sha256": "4542d8e29f0b56fe944f8c22127a7f4303630cb57ab9dbdd6b2b9903400c497b"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/GemView.java",
+      "bytes": 3878,
+      "sha256": "a5d0cbb6c095795734a847354f64ca8839b8ec178c8f5eb72fcc62109b83d755"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/GuideActivity.java",
+      "bytes": 2281,
+      "sha256": "348afc2c776292e5935e1dc2c31c3be7081f8e1e17411f120f1bba8ca556588a"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/HomeActivity.java",
+      "bytes": 2478,
+      "sha256": "f75491cb6dfe921cae4fac248f0983221b4e105cf1767338bb32b0f3e4691efb"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/HubActivity.java",
+      "bytes": 1380,
+      "sha256": "705dd0dc21d1f8d71c89bec434385810bc00e370cda8db997bb991fe4f2f742e"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/LibraryActivity.java",
+      "bytes": 5584,
+      "sha256": "0dab97364e48a7b2a7fcea73dce097cd7eba43bc4bcb08978b8aa1b042754887"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/LoginActivity.java",
+      "bytes": 5925,
+      "sha256": "418280b0a69f5229a9aff046b5b707f0b8a7f7055fb19bb265dd5837bf27123d"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/MainActivity.java",
+      "bytes": 10328,
+      "sha256": "21a013165c1a8457b2a84d15db1052c08d6023a1fb8bcfdbcdf1e0034b203b17"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/MediaActivity.java",
+      "bytes": 9458,
+      "sha256": "9ba56835d8a793610483fa7f316d10d02450c15a5ab30ee40b20af779d226545"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/NecklaceActivity.java",
+      "bytes": 8438,
+      "sha256": "e848516eb1a4cc40d607843a35f2d6624f29dbf89b82f8b4fa9ecf800ce66a2c"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/NecklaceAdapter.java",
+      "bytes": 2188,
+      "sha256": "620ddf4251ce8d2ba9dbe243b12457162a6fbd70c2ce178d3a76519923437cf7"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/NecklaceDatabase.java",
+      "bytes": 7630,
+      "sha256": "c672db24cc7aea39e70f88c955e38f2c7e13632acc34f5bfbe96cfbd4aad539c"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/NecklaceView.java",
+      "bytes": 2896,
+      "sha256": "40b7175b8184769ec1730afbff19b62109d1f16d62f4b1dbe8acba8a1d40f14c"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/PortalFragment.java",
+      "bytes": 41901,
+      "sha256": "5290a2e63d96f8a4260e6a2b442cc4db126918c86c5a1b33f90b15ffe5bb25e2"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/SavedActivity.java",
+      "bytes": 3779,
+      "sha256": "53ea0e67f7a529918bf795306e1755f257656c0500bd88a7fa10a12c6d8311b6"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/Session.java",
+      "bytes": 615,
+      "sha256": "81cf72494adc3bd06dc78001f9334cc0bb0d0545758d384dd581dd43a719f210"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/StoneActivity.java",
+      "bytes": 5423,
+      "sha256": "9cd377acaf14e8ccc98a892daee74bbce5c5dcfe3f457eb1da9949095adbf6a3"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/StoneAdapter.java",
+      "bytes": 2718,
+      "sha256": "a844180d9b4734e4e09d327da6587b12fad7a1745056d7040808fb9a1ac5f17e"
+    },
+    {
+      "path": "android/app/src/main/java/kz/asyltas/android/Ui.java",
+      "bytes": 4693,
+      "sha256": "c4ff1d7dae784fba8b11b4053fee19e3c9ff98dc652c3dc0992b0dcca41581e2"
+    },
+    {
+      "path": "android/app/src/main/res/color/nav_text.xml",
+      "bytes": 238,
+      "sha256": "9e60e5e6be4e00a9ce549374e149e098d777585bfeff2ad5f055bdc633ac6ff4"
+    },
+    {
+      "path": "android/app/src/main/res/color/toggle_text.xml",
+      "bytes": 183,
+      "sha256": "8f4accb9af206e4a182d37f637d9125b87d98545b23f74769c222b605377a599"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_1.jpg",
+      "bytes": 104077,
+      "sha256": "6c77b5b705564a53adab2854d0afb5de42d9b0b4c30b93e4244e0489e2331ad0"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_10.jpg",
+      "bytes": 110270,
+      "sha256": "668098a7380b0138298d83203fe60ee296b0a5586d3ae1b1e07bbd461b75719a"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_11.jpg",
+      "bytes": 48504,
+      "sha256": "e3b41c99343879b3fa35219921e07a6e3a845dfcd0cb3a73656917464d6904cc"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_12.jpg",
+      "bytes": 186243,
+      "sha256": "f3dd2c4c7bb8baf41ff3cb09154f7850c3808498762e7525f2e2f6a789763429"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_13.jpg",
+      "bytes": 46021,
+      "sha256": "71bbe90035cf94b7b7e691788534b9566a3946ca5bca2bddbd8d8f48f4dd040e"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_14.jpg",
+      "bytes": 301778,
+      "sha256": "e7d2aac6b47f732b701bb286b7e1aaf33fe95ce8ac634953a638a48f6449eb9e"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_15.jpg",
+      "bytes": 54063,
+      "sha256": "2c7a3491cd744487743b77302f46dedbdde2bb3f1f36454efc3a20b17b72bce2"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_16.jpg",
+      "bytes": 51976,
+      "sha256": "3225f1c339941dc41f3745b1f0e2fc1bae5c2fe3ec2cee10846b7af61a0dd20b"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_17.jpg",
+      "bytes": 157535,
+      "sha256": "8c87143eac4d3800c2c115cbc8d2a8de3d998088e4eb0bb4a113dfe1db4f42c7"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_18.jpg",
+      "bytes": 100387,
+      "sha256": "663509b1da97d02980fc7ca32df3ebb99d64e452234d90005503e8fe501f9f04"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_19.jpg",
+      "bytes": 6295,
+      "sha256": "3a2f9e16fa4359d9882e0c13d7c4bd6792a5281361baef50d294e65e570adfe5"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_2.jpg",
+      "bytes": 56625,
+      "sha256": "7f16dad6f098ef8c19c4077686e79cc98f50e3b305424057c5374c5bc2b921ab"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_20.jpg",
+      "bytes": 160998,
+      "sha256": "cc41a000898b088004ead7872e28b7a7d03f14e823c3d1cbf4a46ba0631ca7ca"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_21.jpg",
+      "bytes": 160829,
+      "sha256": "593f5f9a3c170ee42950b7ff219c2f2d2e6d8410947d308df2c45aad750e1eb2"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_22.jpg",
+      "bytes": 830759,
+      "sha256": "1ad9bd228c68f2b855651b5988d49aa3f7f5b3577ca14b06a8855729dc523861"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_23.jpg",
+      "bytes": 161296,
+      "sha256": "73359e1bde5b9ee3fc46066338b8dddd3808afcde9fed737a6287e39aa582b23"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_24.jpg",
+      "bytes": 68721,
+      "sha256": "95e9187253aa7ce50558248180f56dfc8c3a01b031ed0d03d0abaaf71d94f19b"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_25.jpg",
+      "bytes": 143166,
+      "sha256": "f4fc7628af4b54595156a37f87791a6c0d909c881f4a4f2ce81fd9facd76de75"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_26.jpg",
+      "bytes": 130936,
+      "sha256": "7f0ca58c7a09be2e64a5cbfccbf0b09d420dedcfe34ebfabef7467b483b38257"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_27.jpg",
+      "bytes": 62766,
+      "sha256": "12291ca8e60b131a74335e19b41b09b0dce5d63dd7d033d91a35078ccd36b6cb"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_28.jpg",
+      "bytes": 57066,
+      "sha256": "ad080e1df3db06d9c08f1b8204a2706fa2f90b3b8ef6fd0043571c550bc6b979"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_29.jpg",
+      "bytes": 55434,
+      "sha256": "3270e8b1fbba476889fcf11b2d7faf896c21bf0285f51ebe978dd9399dc420f2"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_3.jpg",
+      "bytes": 111746,
+      "sha256": "ce9b1c10e73756d2dafd798213b7326861eb8108a382dc6e11147532d93bbb64"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_30.jpg",
+      "bytes": 29068,
+      "sha256": "e9f39316e3d9969d8274daa8c6b55614c1f76b3ddf65dbc5911e22f08ac3739b"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_31.jpg",
+      "bytes": 452049,
+      "sha256": "adeeb55cbc35a0be84133ba9138aa582821ebc9a319fa38ac4566361f9cb77c1"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_32.jpg",
+      "bytes": 109875,
+      "sha256": "93153ec03c99eaf2a711cda26bed4e472c07f907f5c3af0da4eeabe314930c3a"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_33.jpg",
+      "bytes": 147739,
+      "sha256": "ca207e7d1cbe9abd6b78097bcf0d08b10c90c157067acdca4f5975ca98056979"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_34.jpg",
+      "bytes": 236673,
+      "sha256": "3a196b628046bb1781e6b534b25e45b91e28cfe48cabff3c5d6e6d04b0a2a065"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_35.jpg",
+      "bytes": 165341,
+      "sha256": "e8e1740e5e731d533105f40c7449a0148866f28d2381038c3590000446cf9fec"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_36.jpg",
+      "bytes": 187968,
+      "sha256": "3d342bb689c47720b9e434654b3fd78fd40ee3aafe3d279bea2173e0c726c185"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_37.jpg",
+      "bytes": 143935,
+      "sha256": "bc68e27d355c1feddd3f5a1fe0a90c5c548da2165b11eb6ff4c6722450b47bb8"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_38.jpg",
+      "bytes": 172760,
+      "sha256": "5dda4f3ccadced924a7f9fab53e0bd4e641bf6b07b3baaeed53dbadc793e9d30"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_39.jpg",
+      "bytes": 119116,
+      "sha256": "af85487f32fd7ae605f0065efbc3aa9f2db1258a552aa5eaf7b2d65b58c49a1a"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_4.jpg",
+      "bytes": 33547,
+      "sha256": "5ff605b4b56170ec00b7c8173705bf7b3708bccb97471d0d021a58f4d730504e"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_40.jpg",
+      "bytes": 178494,
+      "sha256": "01b4a4e26573e150bc75102e29faa332a6e3a6cf82835b3fcff94f3a51b45a20"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_41.jpg",
+      "bytes": 170101,
+      "sha256": "7240c81133ad13bdbb8af3fb11a55dcc198dce4b11882effb3960b9ed04eb914"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_42.jpg",
+      "bytes": 301578,
+      "sha256": "1342e6bf06836daaf6e31969b0033a71d1a0b6a98e9956f1bbd50666fe8b93ee"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_43.jpg",
+      "bytes": 268878,
+      "sha256": "c963771349de4a1ac760d7474802502b2a21bbd5bfa2a4a4a2ee53d86ce23343"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_44.jpg",
+      "bytes": 193973,
+      "sha256": "bdd504038503246fa5e32956a9575d0b83edfb914744fd96304e8022945b759d"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_45.jpg",
+      "bytes": 206761,
+      "sha256": "6d34750f0c60483005a7a3329d6f92f81cdd17ba3fd355ef8fb63dff6cc23339"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_46.jpg",
+      "bytes": 182796,
+      "sha256": "3a9b772581d3ddf534acc97ad794ea883d9657ac29dbdfdbc799bd27106fa1e1"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_47.jpg",
+      "bytes": 108065,
+      "sha256": "a023eaae1e04ac0654f2ce39482645d00012d45b6123a0bc7825bce719b79c53"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_48.jpg",
+      "bytes": 461089,
+      "sha256": "2fc18700faf0e1482911c902492e942df39a39014c6349e89627f2cbc47f555b"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_5.jpg",
+      "bytes": 67670,
+      "sha256": "82aec3f811cf5ba25fb5b5216601745a094051ecc474dc1aee03172830e9d283"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_6.jpg",
+      "bytes": 45229,
+      "sha256": "4777c24575d80535c3f8b6f5b68769202cd1252e85b9e390bdc3829a2440c975"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_7.jpg",
+      "bytes": 135744,
+      "sha256": "e9d6e6abc35f4582d3e5e761bef3a870b279f67d246894372297d7a64fafbaf7"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_8.jpg",
+      "bytes": 130769,
+      "sha256": "e632ee3fdf2f25bc3dfc0ea6c0326e472dde4d65d29c8099ec04216f43545b7d"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/stone_9.jpg",
+      "bytes": 103525,
+      "sha256": "7942068d1a708aebda7036c20a74fb8610fa4cf90e5940df13aceb0f1952981a"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/app_icon.xml",
+      "bytes": 459,
+      "sha256": "ffb70eea168b7488daf5bbaedd11cfac8c3247a303462df98013e505309dd110"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_dialog.xml",
+      "bytes": 187,
+      "sha256": "06e3be658294aecb891fe4cdd12856865ad9d952b8b6df6607f0d7bc6a32207a"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_editorial.xml",
+      "bytes": 138,
+      "sha256": "79e1eb188e21e15a32784cddc599085ed54619fd46cb6972a1cca3dc24c94bb6"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_field.xml",
+      "bytes": 361,
+      "sha256": "f28f9879839aa87db6bd735d6f4a823c7ffa012f96240d6dd575193e218dbf20"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_hero.xml",
+      "bytes": 190,
+      "sha256": "d20f19a0c7f841fedb701e02ff56669b80ed9c6212d2d7caf4fac81fc0aa7b7f"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_input.xml",
+      "bytes": 247,
+      "sha256": "67fb41567e8c96e2a81c5950cc5f863b910273c7c7da2a9d6c68f2aa405e669f"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_nav.xml",
+      "bytes": 376,
+      "sha256": "521c046cc007659c487ca1115ec2403eebfb1a774223c5609ff170b542470aae"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_primary.xml",
+      "bytes": 241,
+      "sha256": "89d9a13afb351e989fa6b1de125e8aab31fac602ada3259323f53d0ef19ed9c2"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_row.xml",
+      "bytes": 191,
+      "sha256": "7f20fa7eae1c769b4e049e864896d74083cac7788c1d762c45a6f0a6f69c88c2"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_secondary.xml",
+      "bytes": 246,
+      "sha256": "d5d1bf93379e5060945abf01a44d8e29bd804395a3644c32fa04a47ab7cec91a"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_soft.xml",
+      "bytes": 190,
+      "sha256": "b68f74590a42038d77df4a3726448c215dbb91ebab36b9aa5dd2e97f05ddd303"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_surface.xml",
+      "bytes": 247,
+      "sha256": "9425f582e95cfae88b98189f35f34e5db9c5ff055ae926259a93ce92c0b8d4fe"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_toggle.xml",
+      "bytes": 308,
+      "sha256": "056adf42ee2eb4e9df4aa925cb846a2abdd6e0abb589b52935703a896eb7ed82"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_catalog.xml",
+      "bytes": 523,
+      "sha256": "6eea2ad4cd58049f21ae126ff34c258ac14251e0c4bb4e78d2dc465e2efef81c"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_chevron.xml",
+      "bytes": 429,
+      "sha256": "15e702b963b4411eecd7fb80839bf88af67c6b3cad67647d763e136d4e172be3"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_filter.xml",
+      "bytes": 418,
+      "sha256": "80937960c499620c51151e7d658d61f2201882433e4fcc54b679a39be6ef1c82"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_guide.xml",
+      "bytes": 511,
+      "sha256": "64c8830bb8bebcbef4834145667f567aadbde25b5aaff9122e3b461c9f26d0a1"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_home.xml",
+      "bytes": 442,
+      "sha256": "44267d9428d8f61521efe88c3b344f5aebb8ba6f5c0bf904c8a70825220c5862"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_necklace.xml",
+      "bytes": 462,
+      "sha256": "2a8261d593eb6521a76f254b34a2670ceb5895d491a206b15a23ca675271bdcd"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_orders.xml",
+      "bytes": 439,
+      "sha256": "26b2361fd00486761a7b129b40941aebad838818d621eace4d3fb5af75d2f63c"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_pin.xml",
+      "bytes": 454,
+      "sha256": "583febb982a08dd08889c3c00616b4b43ea72b7043ec97440d4e69a1881cdf6d"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_plus.xml",
+      "bytes": 395,
+      "sha256": "4f4f6204e5583c3cb4e1f44039fe9233528ca5382829c415d938083f37da4e01"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_profile.xml",
+      "bytes": 453,
+      "sha256": "5bc62f145894cdb5b755487c2b63e6463236016960edf5386a33e05ee164359e"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_saved.xml",
+      "bytes": 402,
+      "sha256": "503fb19040b128e79aa640169f0433ac6d2780ad4a80be0df7641ffb632cb92c"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_search.xml",
+      "bytes": 423,
+      "sha256": "5ac77d928b9b06973c6d50ea3ae6f9e564cb62540a4bc2b52db378261c242958"
+    },
+    {
+      "path": "android/app/src/main/res/layout-land/activity_main.xml",
+      "bytes": 4273,
+      "sha256": "d5e8eb7e653f9d445154737290c1c1a9313495e174b3fa3b1cf1436b70cf0ebf"
+    },
+    {
+      "path": "android/app/src/main/res/layout-land/activity_necklace.xml",
+      "bytes": 5515,
+      "sha256": "b4f4b45aa156b4e78994e055e947c9d3f764bebda777da09068283767528837e"
+    },
+    {
+      "path": "android/app/src/main/res/layout-land/row_necklace.xml",
+      "bytes": 2655,
+      "sha256": "15f6da7c1de9734ebd36ee8ae57878bd8a27cc9b381e0738cd06879a3a3c2f3b"
+    },
+    {
+      "path": "android/app/src/main/res/layout-land/view_navigation.xml",
+      "bytes": 1608,
+      "sha256": "350a8e057bfe0d470ed5b411013c10de8328acc6d583ba99b66c701d4bd72f76"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_guide.xml",
+      "bytes": 2042,
+      "sha256": "683afc36148bff531bdb30da616a39b13045ebf86e8a27adaa02b7e87097c7b7"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_home.xml",
+      "bytes": 9500,
+      "sha256": "78b49067cca0f0c55094aecd55d92e5549115c3b73a5a8162e9a51221cdee675"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_hub.xml",
+      "bytes": 792,
+      "sha256": "98fa0ca6a8d0fab0c3e19f1983807b17c1b8c4c65cc8fd14b9060e3a8fef4631"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_login.xml",
+      "bytes": 5182,
+      "sha256": "2d3acce42da88454ca7dfb31569168355b4c2ec3c379d7b9b5a2f5e82fe2c97c"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_main.xml",
+      "bytes": 3983,
+      "sha256": "5fc6cb3918b5854612c1b5b98310bba02be6a9d4d98fb53562c6abc488d1faba"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_necklace.xml",
+      "bytes": 4729,
+      "sha256": "d5a6bd532c82286f0dc96989c1b85a41438dbf7dee671d7feeca979791c0c249"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_saved.xml",
+      "bytes": 2957,
+      "sha256": "df2af629645a3d1e37457f80d597b1f53087c715e8f6e5e255d460b76fa52d64"
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_stone.xml",
+      "bytes": 6620,
+      "sha256": "85801e10eb0c35300eec088e889af3fbbe5dd8f90ed33f2a19333052e2890d0b"
+    },
+    {
+      "path": "android/app/src/main/res/layout/catalog_tools.xml",
+      "bytes": 1140,
+      "sha256": "fc04ec45a138101d2bbcdd1d0bc8e45d212e1990516aafb3466e8d11ee4aaf3c"
+    },
+    {
+      "path": "android/app/src/main/res/layout/dialog_filter.xml",
+      "bytes": 3982,
+      "sha256": "9ecfb2b717b8b55d6481d1f04524736a7320f87f12ef232c011d3312377eba71"
+    },
+    {
+      "path": "android/app/src/main/res/layout/dialog_name.xml",
+      "bytes": 1142,
+      "sha256": "12d41529decc73a18234acec6f166f0d9ab6b3788feed504294685ba03a8a142"
+    },
+    {
+      "path": "android/app/src/main/res/layout/dialog_quantity.xml",
+      "bytes": 1315,
+      "sha256": "deb9cdcf9c8a70aae0e67d64f06bdc2fe98f3c00c353a52dd6bca614394a9b2e"
+    },
+    {
+      "path": "android/app/src/main/res/layout/row_necklace.xml",
+      "bytes": 2656,
+      "sha256": "ea97ca7322e977a68f6d8a4f3e9650745fdd2927ef49b037665eeae284f05081"
+    },
+    {
+      "path": "android/app/src/main/res/layout/row_saved.xml",
+      "bytes": 2202,
+      "sha256": "63ba6d24b7859fdcbd34066139a65ce51dec9b5d58cec0dc0882917533bd512a"
+    },
+    {
+      "path": "android/app/src/main/res/layout/row_stone.xml",
+      "bytes": 3187,
+      "sha256": "383fda7e4418aba0fb1254a24b00a986363446151588594ce4a3d66868c4f56f"
+    },
+    {
+      "path": "android/app/src/main/res/layout/spinner_dropdown.xml",
+      "bytes": 328,
+      "sha256": "c023a5437bb3c758557e1ba66b93d62a8454917a20a86c996bfa7a30bdcd4cb1"
+    },
+    {
+      "path": "android/app/src/main/res/layout/spinner_item.xml",
+      "bytes": 367,
+      "sha256": "9e84f26142effaa8e50492b665ada391e91881a2892a016f004914600c9f3ae9"
+    },
+    {
+      "path": "android/app/src/main/res/layout/view_navigation.xml",
+      "bytes": 1608,
+      "sha256": "350a8e057bfe0d470ed5b411013c10de8328acc6d583ba99b66c701d4bd72f76"
+    },
+    {
+      "path": "android/app/src/main/res/menu/main_menu.xml",
+      "bytes": 429,
+      "sha256": "46836313f577607bbd3ee321e1bb19068694554118c25a960f72ddaf2d5dcc7f"
+    },
+    {
+      "path": "android/app/src/main/res/menu/menu_context.xml",
+      "bytes": 272,
+      "sha256": "ffd58927219880dd0a63332b69d0586a97da2c46db3b5dbe718d09ba69486e06"
+    },
+    {
+      "path": "android/app/src/main/res/values-v27/styles.xml",
+      "bytes": 266,
+      "sha256": "069b8e321b1b5786d73e0c6985e374c104549aaf9ef5ab3ead65bda795a0d5d7"
+    },
+    {
+      "path": "android/app/src/main/res/values/colors.xml",
+      "bytes": 458,
+      "sha256": "54201543cabf22939ec8b7639664a06ed117520ff5140db674595be899ec50fb"
+    },
+    {
+      "path": "android/app/src/main/res/values/legacy_ids.xml",
+      "bytes": 143,
+      "sha256": "5668b4952db483232514fa56d8afd2b16d5aabd15788b82d4a821087426f5421"
+    },
+    {
+      "path": "android/app/src/main/res/values/strings.xml",
+      "bytes": 6832,
+      "sha256": "551d80d385e066c34149a0f90a3f71114d90c8b67db4e68f4be2c2e0259dfadb"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "bytes": 3830,
+      "sha256": "beaef8beebef26f12977fd2f2f36a079584f625475b7e749b7672f6bac332545"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "bytes": 71,
+      "sha256": "8b93425c5aeb25720e24efa1cfedc4fe6fa28a4706695d8779e992bc790ade99"
+    },
+    {
+      "path": "android/gradle.properties",
+      "bytes": 77,
+      "sha256": "aa117e8383bc86f0ec6cd6f9f75ec87119b42184ca7de688969a65c0362f184b"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 45457,
+      "sha256": "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 384,
+      "sha256": "b1fb4692f5814f331e04e6cf9686b9ae56dded5f31de33cbec5a4c6c9a060fa0"
+    },
+    {
+      "path": "android/gradlew",
+      "bytes": 8728,
+      "sha256": "3238afb2aed5cb16eb7d6718077e7138059108f007b54179e9cc157c5a6e0e89"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "bytes": 2937,
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "bytes": 270,
+      "sha256": "966826de68588892a92c40a372f257df1fdbb1f4878372fdb673460de584c200"
+    },
+    {
+      "path": "desktop/src/kz/asyltas/desktop/LocalStore.java",
+      "bytes": 1072,
+      "sha256": "bd2ea9f8dc4a159caeb20fd1ba181d8b518caa88b86685f1119a6c5008082423"
+    },
+    {
+      "path": "shared/catalog/campus_v4.json",
+      "bytes": 1887,
+      "sha256": "1b1bc89385d747c4123aaa2a7e0f81d67f1d88c1bcab379967193eaf9aae083f"
+    },
+    {
+      "path": "shared/catalog/catalog_base12.json",
+      "bytes": 3222,
+      "sha256": "4e9537ab8897090a793ca0d9dc09dc36f38c0da43ab6fdc6565217ba0d94d294"
+    },
+    {
+      "path": "shared/catalog/catalog_v4.json",
+      "bytes": 30916,
+      "sha256": "10247e4af6dc1ba1f4efb85dc81a34e9eaa0d12b7502e70c2de5489080f5da10"
+    },
+    {
+      "path": "shared/catalog/model_baseline_sha256.json",
+      "bytes": 1074,
+      "sha256": "49f3ee917349441d09724cfd6ff58216345f6c4fdd11943c06a272f041f9c536"
+    },
+    {
+      "path": "shared/catalog/photo_credits_v4.json",
+      "bytes": 39862,
+      "sha256": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/Catalog.java",
+      "bytes": 4608,
+      "sha256": "7bece1448d1ac7e4d79082bf169a67d5583ad596643e00ac5b7af8e4329dce25"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/Format.java",
+      "bytes": 619,
+      "sha256": "b6597378d414b1b8b8a0a976f2a86cd207cecda739317de518e0099c02dafa68"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/Necklace.java",
+      "bytes": 3469,
+      "sha256": "d0ad0a32680a0bf1d669ff2194b76b8dc2dee307d8fd662569314c6b32a20f31"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/NecklaceItem.java",
+      "bytes": 873,
+      "sha256": "10f28ebaffee033572d0c37ce2af33b282aaf92bca205360a6386049b64a3ba1"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/PreciousStone.java",
+      "bytes": 460,
+      "sha256": "e81ade7c0b24d045d7301f3d1fa7bd96c32387d9341331b121564ae150de3bee"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/SemiPreciousStone.java",
+      "bytes": 370,
+      "sha256": "a0ba9bdcefe9033a2fac79a1be8d61b3b1a34a763fe7c0d1fd40b1c47d338014"
+    },
+    {
+      "path": "shared/src/kz/asyltas/model/Stone.java",
+      "bytes": 1608,
+      "sha256": "f9db1b1b984fa44696b0452b99319649780166087045adf5c22463697e1c8d97"
+    },
+    {
+      "path": "tests/CatalogExpansionTest.java",
+      "bytes": 2502,
+      "sha256": "c8605ef68e16ab626737d6e8a0b3d831739d252d5b4a5f0cb25c3dfae8dddbbd"
+    },
+    {
+      "path": "tests/ModelTest.java",
+      "bytes": 4500,
+      "sha256": "6f63b181554b71eb0adcf5c0b1773edd19d553057b5fccd17cb45be6c8ddc18b"
+    },
+    {
+      "path": "tools/android_labs_ui.py",
+      "bytes": 17959,
+      "sha256": "f50dc89b17a516a0db606b324cc53b9d2f36cb59487975ee2f2590646991e28a"
+    },
+    {
+      "path": "tools/build_v4.ps1",
+      "bytes": 2220,
+      "sha256": "d7b4e41e54ff5248cb28d7fd243a58bd67f07e3c5980b5cedc042e5f86f9f9eb"
+    },
+    {
+      "path": "tools/catalog_v4_data.py",
+      "bytes": 12712,
+      "sha256": "3de60246f2f182faad29820f8f7545171403526b2e2c454a21fd94b673b809c6"
+    },
+    {
+      "path": "tools/fetch_catalog_v4_photos.py",
+      "bytes": 10264,
+      "sha256": "0f972c408a6dc9f0f348575a77d9b4d31df35004bd02e4cb858ff9dcfd360ebe"
+    },
+    {
+      "path": "tools/package_android_v4.py",
+      "bytes": 30497,
+      "sha256": "15eb1bce7d453e75e9cb70ea3b976090455e153966b31fac2082908466e11941"
+    },
+    {
+      "path": "tools/qa_v4_core.py",
+      "bytes": 3090,
+      "sha256": "131fcdfac86fd2dc30b250b18c8bc35fccdafcee99cd80ea811b462bcdb33fbd"
+    },
+    {
+      "path": "tools/qa_v4_ui.py",
+      "bytes": 4802,
+      "sha256": "07d1bd991eaa51343e658f1cc595eadda9e27458b988b42e690cd652b3e06c1a"
+    },
+    {
+      "path": "tools/verify_android_v4.py",
+      "bytes": 5449,
+      "sha256": "7d73013cf9bd204b38e65c7870ad3af66891ead810150132f109c3e21d6d4d86"
+    }
+  ],
+  "source_files": 174,
+  "source_inventory_sha256": "61d51e143b05a97b44a9d2d1913774449ec35d8dc13ea25e5f73258638dd95df",
+  "screenshots": [
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_01_home.png",
+      "sha256": "ad27e0979fea2aea7b8972e218335ec2b60f9984e563dc98741a16465e5c71e3",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_02_catalog48.png",
+      "sha256": "ac113acda38df2f483114744f98f162e86e8882c0cfac774f36796a5aff95ee5",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_03_budget_filter.png",
+      "sha256": "d12127f986094158672932b37f8a6d9bc908223b6cfd358949df7b18ec8f7f3c",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_04_garnet_detail.png",
+      "sha256": "6445fcc3e1246b2b074b1919429476e0ebad0c544316b597beb654acf51da1c1",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_05_compare.png",
+      "sha256": "964bee45f11d81ff3b1576bd16ad98e085d760f17e7965c64c9ee289098d98d4",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_06_recent.png",
+      "sha256": "c4c610ad62800efefd4d7612f9ebe464e5a8e2dc6faf45884e9c8475f4e6d82b",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_07_private_note.png",
+      "sha256": "01df86a64da14994fd062ecddfc0480773590c167cbe375bd96791ea33e132ae",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_08_note_landscape.png",
+      "sha256": "4c0964aa8665f644071ba12a727a92bab224ce6bd36aac521468cac024fe7e1e",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_09_campus.png",
+      "sha256": "669b7bf1545d71bfe8d7bd6a5c84c249c68862900e6b0137da35d5c1039a0fea",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_10_gps_denied.png",
+      "sha256": "eed4302ddce57a713e8812611728455631df6218c4770d0a41775bfd66483dcd",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_11_gps_fix.png",
+      "sha256": "caaf489a6f0985092d9ba6a503d25c2b304e535bda9babc3d1a7cfc0c3912575",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_12_enu_building.png",
+      "sha256": "e7cce4c60ff36ee3a4f792f1ff10be17c1319642ce2f841772aa84e0022c868f",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_13_gps_disabled.png",
+      "sha256": "6d8a04cd3bd4cd14c0071351e197997741018d00526d2e213d5b95b90a560f5f",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_14_extended_necklace.png",
+      "sha256": "03259cd2aced5f11e07e16b33f647ff222bc016e75b9305757babd9ea3a0e29d",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_15_small_catalog.png",
+      "sha256": "ac77be8f3583932e10eb546c38d04a99a8e4baea1365d4b4aef7ab96dbfebce2",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_16_saved_collection.png",
+      "sha256": "c28e4bfd624594e36efe11e13506b723ee288cb47fbf21b14a56443362fe4b93",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "screenshots/redesign_20261124/v4_20261125/android_17_restored_home.png",
+      "sha256": "8eb6438790a495435cfccfca6c7b6bce935d6ab8c8fd9d0f7ab5a6894e58bf97",
+      "apk_sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    }
+  ],
+  "ui_checks_by_apk_sha256": {
+    "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5": 32
+  },
+  "evidence": [
+    {
+      "path": "reports/qa_android_v4_20261125/ANDROID_READY_FOR_PACKAGING.json",
+      "bytes": 643,
+      "sha256": "1810e3385543de18069ff89075018fb35caa79ed2b71eba58db01f446430fe0e"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/apk_badging.txt",
+      "bytes": 1192,
+      "sha256": "58ec27c9f0a8c20e4a437a67724fe22df24f57310c4f5a0942ccfcc4cd6510c3"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/artifact_verification.json",
+      "bytes": 7798,
+      "sha256": "cc4219046a477753e4c06abe38349b62663ec198d27290be7214921999e03cad"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/build_release.txt",
+      "bytes": 7245,
+      "sha256": "cbf266c8dbcba5a1eac6309dd73bb44cab27a748bdab896cbcf6ce7f95fbfc09"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/catalog_checks.txt",
+      "bytes": 6581,
+      "sha256": "57b71e62c9f9c4de40f2a6e7bc6c228c763099a9d5d41b198f4596f854b68ccc"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/compile_lint.txt",
+      "bytes": 2933,
+      "sha256": "449d67d8fe75e96309944989afea0264d60a0ed34f04c1f1e4dc0e1123d4dd11"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/lint-results-debug.xml",
+      "bytes": 423422,
+      "sha256": "373777dff930be145a46d1641f44132a727b728de1e7e71faee68ee213ec6182"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/lint_summary.json",
+      "bytes": 54,
+      "sha256": "828921a0d0b8a03c920f7cd1239bdf9bac4fdb98fd4674280ed375314066973d"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/portal_checks.txt",
+      "bytes": 3558,
+      "sha256": "0723ba8952194f19d32c785842e4fb452d34feff01b4c5e58e28236a3ec8688e"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/post_run_state.json",
+      "bytes": 763,
+      "sha256": "69fb1909c596a99e78aa51aa9fe5d2e1036083048bf56ea63a27d359402e9a9d"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/recent_crash_log.txt",
+      "bytes": 62,
+      "sha256": "8ca8df612c0cfa343c98b4179bb3e825cfb808991ae22db1f510b35ad009387f"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/signature.txt",
+      "bytes": 995,
+      "sha256": "78c0b13e9ee3170bc90d83305d90af62f5b8bf8abf1869f158a3ecf6a36fa51a"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/ui_begin.txt",
+      "bytes": 227,
+      "sha256": "f22e5e8b6ce603c08c8bd8aba8ac5aca82194c32474fa6a06ff5f6eaa5e70148"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/ui_checks.json",
+      "bytes": 14355,
+      "sha256": "5b0a166479e9381171b36eb14f055e9e27d8bdb13b24badcedb8cd7e3881f798"
+    },
+    {
+      "path": "reports/qa_android_v4_20261125/ui_cleanup.txt",
+      "bytes": 251,
+      "sha256": "9373633407809db32155f9f1570e928e2e9c56c99a788437cc313d07f32ad5bd"
+    },
+    {
+      "path": "reports/qa_assets_v4_20261125/PHOTOS_READY.json",
+      "bytes": 25526,
+      "sha256": "24ca822c918c9eea357e49c487bdfeced6a58673a4e68c14ef1a58a768aa57d0"
+    },
+    {
+      "path": "reports/qa_assets_v4_20261125/attribution_source_wikitext.json",
+      "bytes": 2347,
+      "sha256": "db19b0b29b517baba00ec1ea0471f58a21be2f2bd65f831bba0c488d9593bdfd"
+    },
+    {
+      "path": "reports/qa_assets_v4_20261125/photo_checks.json",
+      "bytes": 25526,
+      "sha256": "24ca822c918c9eea357e49c487bdfeced6a58673a4e68c14ef1a58a768aa57d0"
+    },
+    {
+      "path": "reports/qa_v4_20261125/core_checks.json",
+      "bytes": 591,
+      "sha256": "90bc83fce4f2d3c0a72beb4b78c39935376fdd647148fded483dcbe44f7d6189"
+    }
+  ],
+  "apk_photo_entries": [
+    {
+      "id": 1,
+      "source_resource": "stone_1.jpg",
+      "apk_entry": "res/dz.jpg",
+      "sha256": "6c77b5b705564a53adab2854d0afb5de42d9b0b4c30b93e4244e0489e2331ad0"
+    },
+    {
+      "id": 2,
+      "source_resource": "stone_2.jpg",
+      "apk_entry": "res/qh.jpg",
+      "sha256": "7f16dad6f098ef8c19c4077686e79cc98f50e3b305424057c5374c5bc2b921ab"
+    },
+    {
+      "id": 3,
+      "source_resource": "stone_3.jpg",
+      "apk_entry": "res/Fv.jpg",
+      "sha256": "ce9b1c10e73756d2dafd798213b7326861eb8108a382dc6e11147532d93bbb64"
+    },
+    {
+      "id": 4,
+      "source_resource": "stone_4.jpg",
+      "apk_entry": "res/Gj.jpg",
+      "sha256": "5ff605b4b56170ec00b7c8173705bf7b3708bccb97471d0d021a58f4d730504e"
+    },
+    {
+      "id": 5,
+      "source_resource": "stone_5.jpg",
+      "apk_entry": "res/ij.jpg",
+      "sha256": "82aec3f811cf5ba25fb5b5216601745a094051ecc474dc1aee03172830e9d283"
+    },
+    {
+      "id": 6,
+      "source_resource": "stone_6.jpg",
+      "apk_entry": "res/b8.jpg",
+      "sha256": "4777c24575d80535c3f8b6f5b68769202cd1252e85b9e390bdc3829a2440c975"
+    },
+    {
+      "id": 7,
+      "source_resource": "stone_7.jpg",
+      "apk_entry": "res/iX.jpg",
+      "sha256": "e9d6e6abc35f4582d3e5e761bef3a870b279f67d246894372297d7a64fafbaf7"
+    },
+    {
+      "id": 8,
+      "source_resource": "stone_8.jpg",
+      "apk_entry": "res/gX.jpg",
+      "sha256": "e632ee3fdf2f25bc3dfc0ea6c0326e472dde4d65d29c8099ec04216f43545b7d"
+    },
+    {
+      "id": 9,
+      "source_resource": "stone_9.jpg",
+      "apk_entry": "res/EZ.jpg",
+      "sha256": "7942068d1a708aebda7036c20a74fb8610fa4cf90e5940df13aceb0f1952981a"
+    },
+    {
+      "id": 10,
+      "source_resource": "stone_10.jpg",
+      "apk_entry": "res/-x.jpg",
+      "sha256": "668098a7380b0138298d83203fe60ee296b0a5586d3ae1b1e07bbd461b75719a"
+    },
+    {
+      "id": 11,
+      "source_resource": "stone_11.jpg",
+      "apk_entry": "res/s3.jpg",
+      "sha256": "e3b41c99343879b3fa35219921e07a6e3a845dfcd0cb3a73656917464d6904cc"
+    },
+    {
+      "id": 12,
+      "source_resource": "stone_12.jpg",
+      "apk_entry": "res/p9.jpg",
+      "sha256": "f3dd2c4c7bb8baf41ff3cb09154f7850c3808498762e7525f2e2f6a789763429"
+    },
+    {
+      "id": 13,
+      "source_resource": "stone_13.jpg",
+      "apk_entry": "res/ut.jpg",
+      "sha256": "71bbe90035cf94b7b7e691788534b9566a3946ca5bca2bddbd8d8f48f4dd040e"
+    },
+    {
+      "id": 14,
+      "source_resource": "stone_14.jpg",
+      "apk_entry": "res/ct.jpg",
+      "sha256": "e7d2aac6b47f732b701bb286b7e1aaf33fe95ce8ac634953a638a48f6449eb9e"
+    },
+    {
+      "id": 15,
+      "source_resource": "stone_15.jpg",
+      "apk_entry": "res/5g.jpg",
+      "sha256": "2c7a3491cd744487743b77302f46dedbdde2bb3f1f36454efc3a20b17b72bce2"
+    },
+    {
+      "id": 16,
+      "source_resource": "stone_16.jpg",
+      "apk_entry": "res/pB.jpg",
+      "sha256": "3225f1c339941dc41f3745b1f0e2fc1bae5c2fe3ec2cee10846b7af61a0dd20b"
+    },
+    {
+      "id": 17,
+      "source_resource": "stone_17.jpg",
+      "apk_entry": "res/ji.jpg",
+      "sha256": "8c87143eac4d3800c2c115cbc8d2a8de3d998088e4eb0bb4a113dfe1db4f42c7"
+    },
+    {
+      "id": 18,
+      "source_resource": "stone_18.jpg",
+      "apk_entry": "res/-n.jpg",
+      "sha256": "663509b1da97d02980fc7ca32df3ebb99d64e452234d90005503e8fe501f9f04"
+    },
+    {
+      "id": 19,
+      "source_resource": "stone_19.jpg",
+      "apk_entry": "res/Xf.jpg",
+      "sha256": "3a2f9e16fa4359d9882e0c13d7c4bd6792a5281361baef50d294e65e570adfe5"
+    },
+    {
+      "id": 20,
+      "source_resource": "stone_20.jpg",
+      "apk_entry": "res/8c.jpg",
+      "sha256": "cc41a000898b088004ead7872e28b7a7d03f14e823c3d1cbf4a46ba0631ca7ca"
+    },
+    {
+      "id": 21,
+      "source_resource": "stone_21.jpg",
+      "apk_entry": "res/88.jpg",
+      "sha256": "593f5f9a3c170ee42950b7ff219c2f2d2e6d8410947d308df2c45aad750e1eb2"
+    },
+    {
+      "id": 22,
+      "source_resource": "stone_22.jpg",
+      "apk_entry": "res/oV.jpg",
+      "sha256": "1ad9bd228c68f2b855651b5988d49aa3f7f5b3577ca14b06a8855729dc523861"
+    },
+    {
+      "id": 23,
+      "source_resource": "stone_23.jpg",
+      "apk_entry": "res/U2.jpg",
+      "sha256": "73359e1bde5b9ee3fc46066338b8dddd3808afcde9fed737a6287e39aa582b23"
+    },
+    {
+      "id": 24,
+      "source_resource": "stone_24.jpg",
+      "apk_entry": "res/N7.jpg",
+      "sha256": "95e9187253aa7ce50558248180f56dfc8c3a01b031ed0d03d0abaaf71d94f19b"
+    },
+    {
+      "id": 25,
+      "source_resource": "stone_25.jpg",
+      "apk_entry": "res/I7.jpg",
+      "sha256": "f4fc7628af4b54595156a37f87791a6c0d909c881f4a4f2ce81fd9facd76de75"
+    },
+    {
+      "id": 26,
+      "source_resource": "stone_26.jpg",
+      "apk_entry": "res/PV.jpg",
+      "sha256": "7f0ca58c7a09be2e64a5cbfccbf0b09d420dedcfe34ebfabef7467b483b38257"
+    },
+    {
+      "id": 27,
+      "source_resource": "stone_27.jpg",
+      "apk_entry": "res/ck.jpg",
+      "sha256": "12291ca8e60b131a74335e19b41b09b0dce5d63dd7d033d91a35078ccd36b6cb"
+    },
+    {
+      "id": 28,
+      "source_resource": "stone_28.jpg",
+      "apk_entry": "res/vG.jpg",
+      "sha256": "ad080e1df3db06d9c08f1b8204a2706fa2f90b3b8ef6fd0043571c550bc6b979"
+    },
+    {
+      "id": 29,
+      "source_resource": "stone_29.jpg",
+      "apk_entry": "res/CQ.jpg",
+      "sha256": "3270e8b1fbba476889fcf11b2d7faf896c21bf0285f51ebe978dd9399dc420f2"
+    },
+    {
+      "id": 30,
+      "source_resource": "stone_30.jpg",
+      "apk_entry": "res/4o.jpg",
+      "sha256": "e9f39316e3d9969d8274daa8c6b55614c1f76b3ddf65dbc5911e22f08ac3739b"
+    },
+    {
+      "id": 31,
+      "source_resource": "stone_31.jpg",
+      "apk_entry": "res/zh.jpg",
+      "sha256": "adeeb55cbc35a0be84133ba9138aa582821ebc9a319fa38ac4566361f9cb77c1"
+    },
+    {
+      "id": 32,
+      "source_resource": "stone_32.jpg",
+      "apk_entry": "res/l-.jpg",
+      "sha256": "93153ec03c99eaf2a711cda26bed4e472c07f907f5c3af0da4eeabe314930c3a"
+    },
+    {
+      "id": 33,
+      "source_resource": "stone_33.jpg",
+      "apk_entry": "res/WI1.jpg",
+      "sha256": "ca207e7d1cbe9abd6b78097bcf0d08b10c90c157067acdca4f5975ca98056979"
+    },
+    {
+      "id": 34,
+      "source_resource": "stone_34.jpg",
+      "apk_entry": "res/QC.jpg",
+      "sha256": "3a196b628046bb1781e6b534b25e45b91e28cfe48cabff3c5d6e6d04b0a2a065"
+    },
+    {
+      "id": 35,
+      "source_resource": "stone_35.jpg",
+      "apk_entry": "res/Vj.jpg",
+      "sha256": "e8e1740e5e731d533105f40c7449a0148866f28d2381038c3590000446cf9fec"
+    },
+    {
+      "id": 36,
+      "source_resource": "stone_36.jpg",
+      "apk_entry": "res/3h.jpg",
+      "sha256": "3d342bb689c47720b9e434654b3fd78fd40ee3aafe3d279bea2173e0c726c185"
+    },
+    {
+      "id": 37,
+      "source_resource": "stone_37.jpg",
+      "apk_entry": "res/oG.jpg",
+      "sha256": "bc68e27d355c1feddd3f5a1fe0a90c5c548da2165b11eb6ff4c6722450b47bb8"
+    },
+    {
+      "id": 38,
+      "source_resource": "stone_38.jpg",
+      "apk_entry": "res/WI.jpg",
+      "sha256": "5dda4f3ccadced924a7f9fab53e0bd4e641bf6b07b3baaeed53dbadc793e9d30"
+    },
+    {
+      "id": 39,
+      "source_resource": "stone_39.jpg",
+      "apk_entry": "res/uB.jpg",
+      "sha256": "af85487f32fd7ae605f0065efbc3aa9f2db1258a552aa5eaf7b2d65b58c49a1a"
+    },
+    {
+      "id": 40,
+      "source_resource": "stone_40.jpg",
+      "apk_entry": "res/w_.jpg",
+      "sha256": "01b4a4e26573e150bc75102e29faa332a6e3a6cf82835b3fcff94f3a51b45a20"
+    },
+    {
+      "id": 41,
+      "source_resource": "stone_41.jpg",
+      "apk_entry": "res/c-.jpg",
+      "sha256": "7240c81133ad13bdbb8af3fb11a55dcc198dce4b11882effb3960b9ed04eb914"
+    },
+    {
+      "id": 42,
+      "source_resource": "stone_42.jpg",
+      "apk_entry": "res/hb.jpg",
+      "sha256": "1342e6bf06836daaf6e31969b0033a71d1a0b6a98e9956f1bbd50666fe8b93ee"
+    },
+    {
+      "id": 43,
+      "source_resource": "stone_43.jpg",
+      "apk_entry": "res/hB.jpg",
+      "sha256": "c963771349de4a1ac760d7474802502b2a21bbd5bfa2a4a4a2ee53d86ce23343"
+    },
+    {
+      "id": 44,
+      "source_resource": "stone_44.jpg",
+      "apk_entry": "res/Fl.jpg",
+      "sha256": "bdd504038503246fa5e32956a9575d0b83edfb914744fd96304e8022945b759d"
+    },
+    {
+      "id": 45,
+      "source_resource": "stone_45.jpg",
+      "apk_entry": "res/C6.jpg",
+      "sha256": "6d34750f0c60483005a7a3329d6f92f81cdd17ba3fd355ef8fb63dff6cc23339"
+    },
+    {
+      "id": 46,
+      "source_resource": "stone_46.jpg",
+      "apk_entry": "res/4k.jpg",
+      "sha256": "3a9b772581d3ddf534acc97ad794ea883d9657ac29dbdfdbc799bd27106fa1e1"
+    },
+    {
+      "id": 47,
+      "source_resource": "stone_47.jpg",
+      "apk_entry": "res/-l.jpg",
+      "sha256": "a023eaae1e04ac0654f2ce39482645d00012d45b6123a0bc7825bce719b79c53"
+    },
+    {
+      "id": 48,
+      "source_resource": "stone_48.jpg",
+      "apk_entry": "res/Wn.jpg",
+      "sha256": "2fc18700faf0e1482911c902492e942df39a39014c6349e89627f2cbc47f555b"
+    }
+  ],
+  "catalog_sha256": "10247e4af6dc1ba1f4efb85dc81a34e9eaa0d12b7502e70c2de5489080f5da10",
+  "photo_credits_sha256": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c",
+  "licensed_photos": 48,
+  "original_photo_ids_preserved": 12,
+  "stable_model_classes": 6,
+  "source_archive": {
+    "entries": 174,
+    "crc_passed": true,
+    "duplicate_entries": 0,
+    "byte_checks": 174
+  },
+  "secret_scan": {
+    "files_scanned": 125,
+    "findings": 0
+  },
+  "excluded_sources": [],
+  "excluded_screenshots": [],
+  "bundle_checksum_location": "deliverables/SHA256SUMS_Android_4.0.txt",
+  "scope": "Android only; no signing keys, env/local.properties, build/cache, runtime media/database, Windows EXE or online source"
+}

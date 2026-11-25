@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "version": "4.0",
+  "platform": "Android",
+  "created_utc": "2026-11-25T17:19:31.292112+00:00",
+  "artifacts": [
+    {
+      "path": "deliverables/AsylTas-4.0.apk",
+      "bytes": 8338399,
+      "sha256": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5"
+    },
+    {
+      "path": "deliverables/AsylTas-Android-source-4.0.zip",
+      "bytes": 7657460,
+      "sha256": "6a7a7d68761537121d995e239fe5e898d98c33b057152a3d10506fdf532a716d"
+    },
+    {
+      "path": "deliverables/AsylTas-Android-4.0-tolyk-jinaq.zip",
+      "bytes": 19435280,
+      "sha256": "ebde2cd7050be71aed0e5e3ca450b26343dff1c28e3bcab4c6cbb2d097b2277e"
+    },
+    {
+      "path": "deliverables/SHA256SUMS_Android_4.0.txt",
+      "bytes": 284,
+      "sha256": "682235aecee8ef63eb2f2ebb9ed46f6eb621ca808302c07e44515e1d1fbc1728"
+    }
+  ],
+  "checks": {
+    "model": 387,
+    "portal": 92,
+    "catalog": 151,
+    "ui": 32,
+    "ui_on_final_apk": 32,
+    "photos": 48
+  },
+  "bundle_hashes": {
+    "AsylTas-4.0.apk": "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5",
+    "AsylTas-Android-source-4.0.zip": "6a7a7d68761537121d995e239fe5e898d98c33b057152a3d10506fdf532a716d",
+    "AsylTas-Android-4.0-tolyk-jinaq.zip": "ebde2cd7050be71aed0e5e3ca450b26343dff1c28e3bcab4c6cbb2d097b2277e"
+  },
+  "source_archive": {
+    "entries": 174,
+    "crc_passed": true,
+    "duplicate_entries": 0,
+    "byte_checks": 174
+  },
+  "full_bundle": {
+    "entries": 45,
+    "crc_passed": true,
+    "duplicate_entries": 0,
+    "byte_checks": 45
+  },
+  "screenshots": 17,
+  "ui_checks_by_apk_sha256": {
+    "7cbb37ac9190e41230f49edea81107e9226782f3dbe85e3d34e90f24006e46d5": 32
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 286
+  },
+  "apk_byte_identical": true,
+  "source_zip_byte_identical": true,
+  "all_entry_bytes_checked": true,
+  "photo_credits_match_apk_source_archive": true,
+  "licensed_photos": 48,
+  "private_files_excluded": true,
+  "diagnostic_screenshots_excluded": true,
+  "secret_scan": {
+    "files_scanned": 125,
+    "findings": 0
+  },
+  "device_access_performed_by_packaging": false,
+  "project_documents_modified_by_packaging": false,
+  "exe_packaging": "not requested",
+  "release_manifest": {
+    "path": "reports/qa_android_v4_20261125/release_manifest.json",
+    "bytes": 52104,
+    "sha256": "16f3552db96663c4eec4f1539755d255a4377834d5681d4ac4970c4f4b656e9f"
+  },
+  "limitations": [
+    "Pixel_4 API29 emulator only; no physical phone or real iPhone validation.",
+    "GPS tested with synthetic ENU coordinates, not a live physical GPS signal.",
+    "Android and website account databases are separate; no automatic sync or bank payments."
+  ]
+}

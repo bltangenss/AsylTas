@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "tests": 12,
+  "passed": 12,
+  "checks": [
+    {
+      "name": "decimal_input_uses_exact_hundredths",
+      "passed": true
+    },
+    {
+      "name": "inclusive_budget_carats_transparency_filters",
+      "passed": true
+    },
+    {
+      "name": "multilingual_alias_search_normalizes_and_combines_terms",
+      "passed": true
+    },
+    {
+      "name": "category_favorite_intersection_and_empty_results",
+      "passed": true
+    },
+    {
+      "name": "filters_reject_inverted_or_invalid_ranges",
+      "passed": true
+    },
+    {
+      "name": "sorts_exactly_and_does_not_mutate_catalog",
+      "passed": true
+    },
+    {
+      "name": "campus_data_has_three_distinct_verified_places",
+      "passed": true
+    },
+    {
+      "name": "haversine_distance_zero_symmetry_and_known_equator_arc",
+      "passed": true
+    },
+    {
+      "name": "gps_values_and_stale_positions_are_rejected",
+      "passed": true
+    },
+    {
+      "name": "route_only_includes_fresh_opted_in_location",
+      "passed": true
+    },
+    {
+      "name": "map_links_target_selected_place_and_escape_query",
+      "passed": true
+    },
+    {
+      "name": "geolocation_denied_unavailable_and_timeout_have_distinct_guidance",
+      "passed": true
+    }
+  ],
+  "created_utc": "2026-11-25T16:45:43.953Z",
+  "helper_sha256": "f951830e9b4befac454e1ddba376070b9969e206fd45caee2e27ce267a0aa4ba",
+  "coverage": "Pure input, decimal filter and geolocation calculations. Browser permission UI requires separate browser verification."
+}

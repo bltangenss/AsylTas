@@ -1,0 +1,147 @@
+{
+  "status": "ready",
+  "completed_utc": "2026-11-25T17:02:26.568368+00:00",
+  "scope": "Online v4 code complete; root owns final CUA visual check and Sites publication",
+  "catalog_records": 48,
+  "licensed_photo_records": 48,
+  "campus_places": 3,
+  "demo": {
+    "count": 6,
+    "carats": "5.90",
+    "total": "616200.00"
+  },
+  "features": [
+    "48 persisted D1 catalog rows",
+    "Budget/carats/transparency and multilingual filters",
+    "Three-stone comparison",
+    "Last12 recently viewed stones",
+    "Private notes and explicit guest import",
+    "User-triggered GPS with denied/unavailable/timeout states",
+    "Approximate straight-line distance to three verified ENU-area places",
+    "Walking/driving/transit routes, address copy and share",
+    "Preserved mobile/PWA, accounts, immutable orders and trusted-owner admin"
+  ],
+  "tests": {
+    "backend": {
+      "passed": 47,
+      "total": 47
+    },
+    "discovery_helpers": {
+      "passed": 12,
+      "total": 12
+    },
+    "v4_browser": {
+      "passed": 49,
+      "total": 49
+    },
+    "chromium_iphone_pwa": {
+      "passed": 30,
+      "total": 30
+    },
+    "webkit_iphone_pwa": {
+      "passed": 31,
+      "total": 31
+    },
+    "pwa_static_cache": {
+      "passed": 10,
+      "total": 10
+    },
+    "mobile_preservation": {
+      "passed": 8,
+      "total": 8
+    }
+  },
+  "count_note": "Suites overlap. Repeated runs are not added; these are latest passing reports only.",
+  "migration": {
+    "file": "site_online/drizzle/0001_catalog_and_discovery.sql",
+    "initial_sql_unchanged": true,
+    "schema_only": true,
+    "strategy": "Additive tables plus one-time atomic legacy copy, guarded idempotent JSON catalog seeding; old tables retained and user data preserved.",
+    "before_new_api": "Apply0001 to target D1 through Sites storage workflow before new Worker API requests."
+  },
+  "privacy": {
+    "server_gps_storage": false,
+    "gps_lifetime_seconds": 120,
+    "private_api_cache": false,
+    "admin_trusted_identity_required": true,
+    "production_mutations": false
+  },
+  "build": {
+    "uncompressed_worker_bytes": 10511738,
+    "gzip_worker_bytes": 7640153
+  },
+  "cleanup": {
+    "preview_port": 8792,
+    "production_database_touched": false,
+    "empty_test_directories_retained": true,
+    "removed_sqlite_files": 44,
+    "status": "passed",
+    "completed_utc": "2026-11-25T17:00:37.0035152Z",
+    "preview_stopped": true
+  },
+  "mobile_source_commit": "f377f17acdd41ddd4e1e62391afa02f2cbe40ae8",
+  "sha256": {
+    "worker/api.js": "25dc27fcb0fe9115b88a353a551d1b834aebe07068c7c2f59f01e180c992444b",
+    "worker/index.js": "105187fb6504763202406fb0ba2fcdfc2ce911c403146cdd82fe4aa5107e6b49",
+    "worker/catalog.js": "de98b3e197db0cd385a51b2bf784ab7b63b52e21ea6c84f64c37e759b18daa25",
+    "drizzle/0000_initial.sql": "faee9d7ef9955437e310af48fcd17573043ce8f63794667bdeb99d135cb45903",
+    "drizzle/0001_catalog_and_discovery.sql": "6404b140182619d2e2dce553688883eba59ed26da9c94866c66aad7eb43fc083",
+    "drizzle/meta/_journal.json": "1ed8106613345c522fe06d11fa4b5c4570a233cf98e00014bc619c380a7d0aed",
+    "public/app.js": "08fa6beb815eb7f86a7bae100999dcd0895a6597d6d77147d818e33f545fdd52",
+    "public/index.html": "3b98ea6f0a44a8e398248ffe73d502dd0f4b188945612e521f6b83336e02fcea",
+    "public/discovery.js": "f951830e9b4befac454e1ddba376070b9969e206fd45caee2e27ce267a0aa4ba",
+    "public/discovery.css": "ba8b78c70cf4e3c2f6dff79010d0e20d79964fa0448fea74b87abc6d49f46b8d",
+    "public/sw.js": "bf255a608dfc0c72b1482d94190434d48757e55222e6b9cc7f4df75021787319",
+    "public/mobile.css": "7fc62b0134c684e97a18c3117f49f1149e8184794625abd419719067b2e29540",
+    "public/pwa.js": "b7733c48d8d2a1cf72e48f66459485a898f64a10a40f03c11a3f31e4790c449e",
+    "public/assets/catalog.json": "10247e4af6dc1ba1f4efb85dc81a34e9eaa0d12b7502e70c2de5489080f5da10",
+    "public/assets/campus_v4.json": "1b1bc89385d747c4123aaa2a7e0f81d67f1d88c1bcab379967193eaf9aae083f",
+    "public/assets/photo_credits.json": "a5f2d8ab50712d7ca06478453b93e743678b688fe671086f7d81685c43b46c1c",
+    "scripts/build.mjs": "d48bf50da4095aff94889cd2b9cf804d1f86d295a47dfe736e165ec709fcbfef",
+    "scripts/check_pwa.mjs": "8165a06226ff001cf64f1f5c214cfeed620d7b6ed306afb829616645d35a1275",
+    "scripts/iphone_test.mjs": "6f782e1e481e3def146a346f5394ed8058345209766fbb1e9e9e0bf083f28270",
+    "tests/backend.mjs": "9bfc82e50473c30e077471d96c9b76154f63be43de5dd9750c128f1d15597996",
+    "tests/d1.mjs": "1339543b212d97701b9e8fb13d12bc3b598174f81994bbf1acff40b97580e60b",
+    "tests/discovery.mjs": "90c4da2e43da15aa1f1b6df6c6cae126236cd3ef4328f5beab4f30d1d59df199",
+    "tests/discovery_browser.mjs": "fb5751c80beb10deacefd5783b56a05167e4bdbce40acd291729bfa8983a86d2",
+    "README_KZ.txt": "3419e6b932d237993786bfe74981f0f44900fe4b8025c8f8c1a7dff57d724604"
+  },
+  "screenshots": [
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_compare.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_stone_note.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_notes.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_gps_success.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_mobile_gps_denied.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\screenshots\\v4_desktop_catalog.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\01_home.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\02_install.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\03_catalog.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\04_stone.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\05_necklace.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\06_profile.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\07_login.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\08_location.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\09_SE.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\09_Pro_Max.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\09_landscape.png",
+    "C:\\Users\\ASUS\\AndroidStudioProjects\\AsylTas\\reports\\qa_online_v4_20261125\\iphone\\screenshots\\10_standalone.png"
+  ],
+  "reports": [
+    "reports/qa_online_v4_20261125/backend_checks.json",
+    "reports/qa_online_v4_20261125/discovery_checks.json",
+    "reports/qa_online_v4_20261125/browser_checks.json",
+    "reports/qa_online_v4_20261125/pwa_checks.json",
+    "reports/qa_online_v4_20261125/iphone/chromium_iphone_checks.json",
+    "reports/qa_online_v4_20261125/iphone/webkit_iphone_checks.json",
+    "reports/qa_online_v4_20261125/mobile_preservation.json",
+    "reports/qa_online_v4_20261125/build_size.json",
+    "reports/qa_online_v4_20261125/cleanup.json"
+  ],
+  "limitations": [
+    "Browser GPS uses an explicitly granted emulated position; error callbacks use controlled UI fault injection. No physical device GPS claim.",
+    "Phone layouts tested in Chromium and matching cached WebKit2336; no physical iPhone.",
+    "Root must perform final Sites/public origin verification and deployment.",
+    "Online payment unavailable; prices, carats and transparency remain educational."
+  ],
+  "published_by_this_agent": false
+}

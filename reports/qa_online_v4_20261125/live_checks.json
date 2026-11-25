@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "url": "https://asyl-tas-collection.sacredbracelet4.chatgpt.site",
+  "created_utc": "2026-11-25T17:16:01.716650+00:00",
+  "checks": [
+    {
+      "name": "Public v4 state responds successfully",
+      "passed": true
+    },
+    {
+      "name": "Anonymous state has no account or owner claim",
+      "passed": true
+    },
+    {
+      "name": "Personal API is not cached",
+      "passed": true
+    },
+    {
+      "name": "All48 catalog records match the shared dataset",
+      "passed": true
+    },
+    {
+      "name": "New guest starts with empty necklace",
+      "passed": true
+    },
+    {
+      "name": "Public state exposes no user list",
+      "passed": true
+    },
+    {
+      "name": "Invalid CSRF token is rejected",
+      "passed": true
+    },
+    {
+      "name": "Foreign origin is rejected",
+      "passed": true
+    },
+    {
+      "name": "New stone48 has exact online totals",
+      "passed": true
+    },
+    {
+      "name": "Guest collection reload preserves new IDs",
+      "passed": true
+    },
+    {
+      "name": "Original demo remains6/5.90/616200",
+      "passed": true
+    },
+    {
+      "name": "Live comparison persists new stone ID",
+      "passed": true
+    },
+    {
+      "name": "Guest notes stay in the current anonymous session",
+      "passed": true
+    },
+    {
+      "name": "Another anonymous visitor cannot read the private note",
+      "passed": true
+    },
+    {
+      "name": "Anonymous fixture returns to empty state",
+      "passed": true
+    },
+    {
+      "name": "Published photo1 matches licensed source bytes",
+      "passed": true
+    },
+    {
+      "name": "Published photo13 matches licensed source bytes",
+      "passed": true
+    },
+    {
+      "name": "Published photo24 matches licensed source bytes",
+      "passed": true
+    },
+    {
+      "name": "Published photo36 matches licensed source bytes",
+      "passed": true
+    },
+    {
+      "name": "Published photo48 matches licensed source bytes",
+      "passed": true
+    },
+    {
+      "name": "Published campus data matches verified destinations",
+      "passed": true
+    },
+    {
+      "name": "Published PWA service worker includes updated photo range",
+      "passed": true
+    }
+  ],
+  "passed": 22,
+  "anonymous_fixture_cleaned": true,
+  "accounts_created": 0,
+  "other_users_records_modified": false
+}

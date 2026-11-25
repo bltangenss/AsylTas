@@ -1,0 +1,16 @@
+{
+  "name": "asyl-tas-online",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "wrangler dev --local --local-protocol https --ip 127.0.0.1 --port 8788",
+    "check": "node --check worker/index.js && node --check worker/api.js && node --check public/app.js && node --check public/discovery.js",
+    "test": "node tests/backend.mjs && node tests/discovery.mjs && node scripts/check_pwa.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "wrangler": "4.168.0"
+  }
+}

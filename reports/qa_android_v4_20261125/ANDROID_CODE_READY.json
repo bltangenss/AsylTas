@@ -1,0 +1,159 @@
+{
+  "status": "ready_for_instrumentation_and_ui_qa",
+  "created_utc": "2026-11-25T16:47:37.6564732Z",
+  "version_name": "4.0",
+  "version_code": 6,
+  "catalog_count": 48,
+  "campus_places": 3,
+  "implementation_complete": true,
+  "compile_release_java": "passed",
+  "compile_release_android_test_java": "passed",
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 286,
+    "Information": 0
+  },
+  "build_log": "reports/qa_android_v4_20261125/compile_lint.txt",
+  "instrumentation": {
+    "legacy_mode": "checks",
+    "new_mode": "v4_checks",
+    "status": "pending_parent_execution",
+    "runner": "kz.asyltas.android.test/kz.asyltas.android.PortalTestRunner",
+    "checks": null,
+    "legacy_expected_checks": 92
+  },
+  "ui_qa": {
+    "allowed_emails": [
+      "qa4.verify@asyltas.test",
+      "qa4.customer@asyltas.test"
+    ],
+    "fixture_cleanup": "v4_ui_cleanup",
+    "status": "pending_parent_execution",
+    "fixture_begin": "v4_ui_begin",
+    "handoff": "reports/qa_android_v4_20261125/ANDROID_QA_HANDOFF.txt"
+  },
+  "features": [
+    "48-stone SQLite catalog with alias search",
+    "Exact BigDecimal price/carat/transparency filters",
+    "Per-owner comparison up to 3 stones",
+    "Per-owner last 12 viewed stones",
+    "Account-only private notes up to 1000 characters",
+    "Three sourced ENU-area meeting/building places",
+    "Foreground user-triggered GPS with permission denial, coarse permission, disabled-provider, 25s timeout and 120s freshness handling",
+    "Straight-line distance, route, copy/share address",
+    "Lazy 12 MiB fit-center photo cache"
+  ],
+  "data_preservation": {
+    "legacy_portal_database_unchanged": true,
+    "ui_fixture_restores_guest_data": true,
+    "legacy_necklace_database_unchanged": true,
+    "coordinates_persisted": false,
+    "new_database": "asyl_catalog.db",
+    "ui_fixture_restores_session_and_preferences": true
+  },
+  "pending": [
+    "Parent signs and installs final APK/test APK",
+    "Run v4_checks and legacy checks against final build",
+    "Native UI, GPS permission and screenshot QA",
+    "Physical-device and Android 12+ approximate-location validation remains a separate check"
+  ],
+  "source_files": [
+    {
+      "sha256": "1e2d54c9b6d97e36d37be2ccf7c00796adb41da38772a78a10de549bf324b59e",
+      "path": "android/app/build.gradle.kts"
+    },
+    {
+      "sha256": "a5d800febc180de91a565737b5ada24e9285929efb9d0c1df366bf853b51806d",
+      "path": "android/app/src/main/AndroidManifest.xml"
+    },
+    {
+      "sha256": "19719284076c38055b56c02a5d99023bca193cb09f5d42033c8732d5f7fce4ce",
+      "path": "android/app/src/main/java/kz/asyltas/android/CatalogDatabase.java"
+    },
+    {
+      "sha256": "958eea1ceb04b6cdda8b5fd1a7e230c1ed7e758b588158b171539a7efb65f531",
+      "path": "android/app/src/main/java/kz/asyltas/android/CatalogFilters.java"
+    },
+    {
+      "sha256": "ec993b30fab670898e154c48beb8cbf70978883725fb6cda42dd2941f0d920df",
+      "path": "android/app/src/main/java/kz/asyltas/android/CampusPlaces.java"
+    },
+    {
+      "sha256": "ab666ac73e3056d7d4d30e2617c2cdd640bb994912e48972b4b54be811038001",
+      "path": "android/app/src/main/java/kz/asyltas/android/CampusActivity.java"
+    },
+    {
+      "sha256": "0dab97364e48a7b2a7fcea73dce097cd7eba43bc4bcb08978b8aa1b042754887",
+      "path": "android/app/src/main/java/kz/asyltas/android/LibraryActivity.java"
+    },
+    {
+      "sha256": "a56f49ec2f118285e4e7afa2381a1c47d29b889114dfb4dedc65fcaed364f00f",
+      "path": "android/app/src/main/java/kz/asyltas/android/BaseActivity.java"
+    },
+    {
+      "sha256": "21a013165c1a8457b2a84d15db1052c08d6023a1fb8bcfdbcdf1e0034b203b17",
+      "path": "android/app/src/main/java/kz/asyltas/android/MainActivity.java"
+    },
+    {
+      "sha256": "a5d0cbb6c095795734a847354f64ca8839b8ec178c8f5eb72fcc62109b83d755",
+      "path": "android/app/src/main/java/kz/asyltas/android/GemView.java"
+    },
+    {
+      "sha256": "f75491cb6dfe921cae4fac248f0983221b4e105cf1767338bb32b0f3e4691efb",
+      "path": "android/app/src/main/java/kz/asyltas/android/HomeActivity.java"
+    },
+    {
+      "sha256": "5290a2e63d96f8a4260e6a2b442cc4db126918c86c5a1b33f90b15ffe5bb25e2",
+      "path": "android/app/src/main/java/kz/asyltas/android/PortalFragment.java"
+    },
+    {
+      "sha256": "9cd377acaf14e8ccc98a892daee74bbce5c5dcfe3f457eb1da9949095adbf6a3",
+      "path": "android/app/src/main/java/kz/asyltas/android/StoneActivity.java"
+    },
+    {
+      "sha256": "a844180d9b4734e4e09d327da6587b12fad7a1745056d7040808fb9a1ac5f17e",
+      "path": "android/app/src/main/java/kz/asyltas/android/StoneAdapter.java"
+    },
+    {
+      "sha256": "fc04ec45a138101d2bbcdd1d0bc8e45d212e1990516aafb3466e8d11ee4aaf3c",
+      "path": "android/app/src/main/res/layout/catalog_tools.xml"
+    },
+    {
+      "sha256": "5fc6cb3918b5854612c1b5b98310bba02be6a9d4d98fb53562c6abc488d1faba",
+      "path": "android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+      "sha256": "d5e8eb7e653f9d445154737290c1c1a9313495e174b3fa3b1cf1436b70cf0ebf",
+      "path": "android/app/src/main/res/layout-land/activity_main.xml"
+    },
+    {
+      "sha256": "78b49067cca0f0c55094aecd55d92e5549115c3b73a5a8162e9a51221cdee675",
+      "path": "android/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+      "sha256": "85801e10eb0c35300eec088e889af3fbbe5dd8f90ed33f2a19333052e2890d0b",
+      "path": "android/app/src/main/res/layout/activity_stone.xml"
+    },
+    {
+      "sha256": "383fda7e4418aba0fb1254a24b00a986363446151588594ce4a3d66868c4f56f",
+      "path": "android/app/src/main/res/layout/row_stone.xml"
+    },
+    {
+      "sha256": "551d80d385e066c34149a0f90a3f71114d90c8b67db4e68f4be2c2e0259dfadb",
+      "path": "android/app/src/main/res/values/strings.xml"
+    },
+    {
+      "sha256": "53907c2a81e37ca35449da2da9a013cc46edbe49595cb410f03f28c17a686d53",
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/PortalTestRunner.java"
+    },
+    {
+      "sha256": "dc554d16d55b7318dfefccffc8f53418a9bb2073c0275e7c9ffc3dddf8cf766d",
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/V4Checks.java"
+    },
+    {
+      "sha256": "e856d48871c858db89f472ab80f45a807d45eb8f148157bfd72c3bacf570de95",
+      "path": "android/app/src/androidTest/java/kz/asyltas/android/V4UiFixture.java"
+    }
+  ]
+}
